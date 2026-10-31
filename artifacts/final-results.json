@@ -1,0 +1,59 @@
+{
+  "protocol": {
+    "train_cutoff_local": "2020-07-27",
+    "validation_end_local": "2020-10-19",
+    "timezone": "Europe/Kyiv",
+    "users": 4914,
+    "template_users": 1260,
+    "items": 9667,
+    "candidates": 6636,
+    "train_overlap_events": 3012411,
+    "train_qualifying_events": 611755,
+    "validation_qualifying_events": 0,
+    "empty_truth": 1260,
+    "five_target_users": 0,
+    "cold_template_users": 4,
+    "boundary_airings_excluded": 0,
+    "repeated_truth_fraction": null
+  },
+  "timing_seconds": {
+    "popularity": 0.027829207999999994,
+    "repeat": 0.03945679099999988,
+    "content": 0.44009891599999995,
+    "als": 1.19074475,
+    "ppr": 1.7292103330000006,
+    "association": 0.44617970800000073,
+    "ease": 2.4131462079999997,
+    "channel": 2.7805577500000007,
+    "hgb_features_and_inference": 3.2933119999999985
+  },
+  "checks": {
+    "ppr": {
+      "iterations": 15,
+      "residual": 9.574733894623932e-07,
+      "mass_error_nonempty": 3.5762786865234375e-07,
+      "converged": true
+    },
+    "candidate_recall_all_nonempty": null
+  },
+  "selection_frozen_at": "2026-10-31T20:23:58.528412+00:00",
+  "submission": {
+    "file": "submissions/final_hgb.csv",
+    "sha256": "05839015ca5bb3c9c0dcb0c5d914845c8a3ef5b95074af8e950b07ab06d09cc7",
+    "rows": 1260,
+    "prediction_column": "tv_show_id",
+    "selected_model": "hgb_15_250"
+  },
+  "novelty": {
+    "popularity": 0.27444444444444444,
+    "repeat": 0.047142857142857146,
+    "content": 0.34507936507936515,
+    "als": 0.2574603174603175,
+    "ppr": 0.011746031746031747,
+    "association": 0.2723809523809524,
+    "ease": 0.09984126984126984,
+    "channel": 0.1480952380952381,
+    "simple_hybrid": 0.07063492063492063,
+    "hgb": 0.08634920634920636
+  }
+}

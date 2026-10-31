@@ -1,0 +1,21 @@
+{
+  "files": {
+    "configs/protocol.json": "8be1f7f7c0884e7fe2fdf2288b4fffcdd145499fef08674bb69405e45a0db1b2",
+    "scripts/build_report.py": "2c7018c9ecbb3695d226a76d9b1c333cc434f5f036b8f64f23adda8ed897ab54",
+    "scripts/check_mf.py": "cc0fce570c5d495d48e3c9c8173db003c66dafd339dcccf1e85f3a5658fd6da1",
+    "scripts/check_submission.py": "5873c8e77c4c68b5901e3b585620326fa1c5a026b72f46acd92ebe87bfc19403",
+    "scripts/check_target_sensitivity.py": "20797990b9a123d2f363504d99b541174d53dd34de972aed9198c020bf5e6a51",
+    "scripts/refresh_development.py": "23c90b881f3372fae68a03ab6b5a68634039864ef76887343b104c66340035d4",
+    "src/sweettv/__init__.py": "4f90e2f452f7df901c1b50cc8cf276ccc05991a8a31ddc1d5455379520cf855b",
+    "src/sweettv/audit_data.py": "0093019a0a3a92b0244dca9a3f869356bc8284cc36b34a36153683dc5bb850c0",
+    "src/sweettv/experiment.py": "8a4c3b928894f0b95cebd17480b8fde2a05c05eacd55cbba177a552efa99e070",
+    "src/sweettv/finalize.py": "e92042390e00e93e678914433d5924e76d9e1bc0a51d03c39df62baa86fdaa08",
+    "src/sweettv/intervals.py": "b064ae33f89ee9ee4c3e3852b6025cd97c12da7f9de9b37d8265e1830f6eafa7",
+    "src/sweettv/metrics.py": "216eb100624acf44a5e973d1ceb2e000a4688f5eae466ab67f04390113bdb380",
+    "src/sweettv/prepare.py": "da4d986f35083e515cf0fa327502e8a91a088a432c3e50ad116d989590b517a7",
+    "src/sweettv/rerank.py": "b9335fd44246a3453000468c52159788799c2863457a143782cfebd2f813211f",
+    "src/sweettv/select.py": "d80af6493a0347e126ec90451a0c97c4ef05cd3dec57788d6f16da39120a8641",
+    "tests/test_core.py": "1b80778a8a1c35ba184d5342d48fc52120d5ac7ffd543b77f0ac181fcd5a8a20"
+  },
+  "final_csv_sha256": "05839015ca5bb3c9c0dcb0c5d914845c8a3ef5b95074af8e950b07ab06d09cc7"
+}

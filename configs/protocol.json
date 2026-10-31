@@ -1,0 +1,45 @@
+{
+  "status": "implemented and evaluated",
+  "seed": 20261031,
+  "k": 5,
+  "metric": "MAP@5",
+  "metric_denominator": "min(5, number of distinct eligible relevant programs)",
+  "empty_truth": "report zero-inclusive MAP and MAP on nonempty eligible targets separately",
+  "repeat_recommendations": true,
+  "schedule_matching": "same channel, positive half-open interval overlap; sum only unioned viewing time within each broadcast",
+  "unlabelled_airtime": "ID 0 never becomes an item; retain channel-level context separately",
+  "split": "Past-only base fitting; 18 May to 22 June development; 22 June to 27 July audit",
+  "candidate_pool": "same labelled airing-program set per evaluation window for all methods",
+  "cold_start": "identical training popularity fallback restricted to candidate programs",
+  "selection": "development temporal validation; final later holdout audited before refit; no private-score-driven hyperparameter search",
+  "final_refit": "only observed viewing history before test start; no test-window viewing",
+  "required_models": [
+    "content_based",
+    "implicit_matrix_factorization"
+  ],
+  "additional_models_to_evaluate": [
+    "association_item_knn",
+    "personalized_pagerank",
+    "ease",
+    "repeat_recency"
+  ],
+  "schedule_test_restriction": "use test schedule only for airing availability/channel/time; do not fit content features from test-period metadata",
+  "submission": "five distinct nonzero IDs in template user order, preserving user IDs as strings",
+  "results": "artifacts/development-best.json, artifacts/audit-results.json, artifacts/final-results.json",
+  "watch_threshold": 0.8,
+  "truth": "five most frequent qualifying programs in validation window; descending count, numeric ID ascending for undocumented ties",
+  "timezone": "Europe/Kyiv inferred and checked against every duration",
+  "development_window": [
+    "2020-05-18",
+    "2020-06-22"
+  ],
+  "audit_window": [
+    "2020-06-22",
+    "2020-07-27"
+  ],
+  "primary_selection_metric": "MAP@5 on template users with five eligible distinct validation programs",
+  "secondary_metrics": [
+    "all template users including empty truth",
+    "nonempty truth"
+  ]
+}

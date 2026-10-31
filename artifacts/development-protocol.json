@@ -1,0 +1,17 @@
+{
+  "train_cutoff_local": "2020-05-18",
+  "validation_end_local": "2020-06-22",
+  "timezone": "Europe/Kyiv",
+  "users": 4914,
+  "template_users": 1260,
+  "items": 7134,
+  "candidates": 4279,
+  "train_overlap_events": 1821968,
+  "train_qualifying_events": 316311,
+  "validation_qualifying_events": 134721,
+  "empty_truth": 312,
+  "five_target_users": 775,
+  "cold_template_users": 18,
+  "boundary_airings_excluded": 2156,
+  "repeated_truth_fraction": 0.6391030133146461
+}

@@ -1,0 +1,8 @@
+{
+  "rows": 1260,
+  "unique_users": 1260,
+  "official_test_candidate_ids": 6636,
+  "all_five_unique_and_available": true,
+  "user_strings_and_order_preserved": true,
+  "sha256": "05839015ca5bb3c9c0dcb0c5d914845c8a3ef5b95074af8e950b07ab06d09cc7"
+}

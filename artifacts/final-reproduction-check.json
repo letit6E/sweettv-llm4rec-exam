@@ -1,0 +1,6 @@
+{
+  "same_csv_sha256": "05839015ca5bb3c9c0dcb0c5d914845c8a3ef5b95074af8e950b07ab06d09cc7",
+  "bitwise_identical_csv": true,
+  "seconds": 17.577978209,
+  "scope": "fresh base fitting and frozen-ranker inference; supervised ranker not refitted in this check"
+}

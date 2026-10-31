@@ -1,0 +1,17 @@
+{
+  "factor_max_abs": [
+    1.2893900871276855,
+    1.6032404899597168
+  ],
+  "warnings": [
+    "divide by zero encountered in matmul",
+    "overflow encountered in matmul",
+    "invalid value encountered in matmul"
+  ],
+  "max_abs_difference_float64_einsum": 5.711871642333222e-07,
+  "top5_identical": true,
+  "score_range": [
+    -1.8101658821105957,
+    1.8591656684875488
+  ]
+}

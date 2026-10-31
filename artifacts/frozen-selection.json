@@ -1,0 +1,100 @@
+{
+  "frozen_at_utc": "2026-10-31T20:23:58.528412+00:00",
+  "selected_method": "hgb",
+  "selected_reranker": "hgb_15_250",
+  "selected_config": {
+    "max_leaf_nodes": 15,
+    "max_iter": 250,
+    "learning_rate": 0.05,
+    "l2_regularization": 10,
+    "min_samples_leaf": 50,
+    "random_state": 20261031,
+    "early_stopping": false
+  },
+  "development_map5": 0.43107526881720426,
+  "best_individuals": {
+    "popularity": {
+      "method": "popularity"
+    },
+    "repeat": {
+      "method": "repeat",
+      "half": null,
+      "threshold": 0.5
+    },
+    "content": {
+      "method": "content",
+      "half": 28,
+      "title": true
+    },
+    "als": {
+      "method": "als",
+      "factors": 32,
+      "alpha": 10,
+      "reg": 1,
+      "iterations": 25,
+      "half": null
+    },
+    "ppr": {
+      "method": "ppr",
+      "alpha": 0.5,
+      "neighbors": 100
+    },
+    "association": {
+      "method": "association",
+      "shrink": 1,
+      "neighbors": 100
+    },
+    "ease": {
+      "method": "ease",
+      "reg": 10
+    },
+    "channel": {
+      "method": "channel",
+      "half": 56,
+      "hourly": true
+    }
+  },
+  "simple_hybrid": {
+    "method": "hybrid",
+    "components": [
+      {
+        "method": "repeat",
+        "half": null,
+        "threshold": 0.5
+      },
+      {
+        "method": "channel",
+        "half": 56,
+        "hourly": true
+      }
+    ],
+    "weights": [
+      0.5,
+      0.5
+    ]
+  },
+  "simple_hybrid_development_map5": 0.42026666666666673,
+  "development": [
+    "2020-05-18",
+    "2020-06-22"
+  ],
+  "audit": [
+    "2020-06-22",
+    "2020-07-27"
+  ],
+  "example_rows": [
+    480,
+    364
+  ],
+  "example_users": [
+    "433403965153600460",
+    "2593664958585400806"
+  ],
+  "example_selection": "25th and 90th percentile positive training watch counts, selected before audit outcomes",
+  "example_training_counts": [
+    30,
+    173
+  ],
+  "reranker_training_labels_end_no_later_than": "2020-05-18",
+  "audit_policy": "One evaluation of frozen choices; no audit-driven tuning"
+}

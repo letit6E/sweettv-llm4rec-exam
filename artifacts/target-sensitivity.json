@@ -1,0 +1,412 @@
+{
+  "reverse_id": {
+    "popularity": {
+      "map5_all": 0.20742041446208112,
+      "map5_nonempty": 0.2128255066956207,
+      "map5_five_targets": 0.21764687693259122,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "repeat": {
+      "map5_all": 0.2989761904761905,
+      "map5_nonempty": 0.3067671009771987,
+      "map5_five_targets": 0.31956709956709956,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "content": {
+      "map5_all": 0.21984171075837747,
+      "map5_nonempty": 0.22557048498009413,
+      "map5_five_targets": 0.23310451453308598,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "als": {
+      "map5_all": 0.15725705467372136,
+      "map5_nonempty": 0.16135495837857403,
+      "map5_five_targets": 0.1597526283240569,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "ppr": {
+      "map5_all": 0.29513778659611994,
+      "map5_nonempty": 0.3028286735432501,
+      "map5_five_targets": 0.31646567717996293,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "association": {
+      "map5_all": 0.19879320987654323,
+      "map5_nonempty": 0.20397348896127399,
+      "map5_five_targets": 0.20888373531230675,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "ease": {
+      "map5_all": 0.28769863315696653,
+      "map5_nonempty": 0.2951956659428158,
+      "map5_five_targets": 0.3086672850958565,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "channel": {
+      "map5_all": 0.3001635802469136,
+      "map5_nonempty": 0.3079854325009048,
+      "map5_five_targets": 0.32138528138528144,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "simple_hybrid": {
+      "map5_all": 0.3086188271604938,
+      "map5_nonempty": 0.3166610115816142,
+      "map5_five_targets": 0.32963821892393325,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "hgb": {
+      "map5_all": 0.31349294532627864,
+      "map5_nonempty": 0.32166214259862463,
+      "map5_five_targets": 0.33555040197897346,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    }
+  },
+  "random_11": {
+    "popularity": {
+      "map5_all": 0.2294891975308642,
+      "map5_nonempty": 0.23546937205935578,
+      "map5_five_targets": 0.24344155844155846,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "repeat": {
+      "map5_all": 0.3166534391534392,
+      "map5_nonempty": 0.3249049945711184,
+      "map5_five_targets": 0.3402288188002474,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "content": {
+      "map5_all": 0.2311353615520282,
+      "map5_nonempty": 0.23715843286283025,
+      "map5_five_targets": 0.24630488559059988,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "als": {
+      "map5_all": 0.17099250440917108,
+      "map5_nonempty": 0.17544833514296054,
+      "map5_five_targets": 0.17580705009276437,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "ppr": {
+      "map5_all": 0.31386000881834214,
+      "map5_nonempty": 0.32203877126311986,
+      "map5_five_targets": 0.33834879406307977,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "association": {
+      "map5_all": 0.2209704585537919,
+      "map5_nonempty": 0.22672864639884185,
+      "map5_five_targets": 0.23480519480519482,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "ease": {
+      "map5_all": 0.30715630511463843,
+      "map5_nonempty": 0.3151603782120883,
+      "map5_five_targets": 0.33141001855287566,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "channel": {
+      "map5_all": 0.3178910934744268,
+      "map5_nonempty": 0.3261749004705031,
+      "map5_five_targets": 0.34210575139146565,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "simple_hybrid": {
+      "map5_all": 0.32731988536155204,
+      "map5_nonempty": 0.33584939377488243,
+      "map5_five_targets": 0.35149659863945576,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "hgb": {
+      "map5_all": 0.3351225749559083,
+      "map5_nonempty": 0.34385541078537823,
+      "map5_five_targets": 0.3608317872603587,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    }
+  },
+  "random_22": {
+    "popularity": {
+      "map5_all": 0.22707120811287476,
+      "map5_nonempty": 0.2329883731451321,
+      "map5_five_targets": 0.24061533704390847,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "repeat": {
+      "map5_all": 0.31733333333333336,
+      "map5_nonempty": 0.32560260586319223,
+      "map5_five_targets": 0.3410235003092146,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "content": {
+      "map5_all": 0.22893959435626104,
+      "map5_nonempty": 0.23490544697792257,
+      "map5_five_targets": 0.24373840445269015,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "als": {
+      "map5_all": 0.16991843033509701,
+      "map5_nonempty": 0.17434627216793339,
+      "map5_five_targets": 0.1745516388373531,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "ppr": {
+      "map5_all": 0.3119499559082893,
+      "map5_nonempty": 0.3200789449873326,
+      "map5_five_targets": 0.3361162646876933,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "association": {
+      "map5_all": 0.21898368606701937,
+      "map5_nonempty": 0.22469010133912418,
+      "map5_five_targets": 0.23248299319727891,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "ease": {
+      "map5_all": 0.30406106701940033,
+      "map5_nonempty": 0.31198448244661603,
+      "map5_five_targets": 0.3277922077922078,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "channel": {
+      "map5_all": 0.31650220458553796,
+      "map5_nonempty": 0.32474981903727834,
+      "map5_five_targets": 0.340482374768089,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "simple_hybrid": {
+      "map5_all": 0.3268939594356261,
+      "map5_nonempty": 0.33541236880202674,
+      "map5_five_targets": 0.35099876314162026,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "hgb": {
+      "map5_all": 0.3321860670194004,
+      "map5_nonempty": 0.3408423814694173,
+      "map5_five_targets": 0.3573995052566481,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    }
+  },
+  "random_33": {
+    "popularity": {
+      "map5_all": 0.22862676366843035,
+      "map5_nonempty": 0.23458446435034386,
+      "map5_five_targets": 0.24243351886209033,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "repeat": {
+      "map5_all": 0.3174867724867725,
+      "map5_nonempty": 0.32576004343105325,
+      "map5_five_targets": 0.3412028447742733,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "content": {
+      "map5_all": 0.23049514991181658,
+      "map5_nonempty": 0.23650153818313427,
+      "map5_five_targets": 0.245556586270872,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "als": {
+      "map5_all": 0.16859038800705467,
+      "map5_nonempty": 0.17298362287368801,
+      "map5_five_targets": 0.17299938157081016,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "ppr": {
+      "map5_all": 0.3134949294532628,
+      "map5_nonempty": 0.3216641784292436,
+      "map5_five_targets": 0.3379220779220779,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "association": {
+      "map5_all": 0.22037786596119932,
+      "map5_nonempty": 0.2261206116539993,
+      "map5_five_targets": 0.2341125541125541,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "ease": {
+      "map5_all": 0.30467482363315695,
+      "map5_nonempty": 0.3126142327180601,
+      "map5_five_targets": 0.3285095856524428,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "channel": {
+      "map5_all": 0.3180630511463845,
+      "map5_nonempty": 0.3263513391241405,
+      "map5_five_targets": 0.3423067408781694,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "simple_hybrid": {
+      "map5_all": 0.3278436948853616,
+      "map5_nonempty": 0.33638685305827,
+      "map5_five_targets": 0.35210884353741495,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    "hgb": {
+      "map5_all": 0.332820987654321,
+      "map5_nonempty": 0.3414938472674629,
+      "map5_five_targets": 0.3581416202844775,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    }
+  },
+  "single_session": {
+    "popularity": {
+      "map5_all": 0.2642409611992945,
+      "map5_nonempty": 0.27245794689943625,
+      "map5_five_targets": 0.28435530085959887,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "repeat": {
+      "map5_all": 0.33711596119929454,
+      "map5_nonempty": 0.3475991089288961,
+      "map5_five_targets": 0.3661381725565107,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "content": {
+      "map5_all": 0.24555423280423277,
+      "map5_nonempty": 0.25319012547735953,
+      "map5_five_targets": 0.2648901623686724,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "als": {
+      "map5_all": 0.1854268077601411,
+      "map5_nonempty": 0.19119294417166757,
+      "map5_five_targets": 0.19182744348933461,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "ppr": {
+      "map5_all": 0.3340050705467372,
+      "map5_nonempty": 0.34439148026913985,
+      "map5_five_targets": 0.36501432664756445,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "association": {
+      "map5_all": 0.25561662257495593,
+      "map5_nonempty": 0.26356542098563374,
+      "map5_five_targets": 0.27563196434256604,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "ease": {
+      "map5_all": 0.3302526455026455,
+      "map5_nonempty": 0.34052236770321875,
+      "map5_five_targets": 0.362043935052531,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "channel": {
+      "map5_all": 0.33551697530864194,
+      "map5_nonempty": 0.3459504000727405,
+      "map5_five_targets": 0.3667303406558421,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "simple_hybrid": {
+      "map5_all": 0.3458862433862434,
+      "map5_nonempty": 0.35664211674849977,
+      "map5_five_targets": 0.37593123209169055,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    },
+    "hgb": {
+      "map5_all": 0.3577010582010582,
+      "map5_nonempty": 0.36882433169667217,
+      "map5_five_targets": 0.3900382043935053,
+      "users": 1260,
+      "nonempty_users": 1222,
+      "five_target_users": 1047
+    }
+  }
+}

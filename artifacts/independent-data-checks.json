@@ -1,0 +1,8 @@
+{
+  "independent_interval_checks": 200,
+  "max_seconds_difference": 0,
+  "passed": true,
+  "labelled_training_airings_overlapping_prior_airings_on_same_channel": 0,
+  "examples": [],
+  "handling": "Every positive intersection is retained; exact duplicate airings removed. Ambiguous overlapping schedule rows are disclosed, not silently resolved."
+}

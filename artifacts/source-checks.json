@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "url": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/data",
+    "checked": "Visible Data description including screen-time threshold, frequency target and user-wise private split",
+    "accessed": "2026-10-31",
+    "checker": "Codex assistant, not claimed as student verification"
+  },
+  {
+    "id": 2,
+    "url": "https://benfred.github.io/implicit/api/models/cpu/als.html",
+    "checked": "fit confidence semantics; factors, regularization, iterations and seed",
+    "accessed": "2026-10-31",
+    "checker": "Codex assistant, not claimed as student verification"
+  },
+  {
+    "id": 3,
+    "url": "https://arxiv.org/html/1905.03375v1",
+    "checked": "Steck 2019 sections 2 and 3.1, equations 2-8; column division and zero diagonal",
+    "accessed": "2026-10-31",
+    "checker": "Codex assistant, not claimed as student verification"
+  },
+  {
+    "id": 4,
+    "url": "https://scikit-learn.org/1.6/modules/generated/sklearn.ensemble.HistGradientBoostingClassifier.html",
+    "checked": "Version 1.6.1 log loss, early_stopping=False, sample weighting, parameter definitions",
+    "accessed": "2026-10-31",
+    "checker": "Codex assistant, not claimed as student verification"
+  },
+  {
+    "id": 5,
+    "url": "https://github.com/dryjins/RecSys-LLMs/blob/main/homework_guidelines.pdf",
+    "checked": "Full extracted text from official repo commit 4b9598b4e670417387aabe3facb7868b6b6143eb; chose stricter 5-page cap",
+    "accessed": "2026-10-31",
+    "checker": "Codex assistant, not claimed as student verification"
+  }
+]
