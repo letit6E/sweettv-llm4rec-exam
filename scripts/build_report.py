@@ -305,7 +305,7 @@ else:
 H("7. Designated Kaggle submission")
 if scoring:
     add(
-        f"Private MAP@5: <b>{scoring['private_score']}</b>; public: {scoring.get('public_score', 'not recorded')}. Submission {scoring.get('submission_id', 'see screenshot')}. The frozen leaderboard position is not used.",
+        f"Private MAP@5: <b>{scoring['private_score']}</b>; public: {scoring.get('public_score', 'not recorded')}. File: final_hgb.csv (screenshot below). The frozen leaderboard position is not used.",
         small,
     )
     shot = A / scoring.get("screenshot", "kaggle-private-score.png")
@@ -313,7 +313,8 @@ if scoring:
         from PIL import Image as PILImage
 
         w, h = PILImage.open(shot).size
-        story.append(Image(str(shot), width=505, height=505 * h / w))
+        scale = min(350 / w, 220 / h)
+        story.append(Image(str(shot), width=w * scale, height=h * scale))
 else:
     add(
         "The validated file is ready; Kaggle upload is awaiting authorization. No returned score or screenshot is claimed yet.",

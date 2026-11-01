@@ -1,0 +1,88 @@
+{
+  "time_utc": "2026-10-31T22:03:12.632370+00:00",
+  "model": "XE_NDCG_MART",
+  "seed": 20261031,
+  "trees": 1200,
+  "grid": [
+    {
+      "weight": 0,
+      "map5": 0.43835698924731187
+    },
+    {
+      "weight": 0.25,
+      "map5": 0.438683870967742
+    },
+    {
+      "weight": 0.5,
+      "map5": 0.44038279569892474
+    },
+    {
+      "weight": 0.75,
+      "map5": 0.44153548387096775
+    },
+    {
+      "weight": 1,
+      "map5": 0.4407096774193548
+    }
+  ],
+  "frozen_xendcg_weight": 0.75,
+  "selected_on": "Earlier development window only",
+  "promotion_rule": "Positive MAP difference on both five-week windows; long-horizon difference at least -0.001; seed replication shown separately. No significance claim if confidence interval crosses zero.",
+  "seed_replications": [
+    {
+      "seed": 20261031,
+      "map5": 0.4407096774193548
+    },
+    {
+      "seed": 20261032,
+      "map5": 0.43966881720430107
+    },
+    {
+      "seed": 20261033,
+      "map5": 0.4372774193548387
+    }
+  ],
+  "comparisons": {
+    "dev": {
+      "baseline": 0.43835698924731187,
+      "candidate": 0.44153548387096775,
+      "delta": 0.0031784946236559147,
+      "bootstrap95": [
+        -0.0011453763440860219,
+        0.007716559139784944
+      ],
+      "standalone_xendcg_map5": 0.4407096774193548
+    },
+    "audit": {
+      "baseline": 0.3985188620902907,
+      "candidate": 0.4013450834879406,
+      "delta": 0.0028262213976499697,
+      "bootstrap95": [
+        -0.0009841527520098945,
+        0.006738945578231286
+      ],
+      "standalone_xendcg_map5": 0.4008194186765615
+    },
+    "long_raw": {
+      "baseline": 0.440968115942029,
+      "candidate": 0.44169565217391304,
+      "delta": 0.0007275362318840582,
+      "bootstrap95": [
+        -0.0032381884057971003,
+        0.004624782608695644
+      ]
+    },
+    "long_normalized": {
+      "baseline": 0.440968115942029,
+      "candidate": 0.4415768115942029,
+      "delta": 0.0006086956521739135,
+      "bootstrap95": [
+        -0.0033913043478260873,
+        0.004548115942028985
+      ]
+    }
+  },
+  "final_horizon_transform": "raw",
+  "promote": true,
+  "caveat": "All windows previously inspected; long diagnostic overlaps both five-week windows. Bootstrap omits model-selection uncertainty."
+}

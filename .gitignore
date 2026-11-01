@@ -30,3 +30,7 @@ tmp/
 
 artifacts/*.log
 artifacts/development-results-before-dst-hour-fix.json
+
+artifacts/**/*.pt
+artifacts/**/*.cbm
+artifacts/**/model.txt

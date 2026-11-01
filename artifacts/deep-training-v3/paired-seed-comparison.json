@@ -1,0 +1,24 @@
+{
+  "comparisons": [
+    {
+      "seed": 20261031,
+      "cat200": 0.43835698924731187,
+      "xendcg1200": 0.4407096774193548,
+      "delta": 0.002352688172042927
+    },
+    {
+      "seed": 20261032,
+      "cat200": 0.4369591397849462,
+      "xendcg1200": 0.43966881720430107,
+      "delta": 0.00270967741935485
+    },
+    {
+      "seed": 20261033,
+      "cat200": 0.43393548387096775,
+      "xendcg1200": 0.4372774193548387,
+      "delta": 0.0033419354838709614
+    }
+  ],
+  "mean_delta": 0.0028014336917562463,
+  "scope": "Three training seeds, earlier temporal window. Complete pipelines differ in learner and training-user pool; not an objective-only ablation."
+}

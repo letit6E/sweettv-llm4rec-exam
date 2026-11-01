@@ -1,0 +1,43 @@
+{
+  "config": "map128",
+  "fixed_audit_epochs": 14,
+  "seeds": [
+    20261031,
+    20261032,
+    20261033
+  ],
+  "dev_seed_map5": [
+    0.43596129032258063,
+    0.43372043010752687,
+    0.4359483870967742
+  ],
+  "dev_seed_epochs": [
+    8,
+    18,
+    14
+  ],
+  "dev_blend_grid": [
+    {
+      "neural_weight": 0,
+      "map5": 0.43835698924731187
+    },
+    {
+      "neural_weight": 0.1,
+      "map5": 0.4385118279569893
+    },
+    {
+      "neural_weight": 0.25,
+      "map5": 0.43878279569892464
+    },
+    {
+      "neural_weight": 0.5,
+      "map5": 0.43889892473118275
+    },
+    {
+      "neural_weight": 1,
+      "map5": 0.4384344086021505
+    }
+  ],
+  "frozen_neural_weight": 0.5,
+  "note": "Selected on dev only before this run's later-window neural training; both windows were inspected historically."
+}

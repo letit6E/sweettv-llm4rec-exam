@@ -1,0 +1,9 @@
+{
+  "file": "v2_cat200_horizon.csv",
+  "private": 0.45024,
+  "public": 0.45844,
+  "sha256": "412e7c4aa14a2ce2e73810ff0496d51c7237f5ec628d6121aee945a0f4282971",
+  "stage": "adaptive improvement",
+  "source": "Observed Kaggle submissions UI; private then public columns",
+  "retained_after": "v4 error-driven study: both locally selected new candidates scored lower on private"
+}

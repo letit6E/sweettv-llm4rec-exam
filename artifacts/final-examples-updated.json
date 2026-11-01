@@ -1,0 +1,1076 @@
+[
+  {
+    "user_id": "433403965153600460",
+    "template_row": 480,
+    "qualifying_airings": 50,
+    "distinct_programs": 32,
+    "training_top10": [
+      {
+        "id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "count": 8
+      },
+      {
+        "id": 2400508,
+        "title": "Сегодня.",
+        "category": "Инфо",
+        "count": 4
+      },
+      {
+        "id": 1100411,
+        "title": "'Вещдок'.",
+        "category": "Познавательное",
+        "count": 3
+      },
+      {
+        "id": 2400480,
+        "title": "ТСН.",
+        "category": "Инфо",
+        "count": 3
+      },
+      {
+        "id": 10002651,
+        "title": "Т/с 'Ночные ласточки', 8 с.",
+        "category": "Сериалы",
+        "count": 3
+      },
+      {
+        "id": 90073713,
+        "title": "Х/ф 'Воин'.",
+        "category": "Фильмы",
+        "count": 2
+      },
+      {
+        "id": 90049867,
+        "title": "Х/ф 'Пляж'.",
+        "category": "Фильмы",
+        "count": 2
+      },
+      {
+        "id": 200337,
+        "title": "Утро с Интером.",
+        "category": "Развлечения",
+        "count": 1
+      },
+      {
+        "id": 90076295,
+        "title": "Х/ф 'Призрачный патруль'.",
+        "category": "Фильмы",
+        "count": 1
+      },
+      {
+        "id": 90074576,
+        "title": "Х/ф 'Призрачный гонщик 2'.",
+        "category": "Фильмы",
+        "count": 1
+      }
+    ],
+    "truth": [],
+    "recommendations": {
+      "popularity": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 3995.0,
+          "train_watch_count": 3
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 3808.0,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "score": 2963.0,
+          "train_watch_count": 0
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 2761.0,
+          "train_watch_count": 4
+        },
+        {
+          "id": 200344,
+          "title": "'ЧистоNews'.",
+          "category": "Развлечения",
+          "score": 2418.0,
+          "train_watch_count": 0
+        }
+      ],
+      "repeat": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 8.0,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 6.0,
+          "train_watch_count": 4
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 4.0,
+          "train_watch_count": 3
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "score": 4.0,
+          "train_watch_count": 3
+        },
+        {
+          "id": 2500430,
+          "title": "'Затерянный мир'.",
+          "category": "Познавательное",
+          "score": 3.0,
+          "train_watch_count": 1
+        }
+      ],
+      "content": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.7886545062065125,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.7717773914337158,
+          "train_watch_count": 3
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 0.7654456496238708,
+          "train_watch_count": 4
+        },
+        {
+          "id": 5900347,
+          "title": "'Деньги'.",
+          "category": "Инфо",
+          "score": 0.7371929883956909,
+          "train_watch_count": 0
+        },
+        {
+          "id": 2500261,
+          "title": "Подробности недели.",
+          "category": "Инфо",
+          "score": 0.711535632610321,
+          "train_watch_count": 0
+        }
+      ],
+      "als": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.9781972765922546,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.9462206363677979,
+          "train_watch_count": 3
+        },
+        {
+          "id": 6200371,
+          "title": "ДжеДАИ.",
+          "category": "Познавательное",
+          "score": 0.925874650478363,
+          "train_watch_count": 0
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 0.8965358734130859,
+          "train_watch_count": 4
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "score": 0.868583083152771,
+          "train_watch_count": 0
+        }
+      ],
+      "ppr": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.044993795454502106,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 0.03391379490494728,
+          "train_watch_count": 4
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.03032626397907734,
+          "train_watch_count": 3
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "score": 0.028707388788461685,
+          "train_watch_count": 3
+        },
+        {
+          "id": 90073713,
+          "title": "Х/ф 'Воин'.",
+          "category": "Фильмы",
+          "score": 0.0211867094039917,
+          "train_watch_count": 2
+        }
+      ],
+      "association": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 22.85479736328125,
+          "train_watch_count": 3
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 22.075237274169922,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "score": 18.570629119873047,
+          "train_watch_count": 0
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 17.977008819580078,
+          "train_watch_count": 4
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "score": 15.34877872467041,
+          "train_watch_count": 0
+        }
+      ],
+      "ease": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 1.948967695236206,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 1.1434904336929321,
+          "train_watch_count": 3
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "score": 0.9278239607810974,
+          "train_watch_count": 3
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 0.8221180438995361,
+          "train_watch_count": 4
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "score": 0.6617152690887451,
+          "train_watch_count": 0
+        }
+      ],
+      "channel": [
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 1.9117008447647095,
+          "train_watch_count": 4
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 1.8077234029769897,
+          "train_watch_count": 8
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "score": 1.2292324304580688,
+          "train_watch_count": 3
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.4890439212322235,
+          "train_watch_count": 3
+        },
+        {
+          "id": 2500430,
+          "title": "'Затерянный мир'.",
+          "category": "Познавательное",
+          "score": 0.47903648018836975,
+          "train_watch_count": 1
+        }
+      ],
+      "simple_hybrid": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.9728050231933594,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 0.875,
+          "train_watch_count": 4
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "score": 0.5715023279190063,
+          "train_watch_count": 3
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.37790805101394653,
+          "train_watch_count": 3
+        },
+        {
+          "id": 2500430,
+          "title": "'Затерянный мир'.",
+          "category": "Познавательное",
+          "score": 0.3127906322479248,
+          "train_watch_count": 1
+        }
+      ],
+      "hgb": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.5325844287872314,
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 0.5234183669090271,
+          "train_watch_count": 4
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.43483296036720276,
+          "train_watch_count": 3
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "score": 0.263467401266098,
+          "train_watch_count": 3
+        },
+        {
+          "id": 200337,
+          "title": "Утро с Интером.",
+          "category": "Развлечения",
+          "score": 0.146467387676239,
+          "train_watch_count": 1
+        }
+      ],
+      "v2": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "train_watch_count": 4
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "train_watch_count": 3
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "train_watch_count": 3
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "train_watch_count": 0
+        }
+      ],
+      "v5": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "train_watch_count": 4
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "train_watch_count": 3
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "train_watch_count": 3
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "train_watch_count": 0
+        }
+      ],
+      "v6": [
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "train_watch_count": 8
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "train_watch_count": 4
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "train_watch_count": 3
+        },
+        {
+          "id": 1100411,
+          "title": "'Вещдок'.",
+          "category": "Познавательное",
+          "train_watch_count": 3
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "train_watch_count": 0
+        }
+      ]
+    }
+  },
+  {
+    "user_id": "2593664958585400806",
+    "template_row": 364,
+    "qualifying_airings": 239,
+    "distinct_programs": 49,
+    "training_top10": [
+      {
+        "id": 2400480,
+        "title": "ТСН.",
+        "category": "Инфо",
+        "count": 86
+      },
+      {
+        "id": 20088,
+        "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+        "category": "Развлечения",
+        "count": 54
+      },
+      {
+        "id": 240081,
+        "title": "Факты. День.",
+        "category": "Инфо",
+        "count": 23
+      },
+      {
+        "id": 10002451,
+        "title": "Т/с 'Великолепный век', 121 и 122 с.",
+        "category": "Сериалы",
+        "count": 10
+      },
+      {
+        "id": 6700482,
+        "title": "'Секретные материалы'.",
+        "category": "Другое",
+        "count": 6
+      },
+      {
+        "id": 200344,
+        "title": "'ЧистоNews'.",
+        "category": "Развлечения",
+        "count": 4
+      },
+      {
+        "id": 200337,
+        "title": "Утро с Интером.",
+        "category": "Развлечения",
+        "count": 3
+      },
+      {
+        "id": 1000633,
+        "title": "Т/с 'Звездные врата', 9 сезон, 10 с. 'Четвёртый всадник - часть 1'.",
+        "category": "Сериалы",
+        "count": 3
+      },
+      {
+        "id": 1100411,
+        "title": "'Вещдок'.",
+        "category": "Познавательное",
+        "count": 3
+      },
+      {
+        "id": 2400508,
+        "title": "Сегодня.",
+        "category": "Инфо",
+        "count": 2
+      }
+    ],
+    "truth": [],
+    "recommendations": {
+      "popularity": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 3995.0,
+          "train_watch_count": 86
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 3808.0,
+          "train_watch_count": 23
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "score": 2963.0,
+          "train_watch_count": 2
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 2761.0,
+          "train_watch_count": 2
+        },
+        {
+          "id": 200344,
+          "title": "'ЧистоNews'.",
+          "category": "Развлечения",
+          "score": 2418.0,
+          "train_watch_count": 4
+        }
+      ],
+      "repeat": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 102.0,
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "score": 68.0,
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 39.0,
+          "train_watch_count": 23
+        },
+        {
+          "id": 10002451,
+          "title": "Т/с 'Великолепный век', 121 и 122 с.",
+          "category": "Сериалы",
+          "score": 11.0,
+          "train_watch_count": 10
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 10.0,
+          "train_watch_count": 2
+        }
+      ],
+      "content": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.7977414131164551,
+          "train_watch_count": 86
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.6985346674919128,
+          "train_watch_count": 23
+        },
+        {
+          "id": 5900347,
+          "title": "'Деньги'.",
+          "category": "Инфо",
+          "score": 0.6911382675170898,
+          "train_watch_count": 0
+        },
+        {
+          "id": 2500261,
+          "title": "Подробности недели.",
+          "category": "Инфо",
+          "score": 0.6670838594436646,
+          "train_watch_count": 0
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "score": 0.6343512535095215,
+          "train_watch_count": 2
+        }
+      ],
+      "als": [
+        {
+          "id": 200337,
+          "title": "Утро с Интером.",
+          "category": "Развлечения",
+          "score": 1.0574244260787964,
+          "train_watch_count": 3
+        },
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 1.0372400283813477,
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "score": 1.0371969938278198,
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 1.0254743099212646,
+          "train_watch_count": 23
+        },
+        {
+          "id": 200344,
+          "title": "'ЧистоNews'.",
+          "category": "Развлечения",
+          "score": 0.9877238273620605,
+          "train_watch_count": 4
+        }
+      ],
+      "ppr": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.04914575815200806,
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "score": 0.04392733424901962,
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.036837026476860046,
+          "train_watch_count": 23
+        },
+        {
+          "id": 10002451,
+          "title": "Т/с 'Великолепный век', 121 и 122 с.",
+          "category": "Сериалы",
+          "score": 0.02581220492720604,
+          "train_watch_count": 10
+        },
+        {
+          "id": 6700482,
+          "title": "'Секретные материалы'.",
+          "category": "Другое",
+          "score": 0.02459716983139515,
+          "train_watch_count": 6
+        }
+      ],
+      "association": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 43.60449981689453,
+          "train_watch_count": 86
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 43.247802734375,
+          "train_watch_count": 23
+        },
+        {
+          "id": 2400467,
+          "title": "'Викна-Новости'.",
+          "category": "Инфо",
+          "score": 36.955997467041016,
+          "train_watch_count": 2
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 35.25214767456055,
+          "train_watch_count": 2
+        },
+        {
+          "id": 200344,
+          "title": "'ЧистоNews'.",
+          "category": "Развлечения",
+          "score": 31.759737014770508,
+          "train_watch_count": 4
+        }
+      ],
+      "ease": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 4.925284385681152,
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "score": 2.9315543174743652,
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 2.6624534130096436,
+          "train_watch_count": 23
+        },
+        {
+          "id": 200344,
+          "title": "'ЧистоNews'.",
+          "category": "Развлечения",
+          "score": 1.4833240509033203,
+          "train_watch_count": 4
+        },
+        {
+          "id": 6700482,
+          "title": "'Секретные материалы'.",
+          "category": "Другое",
+          "score": 1.4704127311706543,
+          "train_watch_count": 6
+        }
+      ],
+      "channel": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 6.42106294631958,
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "score": 4.095545768737793,
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 1.0618946552276611,
+          "train_watch_count": 23
+        },
+        {
+          "id": 6700482,
+          "title": "'Секретные материалы'.",
+          "category": "Другое",
+          "score": 0.7661798000335693,
+          "train_watch_count": 6
+        },
+        {
+          "id": 200477,
+          "title": "'Завтрак. Выходной'.",
+          "category": "Развлечения",
+          "score": 0.7470539212226868,
+          "train_watch_count": 0
+        }
+      ],
+      "simple_hybrid": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 1.0,
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "score": 0.6522482633590698,
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.27386486530303955,
+          "train_watch_count": 23
+        },
+        {
+          "id": 6700482,
+          "title": "'Секретные материалы'.",
+          "category": "Другое",
+          "score": 0.10868105292320251,
+          "train_watch_count": 6
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 0.08511073887348175,
+          "train_watch_count": 2
+        }
+      ],
+      "hgb": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "score": 0.9567321538925171,
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "score": 0.8882445693016052,
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "score": 0.8646245002746582,
+          "train_watch_count": 23
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "score": 0.21809305250644684,
+          "train_watch_count": 2
+        },
+        {
+          "id": 6700482,
+          "title": "'Секретные материалы'.",
+          "category": "Другое",
+          "score": 0.1429169774055481,
+          "train_watch_count": 6
+        }
+      ],
+      "v2": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "train_watch_count": 23
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "train_watch_count": 2
+        },
+        {
+          "id": 6700482,
+          "title": "'Секретные материалы'.",
+          "category": "Другое",
+          "train_watch_count": 6
+        }
+      ],
+      "v5": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "train_watch_count": 23
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "train_watch_count": 2
+        },
+        {
+          "id": 6700482,
+          "title": "'Секретные материалы'.",
+          "category": "Другое",
+          "train_watch_count": 6
+        }
+      ],
+      "v6": [
+        {
+          "id": 2400480,
+          "title": "ТСН.",
+          "category": "Инфо",
+          "train_watch_count": 86
+        },
+        {
+          "id": 20088,
+          "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+          "category": "Развлечения",
+          "train_watch_count": 54
+        },
+        {
+          "id": 240081,
+          "title": "Факты. День.",
+          "category": "Инфо",
+          "train_watch_count": 23
+        },
+        {
+          "id": 6700482,
+          "title": "'Секретные материалы'.",
+          "category": "Другое",
+          "train_watch_count": 6
+        },
+        {
+          "id": 2400508,
+          "title": "Сегодня.",
+          "category": "Инфо",
+          "train_watch_count": 2
+        }
+      ]
+    }
+  }
+]

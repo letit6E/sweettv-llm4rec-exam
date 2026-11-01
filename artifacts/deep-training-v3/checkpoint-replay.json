@@ -1,0 +1,8 @@
+{
+  "checkpoint": "/Users/rshangareevil/Projects/llm4rec/artifacts/deep-training-v3/dev_bce128_s20261031/best.pt",
+  "max_abs_score_difference": 5.7220458984375e-06,
+  "identical_top5_users": 1260,
+  "users": 1260,
+  "cpu_map5": 0.43543655913978496,
+  "source": "Independent CPU reload of GPU-trained checkpoint"
+}

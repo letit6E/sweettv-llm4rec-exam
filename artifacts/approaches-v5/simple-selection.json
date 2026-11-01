@@ -1,0 +1,1514 @@
+{
+  "grid": [
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "airings",
+        "threshold": 0,
+        "half": null
+      },
+      "standalone": 0.37016774193548385,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.437905376344086
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4347827956989248
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.418447311827957
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "airings",
+        "threshold": 0,
+        "half": 28
+      },
+      "standalone": 0.3764129032258065,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4378279569892473
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43656774193548387
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.41881720430107533
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "airings",
+        "threshold": 0.5,
+        "half": null
+      },
+      "standalone": 0.4007741935483871,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4374408602150538
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43593548387096775
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4301161290322581
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "airings",
+        "threshold": 0.5,
+        "half": 28
+      },
+      "standalone": 0.39731182795698927,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43834408602150543
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4367354838709678
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42900215053763446
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "airings",
+        "threshold": 0.8,
+        "half": null
+      },
+      "standalone": 0.39233118279569884,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43795698924731186
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4346279569892473
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4234709677419355
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "airings",
+        "threshold": 0.8,
+        "half": 28
+      },
+      "standalone": 0.3830322580645161,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4381849462365591
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43591827956989254
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4246408602150538
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "seconds",
+        "threshold": 0,
+        "half": null
+      },
+      "standalone": 0.28660215053763444,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43744516129032257
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4343784946236559
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.38763010752688165
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "seconds",
+        "threshold": 0,
+        "half": 28
+      },
+      "standalone": 0.27809892473118286,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4372645161290323
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43403440860215053
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3889118279569893
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "seconds",
+        "threshold": 0.5,
+        "half": null
+      },
+      "standalone": 0.2981505376344086,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4380989247311828
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43516989247311827
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3988817204301075
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "seconds",
+        "threshold": 0.5,
+        "half": 28
+      },
+      "standalone": 0.288094623655914,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4375827956989247
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43620645161290317
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.39860645161290315
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "seconds",
+        "threshold": 0.8,
+        "half": null
+      },
+      "standalone": 0.29522150537634406,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43734193548387096
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4342064516129032
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3980516129032258
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "seconds",
+        "threshold": 0.8,
+        "half": 28
+      },
+      "standalone": 0.2774451612903226,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43762150537634403
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4377462365591398
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.39900645161290327
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "fraction",
+        "threshold": 0,
+        "half": null
+      },
+      "standalone": 0.3953720430107526,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43838279569892474
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4375268817204301
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42643440860215054
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "fraction",
+        "threshold": 0,
+        "half": 28
+      },
+      "standalone": 0.40624946236559145,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43838279569892474
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4368086021505377
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.428141935483871
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "fraction",
+        "threshold": 0.5,
+        "half": null
+      },
+      "standalone": 0.39968602150537635,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4376989247311828
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4349204301075269
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42787956989247317
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "fraction",
+        "threshold": 0.5,
+        "half": 28
+      },
+      "standalone": 0.39776774193548387,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.438447311827957
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43700645161290325
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4281462365591398
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "fraction",
+        "threshold": 0.8,
+        "half": null
+      },
+      "standalone": 0.3867268817204301,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.437905376344086
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4357247311827957
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42468817204301074
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "fraction",
+        "threshold": 0.8,
+        "half": 28
+      },
+      "standalone": 0.38511397849462364,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4381849462365591
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43690752688172046
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42434408602150536
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "days",
+        "threshold": 0,
+        "half": null
+      },
+      "standalone": 0.34996129032258066,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4375268817204301
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43338924731182793
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.41135913978494626
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "days",
+        "threshold": 0,
+        "half": 28
+      },
+      "standalone": 0.3464,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4372559139784946
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43164731182795696
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4094494623655914
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "days",
+        "threshold": 0.5,
+        "half": null
+      },
+      "standalone": 0.3992903225806452,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43688602150537637
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43469677419354835
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42494193548387094
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "days",
+        "threshold": 0.5,
+        "half": 28
+      },
+      "standalone": 0.39128602150537634,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4373118279569892
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43609462365591395
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42673118279569894
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "days",
+        "threshold": 0.8,
+        "half": null
+      },
+      "standalone": 0.3887397849462365,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4379311827956989
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43411182795698916
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4216215053763441
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "days",
+        "threshold": 0.8,
+        "half": 28
+      },
+      "standalone": 0.38283870967741934,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4383655913978495
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4363698924731183
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4251655913978495
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "weeks",
+        "threshold": 0,
+        "half": null
+      },
+      "standalone": 0.3381849462365592,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43741075268817203
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4315612903225806
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.40255913978494623
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "weeks",
+        "threshold": 0,
+        "half": 28
+      },
+      "standalone": 0.32436559139784943,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43697204301075265
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43266236559139787
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4026236559139785
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "weeks",
+        "threshold": 0.5,
+        "half": null
+      },
+      "standalone": 0.39215053763440855,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43680860215053763
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4335139784946236
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.422541935483871
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "weeks",
+        "threshold": 0.5,
+        "half": 28
+      },
+      "standalone": 0.3774666666666666,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43784086021505375
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4378967741935484
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42190107526881726
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "weeks",
+        "threshold": 0.8,
+        "half": null
+      },
+      "standalone": 0.38652473118279573,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4378881720430108
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4329806451612904
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42024946236559146
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "weeks",
+        "threshold": 0.8,
+        "half": 28
+      },
+      "standalone": 0.3738752688172043,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43817204301075274
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43585806451612896
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42217634408602156
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "single",
+        "threshold": 0.8,
+        "half": null
+      },
+      "standalone": 0.3917376344086022,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43813763440860215
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43585376344086024
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.422989247311828
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "repeat",
+        "unit": "single",
+        "threshold": 0.8,
+        "half": 28
+      },
+      "standalone": 0.380516129032258,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43833978494623654
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.435931182795699
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.42374193548387096
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": false,
+        "mode": "future_freq"
+      },
+      "standalone": 0.36635698924731186,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43871827956989246
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4323182795698925
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4074537634408602
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": false,
+        "mode": "future_share"
+      },
+      "standalone": 0.3113376344086022,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4386322580645161
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4330150537634409
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.39817634408602154
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": false,
+        "mode": "past_full"
+      },
+      "standalone": 0.3205978494623656,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4378408602150538
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4324645161290323
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4052860215053764
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": false,
+        "mode": "past_rate"
+      },
+      "standalone": 0.3249075268817204,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.437905376344086
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43436989247311825
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.40356989247311825
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": false,
+        "mode": "hybrid"
+      },
+      "standalone": 0.3177161290322581,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4381247311827957
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43279999999999996
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.401105376344086
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": true,
+        "mode": "future_freq"
+      },
+      "standalone": 0.3665591397849462,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43908817204301076
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43378924731182794
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.41240000000000004
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": true,
+        "mode": "future_share"
+      },
+      "standalone": 0.3124301075268817,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4386193548387096
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4331913978494624
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3997333333333333
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": true,
+        "mode": "past_full"
+      },
+      "standalone": 0.331668817204301,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43733333333333335
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43308817204301076
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4079311827956989
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": true,
+        "mode": "past_rate"
+      },
+      "standalone": 0.34074838709677424,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4380043010752688
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4317204301075269
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4114795698924731
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": true,
+        "mode": "hybrid"
+      },
+      "standalone": 0.3247483870967742,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43814623655913976
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4335139784946237
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4033720430107527
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": false,
+        "mode": "future_freq"
+      },
+      "standalone": 0.36823225806451615,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4386150537634408
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4333806451612903
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4088
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": false,
+        "mode": "future_share"
+      },
+      "standalone": 0.309625806451613,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4382537634408602
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43102365591397845
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.39999139784946236
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": false,
+        "mode": "past_full"
+      },
+      "standalone": 0.31966881720430107,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4378537634408602
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4327182795698925
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4023870967741936
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": false,
+        "mode": "past_rate"
+      },
+      "standalone": 0.32730322580645166,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4382924731182795
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4308258064516129
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.400047311827957
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": false,
+        "mode": "hybrid"
+      },
+      "standalone": 0.3174967741935484,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.437763440860215
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.42926021505376344
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.39893333333333325
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": true,
+        "mode": "future_freq"
+      },
+      "standalone": 0.3705462365591398,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4389376344086022
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43320430107526886
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4120989247311828
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": true,
+        "mode": "future_share"
+      },
+      "standalone": 0.3227612903225807,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4383956989247312
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4330494623655914
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4049204301075269
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": true,
+        "mode": "past_full"
+      },
+      "standalone": 0.3419354838709677,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4380215053763441
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43418924731182795
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.412658064516129
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": true,
+        "mode": "past_rate"
+      },
+      "standalone": 0.34631397849462364,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4384860215053764
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4347096774193548
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4097032258064516
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "channel",
+        "days": 112,
+        "duration": true,
+        "mode": "hybrid"
+      },
+      "standalone": 0.33618494623655915,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43762150537634414
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4356516129032258
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4097763440860215
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 28,
+        "k": 10,
+        "axis": "items"
+      },
+      "standalone": 0.3143698924731183,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4381849462365592
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4332430107526882
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4033462365591398
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 28,
+        "k": 10,
+        "axis": "channels"
+      },
+      "standalone": 0.24573763440860213,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43504516129032256
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4241204301075268
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3608774193548387
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 28,
+        "k": 50,
+        "axis": "items"
+      },
+      "standalone": 0.3460731182795699,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43776774193548385
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43348387096774194
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4132043010752688
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 28,
+        "k": 50,
+        "axis": "channels"
+      },
+      "standalone": 0.29321290322580645,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43721720430107525
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4226795698924732
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.37262795698924733
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 28,
+        "k": 200,
+        "axis": "items"
+      },
+      "standalone": 0.3593032258064517,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4380817204301075
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.43222365591397854
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.41004731182795695
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 28,
+        "k": 200,
+        "axis": "channels"
+      },
+      "standalone": 0.3054193548387097,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43694193548387095
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.42537634408602143
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3761892473118279
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 112,
+        "k": 10,
+        "axis": "items"
+      },
+      "standalone": 0.3155225806451613,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4367440860215054
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.42894623655913977
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3977032258064516
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 112,
+        "k": 10,
+        "axis": "channels"
+      },
+      "standalone": 0.25265806451612904,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4366236559139785
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.42306666666666665
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3650623655913979
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 112,
+        "k": 50,
+        "axis": "items"
+      },
+      "standalone": 0.33980215053763446,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43796989247311824
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4308
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.40269677419354843
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 112,
+        "k": 50,
+        "axis": "channels"
+      },
+      "standalone": 0.28381505376344085,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.4363354838709677
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4215483870967743
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.37034408602150537
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 112,
+        "k": 200,
+        "axis": "items"
+      },
+      "standalone": 0.35153548387096784,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.43759569892473116
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4317032258064516
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.4052387096774194
+        }
+      ]
+    },
+    {
+      "config": {
+        "family": "neighbors",
+        "days": 112,
+        "k": 200,
+        "axis": "channels"
+      },
+      "standalone": 0.29531182795698924,
+      "blend": [
+        {
+          "weight": 0.1,
+          "dev": 0.436163440860215
+        },
+        {
+          "weight": 0.25,
+          "dev": 0.4217376344086022
+        },
+        {
+          "weight": 0.5,
+          "dev": 0.3726365591397849
+        }
+      ]
+    }
+  ],
+  "selected": {
+    "repeat": {
+      "config": {
+        "family": "repeat",
+        "unit": "fraction",
+        "threshold": 0.5,
+        "half": 28
+      },
+      "weight": 0.1,
+      "dev": 0.438447311827957,
+      "standalone": 0.39776774193548387
+    },
+    "channel": {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": true,
+        "mode": "future_freq"
+      },
+      "weight": 0.1,
+      "dev": 0.43908817204301076,
+      "standalone": 0.3665591397849462
+    },
+    "neighbors": {
+      "config": {
+        "family": "neighbors",
+        "days": 28,
+        "k": 10,
+        "axis": "items"
+      },
+      "weight": 0.1,
+      "dev": 0.4381849462365592,
+      "standalone": 0.3143698924731183
+    }
+  },
+  "baseline": 0.43835698924731187,
+  "label_policy": "No target definition changed. Input thresholds and units vary; truth remains unioned 80% airing count Top5.",
+  "scope": "Previously inspected temporal validation; adaptive model selection."
+}

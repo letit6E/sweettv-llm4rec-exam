@@ -1,0 +1,21 @@
+[
+  {
+    "name": "audit_identity_item_400",
+    "trees": 400,
+    "eval": "audit",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "rows": 1357681,
+    "seconds": 125.175867834,
+    "map5_all": 0.36679761904761904,
+    "map5_nonempty": 0.37635586319218245,
+    "map5_five_targets": 0.39722325293753863,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "file": "submissions/v6_discovery_blend.csv",
+  "sha256": "9a295e20a024ef074e3c388b00b64e2a7ecc83b62f2cc65278ce8b7d03061f89",
+  "rows": 1260,
+  "candidate_count": 6636,
+  "models_reloaded": true,
+  "new_scores_exactly_reproduced": true,
+  "old_scores_exactly_reproduced": true,
+  "channel_recomputed": true,
+  "official_schedule_verified": true
+}

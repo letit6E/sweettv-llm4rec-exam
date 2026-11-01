@@ -1,0 +1,74 @@
+[
+  {
+    "name": "dev_identity_item_400",
+    "trees": 200,
+    "eval": "dev",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "rows": 1100933,
+    "seconds": 109.667880083,
+    "map5_all": 0.30712588183421513,
+    "map5_nonempty": 0.4082052859821847,
+    "map5_five_targets": 0.43814623655913976,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_identity_item_400",
+    "trees": 400,
+    "eval": "dev",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "rows": 1100933,
+    "seconds": 110.001987583,
+    "map5_all": 0.30704497354497357,
+    "map5_nonempty": 0.4080977496483826,
+    "map5_five_targets": 0.4382279569892473,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_identity_item_400",
+    "trees": 200,
+    "eval": "long",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "rows": 1100933,
+    "seconds": 111.01709320799999,
+    "map5_all": 0.4155273368606702,
+    "map5_nonempty": 0.4229115060132831,
+    "map5_five_targets": 0.4395971014492754,
+    "users": 1260,
+    "nonempty_users": 1238,
+    "five_target_users": 1150
+  },
+  {
+    "name": "dev_identity_item_400",
+    "trees": 400,
+    "eval": "long",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "rows": 1100933,
+    "seconds": 111.37795566599999,
+    "map5_all": 0.4150134479717813,
+    "map5_nonempty": 0.42238848501166754,
+    "map5_five_targets": 0.4392985507246377,
+    "users": 1260,
+    "nonempty_users": 1238,
+    "five_target_users": 1150
+  }
+]

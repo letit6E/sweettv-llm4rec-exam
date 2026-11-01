@@ -1,0 +1,23 @@
+{
+  "time": "2026-11-01T11:57:05.709127+00:00",
+  "channel": {
+    "config": {
+      "family": "channel",
+      "days": 28,
+      "duration": true,
+      "mode": "future_freq"
+    },
+    "weight": 0.1,
+    "dev": 0.43908817204301076,
+    "standalone": 0.3665591397849462
+  },
+  "replay": {
+    "days": 112,
+    "weekly": false,
+    "mode": 3,
+    "weight": 0.25,
+    "dev": 0.44006451612903225,
+    "standalone": 0.41470107526881717
+  },
+  "rule": "Channel improves all 3 reused windows; replay improves two 5-week windows, long drops 0.00039. Both frozen before uploads; differences small, no significance claimed."
+}

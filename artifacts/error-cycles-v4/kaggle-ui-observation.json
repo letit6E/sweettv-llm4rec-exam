@@ -1,0 +1,4 @@
+[
+  "check_circleschedulev4_identity_blend25.csvComplete (after deadline) · now · Рустам Шангареев / Rustam Shangareev — conservative program-ID CatBoost400 (25%) + incumbent (75%). Weight frozen BEFORE both v4 Kaggle uploads. Validation MAP@5 0.43842 / 0.40015 / 0.44179, versus 0.43836 / 0.39852 / 0.44097 baseline. Small gains, bootstrap includes zero. Historical labels only; models reloaded and CSV independently checked.0.449020.45955",
+  "check_circleschedulev4_identity_blend75.csvComplete (after deadline) · 1m ago · Рустам Шангареев / Rustam Shangareev — error-driven cycle: program-ID CatBoost400 (75%) + incumbent CatBoost200 (25%). Frozen on earlier validation before Kaggle. MAP@5 early/later/10-week: 0.43901 / 0.39955 / 0.44086. All training labels end by July 27; no future user behavior. Reloaded models and verified 1260 rows against official schedule.0.448250.46116"
+]

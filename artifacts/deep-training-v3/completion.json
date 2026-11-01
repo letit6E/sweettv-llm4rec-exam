@@ -1,0 +1,180 @@
+{
+  "completed_training_runs": 25,
+  "neural_epochs_total": 390,
+  "largest_neural_parameter_count": 3030459,
+  "runs": [
+    {
+      "name": "audit_cat200_s20261032",
+      "epochs": 0,
+      "seconds": 50.42840033300001,
+      "parameters": null
+    },
+    {
+      "name": "audit_cat200_s20261033",
+      "epochs": 0,
+      "seconds": 54.685509833,
+      "parameters": null
+    },
+    {
+      "name": "audit_map128_s20261031",
+      "epochs": 14,
+      "seconds": 57.76424137500001,
+      "parameters": 148475
+    },
+    {
+      "name": "audit_map128_s20261032",
+      "epochs": 14,
+      "seconds": 53.139161375000015,
+      "parameters": 148475
+    },
+    {
+      "name": "audit_map128_s20261033",
+      "epochs": 14,
+      "seconds": 54.19152700000001,
+      "parameters": 148475
+    },
+    {
+      "name": "audit_xendcg_s20261031",
+      "epochs": 0,
+      "seconds": 157.515907292,
+      "parameters": null
+    },
+    {
+      "name": "dev_bce128_s20261031",
+      "epochs": 42,
+      "seconds": 120.174940334,
+      "parameters": 148475
+    },
+    {
+      "name": "dev_cat200_s20261032",
+      "epochs": 0,
+      "seconds": 40.881735375,
+      "parameters": null
+    },
+    {
+      "name": "dev_cat200_s20261033",
+      "epochs": 0,
+      "seconds": 40.971429209,
+      "parameters": null
+    },
+    {
+      "name": "dev_drop128_s20261031",
+      "epochs": 24,
+      "seconds": 70.432834166,
+      "parameters": 148475
+    },
+    {
+      "name": "dev_list128_s20261031",
+      "epochs": 24,
+      "seconds": 75.14670091699999,
+      "parameters": 148475
+    },
+    {
+      "name": "dev_list256_s20261031",
+      "epochs": 20,
+      "seconds": 195.198296708,
+      "parameters": 822395
+    },
+    {
+      "name": "dev_map128_s20261031",
+      "epochs": 24,
+      "seconds": 161.995833917,
+      "parameters": 148475
+    },
+    {
+      "name": "dev_map128_s20261032",
+      "epochs": 34,
+      "seconds": 112.249819292,
+      "parameters": 148475
+    },
+    {
+      "name": "dev_map128_s20261033",
+      "epochs": 30,
+      "seconds": 93.035495042,
+      "parameters": 148475
+    },
+    {
+      "name": "dev_seq128_s20261031",
+      "epochs": 30,
+      "seconds": 130.514083625,
+      "parameters": 926651
+    },
+    {
+      "name": "dev_seq128prior_s20261031",
+      "epochs": 30,
+      "seconds": 128.926933125,
+      "parameters": 926651
+    },
+    {
+      "name": "dev_seq128reg_s20261031",
+      "epochs": 30,
+      "seconds": 132.750492708,
+      "parameters": 926651
+    },
+    {
+      "name": "dev_seq256prior_s20261031",
+      "epochs": 30,
+      "seconds": 350.659366708,
+      "parameters": 3030459
+    },
+    {
+      "name": "dev_seq64prior_s20261031",
+      "epochs": 30,
+      "seconds": 72.770974625,
+      "parameters": 317115
+    },
+    {
+      "name": "dev_xendcg_s20261031",
+      "epochs": 0,
+      "seconds": 167.66514075,
+      "parameters": null
+    },
+    {
+      "name": "dev_xendcg_s20261032",
+      "epochs": 0,
+      "seconds": 174.372351458,
+      "parameters": null
+    },
+    {
+      "name": "dev_xendcg_s20261033",
+      "epochs": 0,
+      "seconds": 170.963305292,
+      "parameters": null
+    },
+    {
+      "name": "dev_yeti6_s20261031",
+      "epochs": 0,
+      "seconds": 1872.759540208,
+      "parameters": null
+    },
+    {
+      "name": "final_xendcg_s20261031",
+      "epochs": 0,
+      "seconds": 211.125274833,
+      "parameters": null
+    }
+  ],
+  "tests_passed": 19,
+  "source_sha256": {
+    "src/sweettv/neural_rank.py": "963070ec25b91be991842ec3f58bc3a03c8b3db1df7e5d993bb0a4367cb0b9e5",
+    "src/sweettv/temporal_sequence.py": "b3bf29dfadc04b5a6c5735c47766e9c2c56dfb3d66b35faae99109b7a9007bbe",
+    "src/sweettv/yeti_rank.py": "5e96310ed0191550235ed51d8418b1cdc4439fab6d469f3d628853a5aad19ed7",
+    "src/sweettv/xendcg.py": "a4ce942b99cafa30f4fee902c1ca9311cde515015d7271da65d3fefa14e595a6",
+    "src/sweettv/cat_replicate.py": "d1f81fc836d01d3b1800fb053f51fd2b2a75cb73c70218143a922d2a3bd120cb",
+    "scripts/confirm_neural_rank.py": "6f941a2b8fb990373fa1cceb64c0e8c20b9c553db7075510835afb9e4025e0e8",
+    "scripts/confirm_xendcg.py": "34a4f232ffb4ce6beb592bdf961f5d88eeb455cd73299dcb2ec54124b98bfd7a",
+    "scripts/finalize_trained_xendcg.py": "d09fba555c53ea917978f403c6059a5f2bb431ba0c3364209247ff3b3baf1677",
+    "scripts/check_trained_submission.py": "6048568eb16173d1a70ee2e2a20b5b60d0898dd251abcb962a25697e908e14ba",
+    "scripts/summarize_deep_training.py": "17454aa0243f8a3ba7f77f3d81fe5d0347f5bd6132811e8a27c66aa8829d5c61",
+    "scripts/analyze_deep_errors.py": "d2abe60a216ce24a9a7de91bc074f1a1d64b914cf713b9037c7cae03d1fe2262"
+  },
+  "kaggle_new_submissions": 1,
+  "kaggle_status": "Complete",
+  "report_and_publication": "Deferred at user request; no PDF refresh or GitHub publication",
+  "new_private_score": 0.44735,
+  "new_public_score": 0.46151,
+  "best_private_score": 0.45024,
+  "best_file": "submissions/v2_cat200_horizon.csv",
+  "private_improved": false,
+  "decision": "Keep previous best; new locally selected model improved public but reduced private. No additional leaderboard-driven blending in this study."
+}

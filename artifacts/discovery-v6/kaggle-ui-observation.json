@@ -1,0 +1,5 @@
+{
+  "observed_at": "2026-11-01T14:55:15.344Z",
+  "url": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/submissions",
+  "row": "check_circle\nschedule\nv6_discovery_blend.csv\nComplete (after deadline) · 32s ago · Рустам Шангареев / Rustam Shangareev — v6 discovery study. Expanded candidates; past-only genres, actors, title-family/ID-zero context, audience growth. CatBoost600: 167 features, 2.58M historical pairs. Rank fusion: 45% new + 45% previous CatBoost + 10% channel. Frozen MAP@5 0.44042 / 0.39908 / 0.44159; small gains, no significance claim. Models reloaded; signals and 1260 CSV rows independently verified. No future viewing data.\n\n0.45170\n\n0.45571"
+}

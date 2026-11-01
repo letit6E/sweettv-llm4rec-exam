@@ -1,0 +1,13 @@
+{
+  "windows": [
+    "early1",
+    "early2",
+    "early3"
+  ],
+  "pairs": 3798323,
+  "queries": 11017,
+  "features": 121,
+  "max_candidates": 513,
+  "normalization_sample": 200000,
+  "labels_end_before": "2020-05-18"
+}

@@ -1,0 +1,119 @@
+{
+  "grid": [
+    {
+      "component": "stage1_200",
+      "weight": 0.25,
+      "dev": 0.4364817204301075,
+      "long": 0.441831884057971
+    },
+    {
+      "component": "stage1_200",
+      "weight": 0.5,
+      "dev": 0.43698494623655915,
+      "long": 0.44205217391304347
+    },
+    {
+      "component": "stage1_200",
+      "weight": 0.75,
+      "dev": 0.4361591397849462,
+      "long": 0.4407826086956523
+    },
+    {
+      "component": "stage2_200",
+      "weight": 0.25,
+      "dev": 0.437247311827957,
+      "long": 0.4414115942028985
+    },
+    {
+      "component": "stage2_200",
+      "weight": 0.5,
+      "dev": 0.4374193548387097,
+      "long": 0.44185797101449276
+    },
+    {
+      "component": "stage2_200",
+      "weight": 0.75,
+      "dev": 0.4357591397849462,
+      "long": 0.44144927536231887
+    },
+    {
+      "component": "stage13_200",
+      "weight": 0.25,
+      "dev": 0.4375354838709678,
+      "long": 0.4394956521739131
+    },
+    {
+      "component": "stage13_200",
+      "weight": 0.5,
+      "dev": 0.4373720430107527,
+      "long": 0.44000869565217393
+    },
+    {
+      "component": "stage13_200",
+      "weight": 0.75,
+      "dev": 0.43701075268817197,
+      "long": 0.4399826086956522
+    },
+    {
+      "component": "stage14_200",
+      "weight": 0.25,
+      "dev": 0.43690752688172046,
+      "long": 0.44102028985507247
+    },
+    {
+      "component": "stage14_200",
+      "weight": 0.5,
+      "dev": 0.4372430107526882,
+      "long": 0.44158550724637685
+    },
+    {
+      "component": "stage14_200",
+      "weight": 0.75,
+      "dev": 0.4368860215053763,
+      "long": 0.4407797101449275
+    },
+    {
+      "component": "identity_item_400",
+      "weight": 0.25,
+      "dev": 0.43842150537634406,
+      "long": 0.44179130434782604
+    },
+    {
+      "component": "identity_item_400",
+      "weight": 0.5,
+      "dev": 0.43804731182795703,
+      "long": 0.4404927536231884
+    },
+    {
+      "component": "identity_item_400",
+      "weight": 0.75,
+      "dev": 0.43900645161290325,
+      "long": 0.4408637681159421
+    },
+    {
+      "component": "all_features",
+      "weight": 0.25,
+      "dev": 0.4378150537634408,
+      "long": 0.4410434782608696
+    },
+    {
+      "component": "all_features",
+      "weight": 0.5,
+      "dev": 0.43746666666666667,
+      "long": 0.44169275362318844
+    },
+    {
+      "component": "all_features",
+      "weight": 0.75,
+      "dev": 0.4376817204301075,
+      "long": 0.4412985507246377
+    }
+  ],
+  "selected": {
+    "component": "identity_item_400",
+    "weight": 0.75,
+    "dev": 0.43900645161290325,
+    "long": 0.4408637681159421
+  },
+  "selection": "Max dev, then inspect long; later audit not yet evaluated"
+}

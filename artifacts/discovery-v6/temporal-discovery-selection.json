@@ -1,0 +1,349 @@
+{
+  "selected": {
+    "days": 112,
+    "kind": "all",
+    "power": 1,
+    "weight": 0.25,
+    "map5": 0.43925161290322573
+  },
+  "grid": [
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 0,
+      "weight": 0.05,
+      "map5": 0.4388301075268817
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 0,
+      "weight": 0.1,
+      "map5": 0.43824516129032254
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 0,
+      "weight": 0.25,
+      "map5": 0.4295870967741935
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 0,
+      "weight": 0.5,
+      "map5": 0.13787956989247313
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 0.5,
+      "weight": 0.05,
+      "map5": 0.4387913978494623
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 0.5,
+      "weight": 0.1,
+      "map5": 0.43828387096774196
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 0.5,
+      "weight": 0.25,
+      "map5": 0.4338795698924731
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 0.5,
+      "weight": 0.5,
+      "map5": 0.15745376344086023
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 1,
+      "weight": 0.05,
+      "map5": 0.4389462365591398
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 1,
+      "weight": 0.1,
+      "map5": 0.4389032258064516
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 1,
+      "weight": 0.25,
+      "map5": 0.43895483870967744
+    },
+    {
+      "days": 28,
+      "kind": "top5",
+      "power": 1,
+      "weight": 0.5,
+      "map5": 0.2007956989247312
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 0,
+      "weight": 0.05,
+      "map5": 0.43899784946236564
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 0,
+      "weight": 0.1,
+      "map5": 0.43895483870967744
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 0,
+      "weight": 0.25,
+      "map5": 0.4297118279569892
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 0,
+      "weight": 0.5,
+      "map5": 0.13338924731182797
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 0.5,
+      "weight": 0.05,
+      "map5": 0.43903655913978495
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 0.5,
+      "weight": 0.1,
+      "map5": 0.4386193548387096
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 0.5,
+      "weight": 0.25,
+      "map5": 0.4345032258064516
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 0.5,
+      "weight": 0.5,
+      "map5": 0.1446709677419355
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 1,
+      "weight": 0.05,
+      "map5": 0.43908817204301076
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 1,
+      "weight": 0.1,
+      "map5": 0.43904516129032256
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 1,
+      "weight": 0.25,
+      "map5": 0.4390967741935483
+    },
+    {
+      "days": 28,
+      "kind": "all",
+      "power": 1,
+      "weight": 0.5,
+      "map5": 0.1772430107526882
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 0,
+      "weight": 0.05,
+      "map5": 0.43897204301075265
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 0,
+      "weight": 0.1,
+      "map5": 0.4385849462365591
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 0,
+      "weight": 0.25,
+      "map5": 0.4293763440860215
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 0,
+      "weight": 0.5,
+      "map5": 0.13443010752688173
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 0.5,
+      "weight": 0.05,
+      "map5": 0.43903655913978495
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 0.5,
+      "weight": 0.1,
+      "map5": 0.43877849462365587
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 0.5,
+      "weight": 0.25,
+      "map5": 0.4337032258064516
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 0.5,
+      "weight": 0.5,
+      "map5": 0.1578752688172043
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 1,
+      "weight": 0.05,
+      "map5": 0.43908817204301076
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 1,
+      "weight": 0.1,
+      "map5": 0.43908817204301076
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 1,
+      "weight": 0.25,
+      "map5": 0.4390967741935484
+    },
+    {
+      "days": 112,
+      "kind": "top5",
+      "power": 1,
+      "weight": 0.5,
+      "map5": 0.19287311827956993
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 0,
+      "weight": 0.05,
+      "map5": 0.43899784946236564
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 0,
+      "weight": 0.1,
+      "map5": 0.43915268817204306
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 0,
+      "weight": 0.25,
+      "map5": 0.4296731182795699
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 0,
+      "weight": 0.5,
+      "map5": 0.13096774193548388
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 0.5,
+      "weight": 0.05,
+      "map5": 0.43903655913978495
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 0.5,
+      "weight": 0.1,
+      "map5": 0.4388301075268817
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 0.5,
+      "weight": 0.25,
+      "map5": 0.43338924731182793
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 0.5,
+      "weight": 0.5,
+      "map5": 0.14427096774193549
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 1,
+      "weight": 0.05,
+      "map5": 0.43908817204301076
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 1,
+      "weight": 0.1,
+      "map5": 0.43908817204301076
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 1,
+      "weight": 0.25,
+      "map5": 0.43925161290322573
+    },
+    {
+      "days": 112,
+      "kind": "all",
+      "power": 1,
+      "weight": 0.5,
+      "map5": 0.17470967741935484
+    }
+  ],
+  "seconds": 17.849439625,
+  "policy": "Historical directed transitions to new-to-user programs; no validation targets used in graph training."
+}

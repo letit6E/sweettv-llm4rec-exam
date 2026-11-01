@@ -1,0 +1,13 @@
+{
+  "file": "submissions/v5_channel_blend.csv",
+  "sha256": "a55f1e725732e005ef8617c0f006d5d49311eb6c4e21098e61858680876972be",
+  "private": 0.45164,
+  "public": 0.45786,
+  "source": "Kaggle submissions UI",
+  "status": "Complete (after deadline)",
+  "previous_best_file": "submissions/v2_cat200_horizon.csv",
+  "previous_best_private": 0.45024,
+  "private_gain": 0.0014,
+  "scope": "Best observed private score; selected after repeated leaderboard observations. Not an untouched generalization estimate.",
+  "evidence": "artifacts/approaches-v5/kaggle-channel-result.png"
+}

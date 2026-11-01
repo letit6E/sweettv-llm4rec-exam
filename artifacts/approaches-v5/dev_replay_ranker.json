@@ -1,0 +1,50 @@
+[
+  {
+    "eval": "dev",
+    "trees": 200,
+    "training_rows": 1164190,
+    "seconds": 86.168519334,
+    "map5_all": 0.30592283950617283,
+    "map5_nonempty": 0.40660630567276135,
+    "map5_five_targets": 0.4376043010752688,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "eval": "dev",
+    "trees": 400,
+    "training_rows": 1164190,
+    "seconds": 86.35088075,
+    "map5_all": 0.30622486772486773,
+    "map5_nonempty": 0.40700773558368497,
+    "map5_five_targets": 0.4375612903225807,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "eval": "long",
+    "trees": 200,
+    "training_rows": 1164190,
+    "seconds": 96.439358167,
+    "map5_all": 0.41661948853615516,
+    "map5_nonempty": 0.4240230658768623,
+    "map5_five_targets": 0.44106666666666666,
+    "users": 1260,
+    "nonempty_users": 1238,
+    "five_target_users": 1150
+  },
+  {
+    "eval": "long",
+    "trees": 400,
+    "training_rows": 1164190,
+    "seconds": 96.669026417,
+    "map5_all": 0.4149556878306879,
+    "map5_nonempty": 0.4223296984383415,
+    "map5_five_targets": 0.4390492753623188,
+    "users": 1260,
+    "nonempty_users": 1238,
+    "five_target_users": 1150
+  }
+]

@@ -1,0 +1,146 @@
+{
+  "dev": {
+    "full_seen": {
+      "targets": 2552,
+      "retrieved": 2552,
+      "hit5": 1846,
+      "hit20": 2472,
+      "hit100": 2548,
+      "median_rank": 3.0,
+      "single_future_view": 432,
+      "catalog_no_full_history": 0,
+      "catalog_no_any_history": 0,
+      "absent_from_past_schedule": 0,
+      "channel_signal_nonzero": 2533,
+      "median_future_count": 4.0
+    },
+    "partial_only": {
+      "targets": 568,
+      "retrieved": 551,
+      "hit5": 66,
+      "hit20": 314,
+      "hit100": 534,
+      "median_rank": 18.0,
+      "single_future_view": 304,
+      "catalog_no_full_history": 1,
+      "catalog_no_any_history": 0,
+      "absent_from_past_schedule": 0,
+      "channel_signal_nonzero": 546,
+      "median_future_count": 1.0
+    },
+    "unseen": {
+      "targets": 755,
+      "retrieved": 507,
+      "hit5": 14,
+      "hit20": 114,
+      "hit100": 358,
+      "median_rank": 113.0,
+      "single_future_view": 378,
+      "catalog_no_full_history": 157,
+      "catalog_no_any_history": 153,
+      "absent_from_past_schedule": 102,
+      "channel_signal_nonzero": 615,
+      "median_future_count": 1.0
+    },
+    "overall": {
+      "map5": 0.43908817204301076,
+      "oracle_unseen_only": 0.6187440860215053
+    }
+  },
+  "audit": {
+    "full_seen": {
+      "targets": 3339,
+      "retrieved": 3339,
+      "hit5": 2394,
+      "hit20": 3203,
+      "hit100": 3335,
+      "median_rank": 3.0,
+      "single_future_view": 551,
+      "catalog_no_full_history": 0,
+      "catalog_no_any_history": 0,
+      "absent_from_past_schedule": 0,
+      "channel_signal_nonzero": 2710,
+      "median_future_count": 4.0
+    },
+    "partial_only": {
+      "targets": 866,
+      "retrieved": 839,
+      "hit5": 86,
+      "hit20": 447,
+      "hit100": 800,
+      "median_rank": 20.0,
+      "single_future_view": 387,
+      "catalog_no_full_history": 1,
+      "catalog_no_any_history": 0,
+      "absent_from_past_schedule": 0,
+      "channel_signal_nonzero": 608,
+      "median_future_count": 2.0
+    },
+    "unseen": {
+      "targets": 1185,
+      "retrieved": 830,
+      "hit5": 26,
+      "hit20": 195,
+      "hit100": 657,
+      "median_rank": 84.0,
+      "single_future_view": 561,
+      "catalog_no_full_history": 128,
+      "catalog_no_any_history": 126,
+      "absent_from_past_schedule": 86,
+      "channel_signal_nonzero": 582,
+      "median_future_count": 2.0
+    },
+    "overall": {
+      "map5": 0.3989424860853432,
+      "oracle_unseen_only": 0.6000371057513914
+    }
+  },
+  "long": {
+    "full_seen": {
+      "targets": 3561,
+      "retrieved": 3561,
+      "hit5": 2672,
+      "hit20": 3488,
+      "hit100": 3556,
+      "median_rank": 3.0,
+      "single_future_view": 337,
+      "catalog_no_full_history": 0,
+      "catalog_no_any_history": 0,
+      "absent_from_past_schedule": 0,
+      "channel_signal_nonzero": 3512,
+      "median_future_count": 6.0
+    },
+    "partial_only": {
+      "targets": 958,
+      "retrieved": 937,
+      "hit5": 151,
+      "hit20": 588,
+      "hit100": 919,
+      "median_rank": 15.0,
+      "single_future_view": 330,
+      "catalog_no_full_history": 1,
+      "catalog_no_any_history": 0,
+      "absent_from_past_schedule": 0,
+      "channel_signal_nonzero": 920,
+      "median_future_count": 2.0
+    },
+    "unseen": {
+      "targets": 1231,
+      "retrieved": 884,
+      "hit5": 51,
+      "hit20": 240,
+      "hit100": 709,
+      "median_rank": 73.0,
+      "single_future_view": 469,
+      "catalog_no_full_history": 222,
+      "catalog_no_any_history": 217,
+      "absent_from_past_schedule": 167,
+      "channel_signal_nonzero": 886,
+      "median_future_count": 2.0
+    },
+    "overall": {
+      "map5": 0.4410202898550724,
+      "oracle_unseen_only": 0.6307391304347826
+    }
+  }
+}

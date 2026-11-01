@@ -1,0 +1,386 @@
+[
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 1
+    },
+    "map5": 0.43835698924731187
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "rank": 1
+    },
+    "map5": 0.43367741935483867
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "bin": 1
+    },
+    "map5": 0.43250752688172045
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "xgb": 1
+    },
+    "map5": 0.4333806451612903
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.5,
+      "rank": 0.5
+    },
+    "map5": 0.4364129032258064
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.5,
+      "bin": 0.5
+    },
+    "map5": 0.436141935483871
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.3333333333333333,
+      "rank": 0.3333333333333333,
+      "bin": 0.3333333333333333
+    },
+    "map5": 0.4354064516129032
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.5,
+      "hgb": 0.5
+    },
+    "map5": 0.4372731182795699
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.75,
+      "hgb": 0.25
+    },
+    "map5": 0.43879569892473125
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.5,
+      "rank": 0.25,
+      "hgb": 0.25
+    },
+    "map5": 0.4373032258064516
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.5,
+      "xgb": 0.5
+    },
+    "map5": 0.4350752688172043
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.4,
+      "rank": 0.2,
+      "bin": 0.2,
+      "xgb": 0.2
+    },
+    "map5": 0.4361806451612903
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.95,
+      "userknn": 0.05
+    },
+    "map5": 0.43835698924731187
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.9,
+      "userknn": 0.1
+    },
+    "map5": 0.43808602150537634
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.8,
+      "userknn": 0.2
+    },
+    "map5": 0.43178924731182794
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.7,
+      "userknn": 0.3
+    },
+    "map5": 0.42406451612903223
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.95,
+      "itemknn": 0.05
+    },
+    "map5": 0.43835698924731187
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.9,
+      "itemknn": 0.1
+    },
+    "map5": 0.4358623655913978
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.8,
+      "itemknn": 0.2
+    },
+    "map5": 0.42378494623655905
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.7,
+      "itemknn": 0.3
+    },
+    "map5": 0.4034451612903226
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.95,
+      "sequence": 0.05
+    },
+    "map5": 0.43835698924731187
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.9,
+      "sequence": 0.1
+    },
+    "map5": 0.43877849462365587
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.8,
+      "sequence": 0.2
+    },
+    "map5": 0.4356258064516129
+  },
+  {
+    "fold": "dev",
+    "weights": {
+      "cat": 0.7,
+      "sequence": 0.3
+    },
+    "map5": 0.4316516129032258
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 1
+    },
+    "map5": 0.3985188620902907
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "rank": 1
+    },
+    "map5": 0.3963976499690786
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "bin": 1
+    },
+    "map5": 0.39600494743351883
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "xgb": 1
+    },
+    "map5": 0.39633580705009275
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.5,
+      "rank": 0.5
+    },
+    "map5": 0.3984662956091528
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.5,
+      "bin": 0.5
+    },
+    "map5": 0.39816944959802103
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.3333333333333333,
+      "rank": 0.3333333333333333,
+      "bin": 0.3333333333333333
+    },
+    "map5": 0.398491032776747
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.5,
+      "hgb": 0.5
+    },
+    "map5": 0.396691403834261
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.75,
+      "hgb": 0.25
+    },
+    "map5": 0.39812615955473096
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.5,
+      "rank": 0.25,
+      "hgb": 0.25
+    },
+    "map5": 0.3988744588744589
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.5,
+      "xgb": 0.5
+    },
+    "map5": 0.399678416821274
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.4,
+      "rank": 0.2,
+      "bin": 0.2,
+      "xgb": 0.2
+    },
+    "map5": 0.3982931354359926
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.95,
+      "userknn": 0.05
+    },
+    "map5": 0.3985188620902907
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.9,
+      "userknn": 0.1
+    },
+    "map5": 0.3980333951762523
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.8,
+      "userknn": 0.2
+    },
+    "map5": 0.39510822510822513
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.7,
+      "userknn": 0.3
+    },
+    "map5": 0.39006493506493506
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.95,
+      "itemknn": 0.05
+    },
+    "map5": 0.3985188620902907
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.9,
+      "itemknn": 0.1
+    },
+    "map5": 0.3979158936301793
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.8,
+      "itemknn": 0.2
+    },
+    "map5": 0.3948361162646877
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.7,
+      "itemknn": 0.3
+    },
+    "map5": 0.3861904761904762
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.95,
+      "sequence": 0.05
+    },
+    "map5": 0.3985188620902907
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.9,
+      "sequence": 0.1
+    },
+    "map5": 0.3985899814471243
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.8,
+      "sequence": 0.2
+    },
+    "map5": 0.3976190476190476
+  },
+  {
+    "fold": "audit",
+    "weights": {
+      "cat": 0.7,
+      "sequence": 0.3
+    },
+    "map5": 0.395995670995671
+  }
+]

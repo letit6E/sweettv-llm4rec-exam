@@ -1,0 +1,27 @@
+{
+  "baseline": 0.4410202898550724,
+  "selected": {
+    "config": {
+      "family": "joint",
+      "trees": 600,
+      "mode": "all",
+      "scale": 1,
+      "weight": 0.5
+    },
+    "fold": "long",
+    "map5": 0.4415942028985507
+  },
+  "grid": [
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "all",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "long",
+      "map5": 0.4415942028985507
+    }
+  ]
+}

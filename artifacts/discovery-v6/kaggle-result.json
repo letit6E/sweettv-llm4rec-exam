@@ -1,0 +1,9 @@
+{
+  "file": "submissions/v6_discovery_blend.csv",
+  "sha256": "9a295e20a024ef074e3c388b00b64e2a7ecc83b62f2cc65278ce8b7d03061f89",
+  "private": 0.4517,
+  "public": 0.45571,
+  "status": "Complete (after deadline)",
+  "source": "Kaggle submissions UI",
+  "evidence": "artifacts/discovery-v6/kaggle-result.png"
+}

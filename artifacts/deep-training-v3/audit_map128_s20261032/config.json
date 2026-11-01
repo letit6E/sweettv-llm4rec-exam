@@ -1,0 +1,28 @@
+{
+  "name": "audit_map128_s20261032",
+  "config": {
+    "width": 128,
+    "depth": 2,
+    "dropout": 0.1,
+    "objective": "lambda_map"
+  },
+  "seed": 20261032,
+  "device": "mps",
+  "parameters": 148475,
+  "max_epochs": 14,
+  "batch_queries": 64,
+  "lr": 0.001,
+  "weight_decay": 0.001,
+  "schedule": "cosine over 80 epochs, minimum 1e-5",
+  "early_stop_epochs": 16,
+  "fixed_epochs": true,
+  "training_windows": [
+    "early1",
+    "early2",
+    "early3",
+    "dev"
+  ],
+  "queries": 13556,
+  "pairs": 4655802,
+  "validation_scope": "Previously inspected temporal window; no untouched-test claim."
+}

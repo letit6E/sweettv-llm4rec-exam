@@ -1,0 +1,15 @@
+{
+  "file": "submissions/trained_xendcg1200.csv",
+  "sha256": "e3ad53be304e6484fc6fc389f6e5e180fcba5bd3c851511de090cf037719f3cd",
+  "model": "XE_NDCG_MART1200 + incumbent CatBoost200",
+  "xendcg_weight": 0.75,
+  "horizon_transform": "raw",
+  "rows": 1260,
+  "changed_top5_users": 938,
+  "mean_top5_overlap": 4.5928571428571425,
+  "local_confirmation": "artifacts/deep-training-v3/xendcg-confirmation.json",
+  "kaggle_status": "Complete (after deadline)",
+  "private_score": 0.44735,
+  "public_score": 0.46151,
+  "download_matches_submitted_hash": true
+}

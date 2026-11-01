@@ -1,0 +1,31 @@
+{
+  "time_utc": "2026-10-31T22:03:12.632370+00:00",
+  "model": "XE_NDCG_MART",
+  "seed": 20261031,
+  "trees": 1200,
+  "grid": [
+    {
+      "weight": 0,
+      "map5": 0.43835698924731187
+    },
+    {
+      "weight": 0.25,
+      "map5": 0.438683870967742
+    },
+    {
+      "weight": 0.5,
+      "map5": 0.44038279569892474
+    },
+    {
+      "weight": 0.75,
+      "map5": 0.44153548387096775
+    },
+    {
+      "weight": 1,
+      "map5": 0.4407096774193548
+    }
+  ],
+  "frozen_xendcg_weight": 0.75,
+  "selected_on": "Earlier development window only",
+  "promotion_rule": "Positive MAP difference on both five-week windows; long-horizon difference at least -0.001; seed replication shown separately. No significance claim if confidence interval crosses zero."
+}

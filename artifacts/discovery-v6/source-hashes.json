@@ -1,0 +1,13 @@
+{
+  "src/sweettv/discovery_context.py": "4973d4b225f7db4651663cf3d3f64433923ce1bd96331737275d1dda0f3460ed",
+  "src/sweettv/temporal_discovery.py": "d82f0e13c47317939cc40135c212d4736a09d6f20664a025a2a5abec167ecf32",
+  "src/sweettv/discovery_ranker.py": "faca9d94f2cc3b123adf5fc747bd56f7212e0ed5051e3e393927654cee4945ce",
+  "src/sweettv/novel_specialist.py": "23261a34f9ed42d260e89005dd5614788b797db82df5325fc91485bff020574e",
+  "src/sweettv/tie_training.py": "432e678ad4a2e5e7db64d8339da4289f98d8efeb443294439cae650f28e27c2b",
+  "scripts/check_discovery.py": "b4d8745edbca8c27919f549f23d394c2a5611b1e164da8d7027762aefa659798",
+  "scripts/summarize_discovery.py": "0431448ae8a5a2e6a6998c1dc55918a5130778e9fb39faf7781eca9b5ac0a07a",
+  "scripts/discovery_diagnostics.py": "87ebb7b951e87e0372b35ef68bfd47fd61ae018fb64e14117bcb87a84756f358",
+  "scripts/discovery_select.py": "a902bdf024ee41fb6516dc4bf18b29172d1462886183457c8f52c8e671f68012",
+  "scripts/finalize_discovery.py": "fcb9cdd813dacfd2ea2844ccb414208d9ebb09be683aeb814ec4add3678aef5e",
+  "tests/test_discovery_context.py": "cb34e6eb75e81528e3ed443a91af0d4f58400c75ebed394e389cef067e665819"
+}

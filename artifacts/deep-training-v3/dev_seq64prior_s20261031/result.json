@@ -1,0 +1,44 @@
+{
+  "name": "dev_seq64prior_s20261031",
+  "config": {
+    "d": 64,
+    "blocks": 2,
+    "prior": true
+  },
+  "parameters": 317115,
+  "seed": 20261031,
+  "windows": [
+    {
+      "start": "2020-03-23",
+      "end": "2020-04-27",
+      "queries": 3565
+    },
+    {
+      "start": "2020-03-30",
+      "end": "2020-05-04",
+      "queries": 3615
+    },
+    {
+      "start": "2020-04-06",
+      "end": "2020-05-11",
+      "queries": 3740
+    },
+    {
+      "start": "2020-04-13",
+      "end": "2020-05-18",
+      "queries": 3712
+    }
+  ],
+  "queries": 14632,
+  "vocabulary": 2489,
+  "max_epochs": 100,
+  "patience_epochs": 20,
+  "batch_size": 128,
+  "objective": "Full-softmax cross-entropy with equal mass on future Top-5",
+  "optimizer": "AdamW lr=0.001 weight_decay=0.01, cosine100 minlr=1e-5",
+  "evaluation": "Previously inspected temporal validation, not untouched test",
+  "completed_epochs": 30,
+  "best_epoch": 4,
+  "best_validation_map5": 0.3950709677419355,
+  "elapsed_seconds": 72.770974625
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "file": "submissions/v2_ensemble.csv",
+    "sha256": "379746e1a313452252284873a7332ee37033bca245eb27fd83d63e9dc5b487b3",
+    "rows": 1260,
+    "candidate_count": 6636,
+    "weights": {
+      "cat": 0.3333333333333333,
+      "rank": 0.3333333333333333,
+      "bin": 0.3333333333333333
+    },
+    "rrf_offset": 5
+  },
+  {
+    "file": "submissions/v2_conservative.csv",
+    "sha256": "11513b218e475f06691910e0f067b8d5a788adfa94f7682a3954504401a21382",
+    "rows": 1260,
+    "candidate_count": 6636,
+    "weights": {
+      "cat": 0.5,
+      "rank": 0.25,
+      "hgb": 0.25
+    },
+    "rrf_offset": 5
+  }
+]

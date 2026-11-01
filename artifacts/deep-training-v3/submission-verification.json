@@ -1,0 +1,12 @@
+{
+  "file": "/Users/rshangareevil/Projects/llm4rec/submissions/trained_xendcg1200.csv",
+  "sha256": "e3ad53be304e6484fc6fc389f6e5e180fcba5bd3c851511de090cf037719f3cd",
+  "rows": 1260,
+  "allowed_programs": 6636,
+  "exact_template_user_order": true,
+  "five_unique_allowed_ids": true,
+  "reloaded_both_models": true,
+  "reproduced_all_top5": true,
+  "byte_identical_csv": true,
+  "note": "Feature cache reused; model scores recomputed independently. Original v2 independently rebuilt these unchanged features from processed inputs."
+}

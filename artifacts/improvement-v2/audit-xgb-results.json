@@ -1,0 +1,98 @@
+[
+  {
+    "name": "audit_xgbmap_d3_100",
+    "seconds": 51.889313625,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "map5_all": 0.36273655202821875,
+    "map5_nonempty": 0.3721889703221136,
+    "map5_five_targets": 0.39266852195423624,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_xgbmap_d3_250",
+    "seconds": 52.128228082999996,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "map5_all": 0.3645518077601411,
+    "map5_nonempty": 0.37405152913499823,
+    "map5_five_targets": 0.3944526901669759,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_xgbmap_d3_500",
+    "seconds": 52.464595625,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "map5_all": 0.36579585537918874,
+    "map5_nonempty": 0.3753279949330438,
+    "map5_five_targets": 0.39633580705009275,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_xgbmap_d5_100",
+    "seconds": 39.771041208,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "map5_all": 0.36550440917107585,
+    "map5_nonempty": 0.3750289540354687,
+    "map5_five_targets": 0.39529684601113174,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_xgbmap_d5_250",
+    "seconds": 40.104992208,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "map5_all": 0.3679149029982363,
+    "map5_nonempty": 0.377502262034021,
+    "map5_five_targets": 0.3976685219542362,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_xgbmap_d5_500",
+    "seconds": 40.646688792000006,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "map5_all": 0.36586926807760145,
+    "map5_nonempty": 0.37540332066594284,
+    "map5_five_targets": 0.3965491651205937,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  }
+]

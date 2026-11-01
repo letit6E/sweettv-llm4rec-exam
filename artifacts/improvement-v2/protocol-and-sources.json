@@ -1,0 +1,78 @@
+{
+  "status": "Post-first-submission adaptive experiments; original audit is now a validation window, not an untouched test.",
+  "first_submission_private": 0.43957,
+  "first_submission_public": 0.45015,
+  "protocol": "Train features using history strictly before each cutoff. Train supervised rerankers only on completed preceding label windows. Tune on May18-Jun22 and Jun22-Jul27. Final rerankers refit on all five completed pseudo-windows. Overlapping early windows are correlated. Hidden test labels are never accessed; Kaggle aggregate feedback is used adaptively.",
+  "limits": {
+    "daily_submissions": 100,
+    "source": "Kaggle upload dialog observed before first submission",
+    "rules": "Live Rules tab has only generic no-cheating/apply-yourself/have-fun rules; exam bans future user behavior."
+  },
+  "sources": [
+    {
+      "url": "https://www.kaggle.com/c/h-and-m-personalized-fashion-recommendations/discussion/324070",
+      "type": "first-place authors write-up, read in browser",
+      "transfer": "multiple retrieval sources; cumulative/recent user-item count features; binary boosted trees; temporal training windows",
+      "not_transferred": "fashion seasonality, external images, original dataset and score claims"
+    },
+    {
+      "url": "https://github.com/TheoViel/kaggle_otto_rs",
+      "commit": "b1507a8728cfed4edb7c36a48417c8603a697fcc",
+      "license": "MIT",
+      "read_files": [
+        "README.md",
+        "notebooks/3-Candidates.ipynb",
+        "notebooks/6-XGB.ipynb",
+        "notebooks/7-Blend.ipynb",
+        "src/model_zoo/xgb.py",
+        "src/model_zoo/lgbm.py"
+      ],
+      "transfer": "candidate recall ceiling, distinct retrieval signals, train-only interaction aggregates, separate retrieval and reranking, blending",
+      "code_copied": false,
+      "limitation": "OTTO predicts short-session clicks/carts/orders, TV target is repeated viewing across weeks; GPU RAPIDS pipeline not directly runnable on this Mac"
+    },
+    {
+      "url": "https://github.com/blondered/transformer_benchmark",
+      "paper": "https://arxiv.org/abs/2508.06450",
+      "commit": "2b039927ceb4c7654131d7ac7c43ea124b49d240",
+      "license": "Apache-2.0, bundled third_party/licenses/transformer_benchmark-Apache-2.0.txt",
+      "transfer": "adapted LiGR gated pre-LN attention and SwiGLU in standalone sequence.py; sampled-softmax next-event learning",
+      "limitation": "Small task-specific adaptation, not benchmark reproduction or a claim of SOTA on SWEET.TV. 64 factors, 2 blocks, 50-token windows, 256 uniform negatives; mean of last 10 states also evaluated."
+    },
+    {
+      "url": "https://xgboost.readthedocs.io/en/stable/tutorials/learning_to_rank.html",
+      "transfer": "MAP-targeted LambdaMART with binary relevance and per-user temporal query groups; topk pair construction"
+    },
+    {
+      "url": "https://github.com/gusye1234/LightGCN-PyTorch",
+      "transfer": "Reviewed as another graph-neural option; not trained in this series."
+    }
+  ],
+  "new_sources_no_external_data": true,
+  "additional_experiments": {
+    "allusers": "Additional training users from supplied past logs; only those with five eligible pseudo-window targets and nonempty pre-cutoff history. Same 1260 evaluation users.",
+    "long_horizon": "May18-Jul27 ten-week diagnostic overlaps the existing validation periods; model labels stop at May18. Not an independent holdout. Exposure-dependent inputs rescaled to equivalent five-week units.",
+    "count_targets": "Training labels are full-view airing counts rather than binary Top5 membership: Poisson on raw counts and RMSE on log1p counts. Completed preceding windows only.",
+    "sequence_fusion": "Fixed 0.1 neural + 0.9 CatBoost reciprocal-rank blend; small positive changes on both local windows. Final sequence model refits all pre-Jul27 events."
+  },
+  "completion": {
+    "actual_submissions_including_initial": 13,
+    "new_submissions": 12,
+    "best_file": "submissions/v2_cat200_horizon.csv",
+    "private_map5": 0.45024,
+    "public_map5": 0.45844,
+    "tests_passed": 13,
+    "independent_feature_rebuild_exact": true,
+    "limitations": [
+      "No hidden test labels were accessed. Kaggle feedback was used adaptively; selection bias remains.",
+      "The ten-week diagnostic overlaps the five-week validation windows.",
+      "Small eSASRec adaptation, not an exhaustive neural architecture/hyperparameter search.",
+      "Most new-to-user targets still missed; previously unseen catalog items remain difficult."
+    ],
+    "not_submitted": [
+      "Poisson count models: worse local MAP on both periods.",
+      "All-user horizon-normalized variants: worse ten-week local MAP than their unscaled counterparts.",
+      "Additional stored checkpoints: only a representative subset uploaded."
+    ]
+  }
+}

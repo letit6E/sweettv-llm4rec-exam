@@ -1,0 +1,26 @@
+[
+  {
+    "eval": "dev",
+    "top": 30,
+    "rows": 99057,
+    "seconds": 4.700313083999999,
+    "map5_all": 0.30374338624338626,
+    "map5_nonempty": 0.4037095639943741,
+    "map5_five_targets": 0.43458064516129036,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "eval": "long",
+    "top": 30,
+    "rows": 99057,
+    "seconds": 5.663707833999999,
+    "map5_all": 0.4137429453262786,
+    "map5_nonempty": 0.4210954047747262,
+    "map5_five_targets": 0.4380550724637681,
+    "users": 1260,
+    "nonempty_users": 1238,
+    "five_target_users": 1150
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "file": "submissions/v5_channel_blend.csv",
+    "sha256": "a55f1e725732e005ef8617c0f006d5d49311eb6c4e21098e61858680876972be",
+    "private": 0.45164,
+    "public": 0.45786,
+    "source": "Kaggle submissions UI",
+    "status": "Complete (after deadline)"
+  },
+  {
+    "file": "submissions/v5_replay_blend.csv",
+    "sha256": "9a45404343814ec722de2292f0bdfeb1b07c26ba8c308cabcf0b8604127944a5",
+    "private": 0.44967,
+    "public": 0.45822,
+    "source": "Kaggle submissions UI",
+    "status": "Complete (after deadline)"
+  }
+]

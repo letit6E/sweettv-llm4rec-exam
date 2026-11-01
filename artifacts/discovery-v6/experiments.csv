@@ -1,0 +1,191 @@
+experiment,fold,configuration,map5
+dev_discovery_joint,dev,"{""trees"": 200}",0.4374365591397849
+dev_discovery_joint,dev,"{""trees"": 400}",0.4384516129032258
+dev_discovery_joint,dev,"{""trees"": 600}",0.43700645161290314
+dev_discovery_joint,long,"{""trees"": 200}",0.44055362318840585
+dev_discovery_joint,long,"{""trees"": 400}",0.4389159420289855
+dev_discovery_joint,long,"{""trees"": 600}",0.43812463768115945
+dev_discovery_novel,dev,"{""trees"": 200}",0.366
+dev_discovery_novel,dev,"{""trees"": 400}",0.335436559139785
+dev_discovery_novel,dev,"{""trees"": 600}",0.3367612903225807
+dev_discovery_novel,long,"{""trees"": 200}",0.37373623188405797
+dev_discovery_novel,long,"{""trees"": 400}",0.33992173913043483
+dev_discovery_novel,long,"{""trees"": 600}",0.33940579710144925
+audit_discovery_joint,audit,"{""trees"": 200}",0.4002380952380953
+audit_discovery_joint,audit,"{""trees"": 400}",0.3948051948051948
+audit_discovery_joint,audit,"{""trees"": 600}",0.3913636363636364
+dev_soft_ties,dev,"{""trees"": 100}",0.43516559139784944
+dev_soft_ties,dev,"{""trees"": 200}",0.43573763440860214
+dev_soft_ties,dev,"{""trees"": 400}",0.4327440860215054
+dev_soft_ties,dev,"{""trees"": 600}",0.4317376344086022
+dev_soft_ties,long,"{""trees"": 100}",0.43985507246376815
+dev_soft_ties,long,"{""trees"": 200}",0.4421826086956522
+dev_soft_ties,long,"{""trees"": 400}",0.4396956521739131
+dev_soft_ties,long,"{""trees"": 600}",0.4378202898550725
+original_features_novel_specialist,dev,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 0.5}",0.43852903225806456
+original_features_novel_specialist,dev,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 1}",0.43908817204301076
+original_features_novel_specialist,dev,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 1.5}",0.43935913978494623
+original_features_novel_specialist,dev,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 2}",0.4384344086021505
+original_features_novel_specialist,dev,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 3}",0.43298494623655914
+original_features_novel_specialist,dev,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 5}",0.4212172043010753
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 0.5}",0.4380989247311828
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 1}",0.438352688172043
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 1.5}",0.43913118279569896
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 2}",0.4375440860215054
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 3}",0.43303225806451606
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 5}",0.4163354838709677
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 0.5}",0.43827096774193547
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 1}",0.43828387096774196
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 1.5}",0.4381505376344086
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 2}",0.43634838709677415
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 3}",0.43200430107526877
+original_features_novel_specialist,dev,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 5}",0.4163096774193548
+original_features_novel_specialist,long,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 0.5}",0.44101449275362314
+original_features_novel_specialist,long,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 1}",0.4410202898550724
+original_features_novel_specialist,long,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 1.5}",0.4402463768115942
+original_features_novel_specialist,long,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 2}",0.4373101449275362
+original_features_novel_specialist,long,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 3}",0.42767536231884057
+original_features_novel_specialist,long,"{""method"": ""calibration"", ""trees"": 0, ""scale"": 5}",0.409840579710145
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 0.5}",0.440504347826087
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 1}",0.4410492753623188
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 1.5}",0.43873043478260865
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 2}",0.43650144927536233
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 3}",0.4259449275362319
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 200, ""scale"": 5}",0.4011275362318841
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 0.5}",0.44050144927536233
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 1}",0.4394463768115942
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 1.5}",0.43634782608695655
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 2}",0.433063768115942
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 3}",0.42184927536231887
+original_features_novel_specialist,long,"{""method"": ""specialist"", ""trees"": 500, ""scale"": 5}",0.39584057971014497
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""all"", ""scale"": 1, ""weight"": 0.25}",0.43809462365591395
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""all"", ""scale"": 1, ""weight"": 0.5}",0.4383956989247312
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""all"", ""scale"": 1, ""weight"": 1}",0.4372946236559139
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.25}",0.43948387096774194
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.5}",0.43933333333333335
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 1}",0.43873978494623656
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.25}",0.43920860215053764
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.5}",0.4393376344086022
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 1}",0.4396731182795699
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.25}",0.43920860215053764
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.5}",0.43932043010752686
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 1}",0.4377505376344086
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.25}",0.4399311827956989
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.5}",0.43654193548387094
+context-selection,dev,"{""family"": ""joint"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 1}",0.4283397849462366
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""all"", ""scale"": 1, ""weight"": 0.25}",0.438141935483871
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""all"", ""scale"": 1, ""weight"": 0.5}",0.4397806451612903
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""all"", ""scale"": 1, ""weight"": 1}",0.43874408602150544
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.25}",0.4393290322580645
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.5}",0.43910967741935475
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 1}",0.4384258064516129
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.25}",0.43925591397849456
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.5}",0.43929892473118287
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 1}",0.43925591397849456
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.25}",0.43915268817204306
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.5}",0.43914838709677423
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 1}",0.4379268817204301
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.25}",0.43935913978494623
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.5}",0.436847311827957
+context-selection,dev,"{""family"": ""joint"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 1}",0.4291311827956989
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""all"", ""scale"": 1, ""weight"": 0.25}",0.43853333333333333
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""all"", ""scale"": 1, ""weight"": 0.5}",0.44042150537634406
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""all"", ""scale"": 1, ""weight"": 1}",0.43780645161290316
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.25}",0.4393290322580645
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.5}",0.43906666666666666
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 1}",0.4384989247311828
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.25}",0.43921720430107525
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.5}",0.43921720430107525
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 1}",0.43917849462365594
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.25}",0.4388430107526882
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.5}",0.4383741935483871
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 1}",0.43670967741935485
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.25}",0.43915698924731184
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.5}",0.43665376344086027
+context-selection,dev,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 1}",0.4293763440860215
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.25}",0.4394064516129032
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.5}",0.4392344086021505
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 1}",0.438752688172043
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.25}",0.4395956989247311
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.5}",0.4397505376344085
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 1}",0.4393806451612903
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.25}",0.43959569892473116
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.5}",0.4378580645161291
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 1}",0.4354408602150538
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.25}",0.4391956989247312
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.5}",0.43511827956989246
+context-selection,dev,"{""family"": ""novel"", ""trees"": 200, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 1}",0.41704946236559143
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.25}",0.4395225806451613
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.5}",0.4393376344086022
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 1}",0.43870967741935485
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.25}",0.43936774193548384
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.5}",0.43947526881720433
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 1}",0.43849032258064513
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.25}",0.4392860215053763
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.5}",0.43726881720430105
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 1}",0.4340903225806451
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.25}",0.4386666666666667
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.5}",0.43481290322580646
+context-selection,dev,"{""family"": ""novel"", ""trees"": 400, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 1}",0.4160989247311828
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.25}",0.43939354838709677
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 0.5}",0.4390795698924731
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 0.5, ""weight"": 1}",0.4383956989247312
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.25}",0.4393462365591398
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 0.5}",0.43933333333333335
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 1, ""weight"": 1}",0.43771182795698926
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.25}",0.4393849462365591
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 0.5}",0.4375784946236559
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 2, ""weight"": 1}",0.4332430107526882
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.25}",0.43865376344086027
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 0.5}",0.43439139784946235
+context-selection,dev,"{""family"": ""novel"", ""trees"": 600, ""mode"": ""unseen"", ""scale"": 4, ""weight"": 1}",0.4140989247311828
+context-long-confirmation,long,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""all"", ""scale"": 1, ""weight"": 0.5}",0.4415942028985507
+context-audit-confirmation,audit,"{""family"": ""joint"", ""trees"": 600, ""mode"": ""all"", ""scale"": 1, ""weight"": 0.5}",0.39907854050711195
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 0, ""weight"": 0.05}",0.4388301075268817
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 0, ""weight"": 0.1}",0.43824516129032254
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 0, ""weight"": 0.25}",0.4295870967741935
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 0, ""weight"": 0.5}",0.13787956989247313
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 0.5, ""weight"": 0.05}",0.4387913978494623
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 0.5, ""weight"": 0.1}",0.43828387096774196
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 0.5, ""weight"": 0.25}",0.4338795698924731
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 0.5, ""weight"": 0.5}",0.15745376344086023
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 1, ""weight"": 0.05}",0.4389462365591398
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 1, ""weight"": 0.1}",0.4389032258064516
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 1, ""weight"": 0.25}",0.43895483870967744
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""top5"", ""power"": 1, ""weight"": 0.5}",0.2007956989247312
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 0, ""weight"": 0.05}",0.43899784946236564
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 0, ""weight"": 0.1}",0.43895483870967744
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 0, ""weight"": 0.25}",0.4297118279569892
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 0, ""weight"": 0.5}",0.13338924731182797
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 0.5, ""weight"": 0.05}",0.43903655913978495
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 0.5, ""weight"": 0.1}",0.4386193548387096
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 0.5, ""weight"": 0.25}",0.4345032258064516
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 0.5, ""weight"": 0.5}",0.1446709677419355
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 1, ""weight"": 0.05}",0.43908817204301076
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 1, ""weight"": 0.1}",0.43904516129032256
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 1, ""weight"": 0.25}",0.4390967741935483
+temporal_discovery,dev,"{""days"": 28, ""kind"": ""all"", ""power"": 1, ""weight"": 0.5}",0.1772430107526882
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 0, ""weight"": 0.05}",0.43897204301075265
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 0, ""weight"": 0.1}",0.4385849462365591
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 0, ""weight"": 0.25}",0.4293763440860215
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 0, ""weight"": 0.5}",0.13443010752688173
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 0.5, ""weight"": 0.05}",0.43903655913978495
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 0.5, ""weight"": 0.1}",0.43877849462365587
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 0.5, ""weight"": 0.25}",0.4337032258064516
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 0.5, ""weight"": 0.5}",0.1578752688172043
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 1, ""weight"": 0.05}",0.43908817204301076
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 1, ""weight"": 0.1}",0.43908817204301076
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 1, ""weight"": 0.25}",0.4390967741935484
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""top5"", ""power"": 1, ""weight"": 0.5}",0.19287311827956993
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 0, ""weight"": 0.05}",0.43899784946236564
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 0, ""weight"": 0.1}",0.43915268817204306
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 0, ""weight"": 0.25}",0.4296731182795699
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 0, ""weight"": 0.5}",0.13096774193548388
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 0.5, ""weight"": 0.05}",0.43903655913978495
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 0.5, ""weight"": 0.1}",0.4388301075268817
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 0.5, ""weight"": 0.25}",0.43338924731182793
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 0.5, ""weight"": 0.5}",0.14427096774193549
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 1, ""weight"": 0.05}",0.43908817204301076
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 1, ""weight"": 0.1}",0.43908817204301076
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 1, ""weight"": 0.25}",0.43925161290322573
+temporal_discovery,dev,"{""days"": 112, ""kind"": ""all"", ""power"": 1, ""weight"": 0.5}",0.17470967741935484

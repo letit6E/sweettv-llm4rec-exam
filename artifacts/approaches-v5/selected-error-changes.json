@@ -1,0 +1,182 @@
+{
+  "dev": {
+    "baseline_map5": 0.43835698924731187,
+    "users": 775,
+    "channel": {
+      "map5": 0.43908817204301076,
+      "delta": 0.000731182795698925,
+      "paired_bootstrap_95": [
+        -0.000456021505376344,
+        0.0019655913978494626
+      ],
+      "users_improved": 14,
+      "users_worse": 9,
+      "users_unchanged": 752,
+      "target_classes": {
+        "full_seen": {
+          "targets": 2552,
+          "old_hits": 1846,
+          "new_hits": 1846
+        },
+        "partial_only": {
+          "targets": 568,
+          "old_hits": 64,
+          "new_hits": 66
+        },
+        "no_overlap": {
+          "targets": 755,
+          "old_hits": 13,
+          "new_hits": 14
+        }
+      }
+    },
+    "replay": {
+      "map5": 0.44006451612903225,
+      "delta": 0.00170752688172043,
+      "paired_bootstrap_95": [
+        -0.0008002150537634404,
+        0.004241075268817205
+      ],
+      "users_improved": 58,
+      "users_worse": 46,
+      "users_unchanged": 671,
+      "target_classes": {
+        "full_seen": {
+          "targets": 2552,
+          "old_hits": 1846,
+          "new_hits": 1853
+        },
+        "partial_only": {
+          "targets": 568,
+          "old_hits": 64,
+          "new_hits": 68
+        },
+        "no_overlap": {
+          "targets": 755,
+          "old_hits": 13,
+          "new_hits": 15
+        }
+      }
+    }
+  },
+  "audit": {
+    "baseline_map5": 0.3985188620902907,
+    "users": 1078,
+    "channel": {
+      "map5": 0.3989424860853432,
+      "delta": 0.00042362399505256626,
+      "paired_bootstrap_95": [
+        -0.0006772572665429807,
+        0.0014996907854050708
+      ],
+      "users_improved": 28,
+      "users_worse": 22,
+      "users_unchanged": 1028,
+      "target_classes": {
+        "full_seen": {
+          "targets": 3339,
+          "old_hits": 2395,
+          "new_hits": 2394
+        },
+        "partial_only": {
+          "targets": 866,
+          "old_hits": 79,
+          "new_hits": 86
+        },
+        "no_overlap": {
+          "targets": 1185,
+          "old_hits": 25,
+          "new_hits": 26
+        }
+      }
+    },
+    "replay": {
+      "map5": 0.3988280766852195,
+      "delta": 0.0003092145949288804,
+      "paired_bootstrap_95": [
+        -0.0016914038342609778,
+        0.0022295145330859622
+      ],
+      "users_improved": 102,
+      "users_worse": 88,
+      "users_unchanged": 888,
+      "target_classes": {
+        "full_seen": {
+          "targets": 3339,
+          "old_hits": 2395,
+          "new_hits": 2395
+        },
+        "partial_only": {
+          "targets": 866,
+          "old_hits": 79,
+          "new_hits": 75
+        },
+        "no_overlap": {
+          "targets": 1185,
+          "old_hits": 25,
+          "new_hits": 27
+        }
+      }
+    }
+  },
+  "long": {
+    "baseline_map5": 0.440968115942029,
+    "users": 1150,
+    "channel": {
+      "map5": 0.4410202898550724,
+      "delta": 5.217391304347831e-05,
+      "paired_bootstrap_95": [
+        -0.0008957971014492753,
+        0.0009797101449275359
+      ],
+      "users_improved": 19,
+      "users_worse": 16,
+      "users_unchanged": 1115,
+      "target_classes": {
+        "full_seen": {
+          "targets": 3561,
+          "old_hits": 2673,
+          "new_hits": 2672
+        },
+        "partial_only": {
+          "targets": 958,
+          "old_hits": 151,
+          "new_hits": 151
+        },
+        "no_overlap": {
+          "targets": 1231,
+          "old_hits": 49,
+          "new_hits": 51
+        }
+      }
+    },
+    "replay": {
+      "map5": 0.4405768115942029,
+      "delta": -0.00039130434782608806,
+      "paired_bootstrap_95": [
+        -0.002597173913043479,
+        0.0018088405797101446
+      ],
+      "users_improved": 76,
+      "users_worse": 98,
+      "users_unchanged": 976,
+      "target_classes": {
+        "full_seen": {
+          "targets": 3561,
+          "old_hits": 2673,
+          "new_hits": 2688
+        },
+        "partial_only": {
+          "targets": 958,
+          "old_hits": 151,
+          "new_hits": 140
+        },
+        "no_overlap": {
+          "targets": 1231,
+          "old_hits": 49,
+          "new_hits": 47
+        }
+      }
+    }
+  }
+}

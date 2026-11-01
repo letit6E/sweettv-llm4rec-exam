@@ -1,0 +1,42 @@
+[
+  {
+    "fold": "long",
+    "five_week_normalization": false,
+    "weeks": 10.0,
+    "model_training_labels_end": "2020-05-18",
+    "map5_all": 0.41536419753086423,
+    "map5_nonempty": 0.42274546760007187,
+    "map5_five_targets": 0.43953913043478265,
+    "users": 1260,
+    "nonempty_users": 1238,
+    "five_target_users": 1150
+  },
+  {
+    "fold": "long",
+    "five_week_normalization": true,
+    "weeks": 10.0,
+    "model_training_labels_end": "2020-05-18",
+    "map5_all": 0.4165857583774251,
+    "map5_nonempty": 0.4239887363130498,
+    "map5_five_targets": 0.440968115942029,
+    "users": 1260,
+    "nonempty_users": 1238,
+    "five_target_users": 1150
+  },
+  {
+    "fold": "final",
+    "five_week_normalization": false,
+    "weeks": 12.0,
+    "model_training_labels_end": "2020-07-27"
+  },
+  {
+    "fold": "final",
+    "five_week_normalization": true,
+    "weeks": 12.0,
+    "model_training_labels_end": "2020-07-27",
+    "file": "submissions/v2_cat200_horizon.csv",
+    "sha256": "412e7c4aa14a2ce2e73810ff0496d51c7237f5ec628d6121aee945a0f4282971",
+    "rows": 1260,
+    "candidate_count": 6636
+  }
+]

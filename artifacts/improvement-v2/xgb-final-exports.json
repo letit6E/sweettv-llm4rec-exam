@@ -1,0 +1,18 @@
+{
+  "exports": [
+    {
+      "file": "submissions/v2_xgbmap500.csv",
+      "sha256": "4166a786643d664715997bed8075886ca518177c44f5ef5e84b4594a9210e219",
+      "rows": 1260,
+      "candidate_count": 6636
+    },
+    {
+      "file": "submissions/v2_cat_xgb.csv",
+      "sha256": "b74026c55e81907a158bdd2be3fe3a7b77af68c1e014566a8d164f0f7d274343",
+      "rows": 1260,
+      "candidate_count": 6636
+    }
+  ],
+  "seconds": 150.610394208,
+  "training_pairs": 1713057
+}

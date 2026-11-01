@@ -1,0 +1,210 @@
+[
+  {
+    "name": "dev_count_poisson_200",
+    "loss": "Poisson",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "seconds": 65.782283083,
+    "training_pairs": 1100933,
+    "map5_all": 0.29211926807760136,
+    "map5_nonempty": 0.38825978668541955,
+    "map5_five_targets": 0.41625376344086024,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_count_poisson_400",
+    "loss": "Poisson",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "seconds": 65.977520041,
+    "training_pairs": 1100933,
+    "map5_all": 0.29299470899470903,
+    "map5_nonempty": 0.389423347398031,
+    "map5_five_targets": 0.41740645161290324,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_count_rmse_200",
+    "loss": "RMSE",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "seconds": 60.293162917000004,
+    "training_pairs": 1100933,
+    "map5_all": 0.30404475308641976,
+    "map5_nonempty": 0.4041101148616971,
+    "map5_five_targets": 0.4340258064516129,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_count_rmse_400",
+    "loss": "RMSE",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "seconds": 60.505930459,
+    "training_pairs": 1100933,
+    "map5_all": 0.3047308201058201,
+    "map5_nonempty": 0.40502197609001406,
+    "map5_five_targets": 0.4339655913978495,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "audit_count_poisson_200",
+    "loss": "Poisson",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "seconds": 78.58811479200003,
+    "training_pairs": 1357681,
+    "map5_all": 0.3506371252204586,
+    "map5_nonempty": 0.35977424900470506,
+    "map5_five_targets": 0.3788188002473717,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_count_poisson_400",
+    "loss": "Poisson",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "seconds": 78.80407537500002,
+    "training_pairs": 1357681,
+    "map5_all": 0.3423555996472663,
+    "map5_nonempty": 0.3512769182048498,
+    "map5_five_targets": 0.3698515769944341,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_count_rmse_200",
+    "loss": "RMSE",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "seconds": 109.14089866699999,
+    "training_pairs": 1357681,
+    "map5_all": 0.35984259259259255,
+    "map5_nonempty": 0.3692195982627579,
+    "map5_five_targets": 0.3907019171304886,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_count_rmse_400",
+    "loss": "RMSE",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "seconds": 109.75408425,
+    "training_pairs": 1357681,
+    "map5_all": 0.35359082892416227,
+    "map5_nonempty": 0.3628049221860297,
+    "map5_five_targets": 0.3835930735930736,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "final_count_poisson_200",
+    "loss": "Poisson",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "seconds": 122.75243262499998,
+    "training_pairs": 1713057,
+    "file": "submissions/v2_count_poisson_200.csv",
+    "sha256": "a32ca0e35aa03e4ac4dc999d38bdfeb0b4890accfd878e8defccb1197b7e6b74",
+    "rows": 1260,
+    "candidate_count": 6636
+  },
+  {
+    "name": "final_count_poisson_400",
+    "loss": "Poisson",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "seconds": 123.04408125000003,
+    "training_pairs": 1713057,
+    "file": "submissions/v2_count_poisson_400.csv",
+    "sha256": "54357f8f4b8b8eb5efa0b8259f587508553d723a9fd3ddfb6ddba5afacd7b619",
+    "rows": 1260,
+    "candidate_count": 6636
+  },
+  {
+    "name": "final_count_rmse_200",
+    "loss": "RMSE",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "seconds": 91.39775066700003,
+    "training_pairs": 1713057,
+    "file": "submissions/v2_count_rmse_200.csv",
+    "sha256": "da42a9ea5fbe76b75ada0425bcaf50dba354c4c81cf07312a93923a4b94cc3d9",
+    "rows": 1260,
+    "candidate_count": 6636
+  },
+  {
+    "name": "final_count_rmse_400",
+    "loss": "RMSE",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "seconds": 91.62425670800002,
+    "training_pairs": 1713057,
+    "file": "submissions/v2_count_rmse_400.csv",
+    "sha256": "2421936cfcc370cd3352639285ed7d79f8f9b54ae9a5b90a66213f1e5681da4c",
+    "rows": 1260,
+    "candidate_count": 6636
+  }
+]

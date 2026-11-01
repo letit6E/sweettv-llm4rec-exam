@@ -1,0 +1,32 @@
+[
+  {
+    "fold": "final",
+    "mode": "joint",
+    "trees": 200,
+    "train_rows": 2584719,
+    "positive_rows": 24413,
+    "seconds": 191.498786792,
+    "users": 1260,
+    "evaluation": "Unavailable: official test labels are hidden"
+  },
+  {
+    "fold": "final",
+    "mode": "joint",
+    "trees": 400,
+    "train_rows": 2584719,
+    "positive_rows": 24413,
+    "seconds": 191.800477667,
+    "users": 1260,
+    "evaluation": "Unavailable: official test labels are hidden"
+  },
+  {
+    "fold": "final",
+    "mode": "joint",
+    "trees": 600,
+    "train_rows": 2584719,
+    "positive_rows": 24413,
+    "seconds": 192.1474935,
+    "users": 1260,
+    "evaluation": "Unavailable: official test labels are hidden"
+  }
+]

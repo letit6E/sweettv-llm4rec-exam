@@ -1,0 +1,34 @@
+{
+  "trained_checkpoints": 21,
+  "evaluation_records": 42,
+  "validation_policy": "All three temporal windows are reused validation, not untouched tests. Long overlaps shorter windows. Kaggle returned scores used only to record outcome/designate best; both new weights frozen before upload.",
+  "tests_passed": 23,
+  "source_sha256": {
+    "src/sweettv/error_cycles.py": "ebd113dec3c0de3ab6a01574e20d137c59a2026189871c533672904391b59c22",
+    "src/sweettv/propensity.py": "dfdec5e0867bac9b65a9acce615d1f1fdfbd9870423956f45b86c34314650fea",
+    "src/sweettv/neighbor_cycles.py": "db84d18d5675165e2431dab3f59e20090d6898b1569f217d0bf470e2330ad713",
+    "src/sweettv/category_cycles.py": "6265a7a9c36bc10f3b2549aa72eff6fdc7936ebaccd2f82859e4bda34fc6a15b",
+    "scripts/error_cycle_regularize.py": "27c8d88660e03f0fd95c7fc29e0f3354b2223e04cc06a376dd30e267ba3717c6",
+    "scripts/error_cycle_identity.py": "296e9a311788a6b7fd98d9ed1296cee77a9e8f690485022e183ee7641fdb5371",
+    "scripts/error_cycle_hardneg.py": "cfa117f1bbc95592ab3200369c14692f1f59bc73223486724e306d567d55c405",
+    "scripts/error_cycle_calibrate.py": "e6b282adb6eea95eae20313fc440cf1c2d4ccd564b0b197821d36aee58e73506",
+    "scripts/error_cycle_horizon.py": "7715662573dd6180dc75f1aa2bbb5f95c46bbb3d9b02158a63457d2d7fefb62a",
+    "scripts/error_cycle_ensemble.py": "9b6a77c7c43f12515140c9cb3bb0c4fd7475672ae084b2b48384d2550407176c",
+    "scripts/error_cycle_diagnostics.py": "e89b1dda65373420720d1f0bd7c3d419e4ed34ef79c0cb0a61e97cd2e0e7e7e1",
+    "scripts/finalize_error_cycles.py": "d3c2dfbfd5c2189eb2e396a8a1ba0dd3e2ede52a7818575835aff4db65146dd2",
+    "tests/test_error_cycles.py": "d77dcde5237af6373f862291c36547d4f2eb6dae09e968d71cfb461234a0b4be"
+  },
+  "report": "Deferred; no PDF or publication update",
+  "best_before": {
+    "file": "submissions/v2_cat200_horizon.csv",
+    "private": 0.45024,
+    "public": 0.45844
+  },
+  "submission_selection": "submission-selection.json",
+  "submission_verification": "exports.json",
+  "new_submissions": 2,
+  "best_private": 0.45024,
+  "best_file": "submissions/v2_cat200_horizon.csv",
+  "private_improved": false,
+  "completed_hypothesis_cycles": 12
+}

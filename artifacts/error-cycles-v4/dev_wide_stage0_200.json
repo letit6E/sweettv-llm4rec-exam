@@ -1,0 +1,36 @@
+[
+  {
+    "name": "dev_wide_stage0_200",
+    "eval": "dev",
+    "train_windows": [
+      "wide1",
+      "wide2",
+      "early3"
+    ],
+    "train_rows": 1135050,
+    "seconds": 52.108415707999995,
+    "map5_all": 0.3029239417989418,
+    "map5_nonempty": 0.4026204289732771,
+    "map5_five_targets": 0.43363010752688164,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_wide_stage0_200",
+    "eval": "long",
+    "train_windows": [
+      "wide1",
+      "wide2",
+      "early3"
+    ],
+    "train_rows": 1135050,
+    "seconds": 53.011931624999995,
+    "map5_all": 0.4144675925925926,
+    "map5_nonempty": 0.42183292945611206,
+    "map5_five_targets": 0.4383913043478261,
+    "users": 1260,
+    "nonempty_users": 1238,
+    "five_target_users": 1150
+  }
+]

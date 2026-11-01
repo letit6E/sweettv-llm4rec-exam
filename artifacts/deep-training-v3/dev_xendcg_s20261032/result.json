@@ -1,0 +1,27 @@
+{
+  "name": "dev_xendcg_s20261032",
+  "config": {
+    "n_estimators": 1200,
+    "objective": "rank_xendcg",
+    "num_leaves": 31,
+    "learning_rate": 0.03,
+    "min_child_samples": 100,
+    "reg_lambda": 10,
+    "colsample_bytree": 0.9,
+    "random_state": 20261032,
+    "n_jobs": 3,
+    "verbosity": -1
+  },
+  "windows": [
+    "early1",
+    "early2",
+    "early3"
+  ],
+  "queries": 11017,
+  "pairs": 3798323,
+  "selection": "Full five-target MAP at stored checkpoints",
+  "best_iteration": 400,
+  "best_validation_map5": 0.44063655913978494,
+  "elapsed_seconds": 174.372351458,
+  "fixed_validation_map5": 0.43966881720430107
+}

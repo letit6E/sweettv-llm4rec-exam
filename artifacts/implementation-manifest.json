@@ -1,7 +1,7 @@
 {
   "files": {
     "configs/protocol.json": "8be1f7f7c0884e7fe2fdf2288b4fffcdd145499fef08674bb69405e45a0db1b2",
-    "scripts/build_report.py": "2c7018c9ecbb3695d226a76d9b1c333cc434f5f036b8f64f23adda8ed897ab54",
+    "scripts/build_report.py": "5cdc2825f92341ac694c0c2ae9b90a46761455879298da7a52bfa6d5d75b407d",
     "scripts/check_mf.py": "cc0fce570c5d495d48e3c9c8173db003c66dafd339dcccf1e85f3a5658fd6da1",
     "scripts/check_submission.py": "5873c8e77c4c68b5901e3b585620326fa1c5a026b72f46acd92ebe87bfc19403",
     "scripts/check_target_sensitivity.py": "20797990b9a123d2f363504d99b541174d53dd34de972aed9198c020bf5e6a51",

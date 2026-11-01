@@ -1,0 +1,27 @@
+{
+  "baseline": 0.3989424860853432,
+  "selected": {
+    "config": {
+      "family": "joint",
+      "trees": 600,
+      "mode": "all",
+      "scale": 1,
+      "weight": 0.5
+    },
+    "fold": "audit",
+    "map5": 0.39907854050711195
+  },
+  "grid": [
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "all",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "audit",
+      "map5": 0.39907854050711195
+    }
+  ]
+}

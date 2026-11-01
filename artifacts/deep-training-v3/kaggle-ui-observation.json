@@ -1,0 +1,6 @@
+{
+  "file": "trained_xendcg1200.csv",
+  "private": 0.44735,
+  "public": 0.46151,
+  "visibleRow": "check_circle\nschedule\ntrained_xendcg1200.csv\nComplete (after deadline) · now · Рустам Шангареев / Rustam Shangareev — XE_NDCG_MART1200 (31 leaves, 5.88M historical pairs) + CatBoost200, rank fusion 75/25. Configuration checked with 3 training seeds. Frozen blend MAP@5: 0.44154 early, 0.40135 later, 0.44170 ten-week. All supervised labels end before July 27; no future viewing behavior. One candidate after local training study.\n\n0.44735\n\n0.46151"
+}

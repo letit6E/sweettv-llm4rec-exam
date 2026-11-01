@@ -1,0 +1,24 @@
+{
+  "name": "audit_cat200_s20261032",
+  "training_windows": [
+    "early1",
+    "early2",
+    "early3",
+    "dev"
+  ],
+  "pairs": 1357681,
+  "queries": 4017,
+  "parameters": {
+    "iterations": 200,
+    "learning_rate": 0.05,
+    "depth": 6,
+    "l2_leaf_reg": 10,
+    "loss_function": "Logloss",
+    "thread_count": 3,
+    "random_seed": 20261032,
+    "verbose": false,
+    "allow_writing_files": false
+  },
+  "seconds": 50.42840033300001,
+  "best_validation_map5": 0.3982498453927026
+}

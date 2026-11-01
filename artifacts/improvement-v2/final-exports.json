@@ -1,0 +1,50 @@
+[
+  {
+    "file": "submissions/v2_cat200.csv",
+    "sha256": "0b839cf1474c5a56b3641ccfc912e2b551df6700d1edb547c900f2f6ea6a8c5a",
+    "rows": 1260,
+    "candidate_count": 6636,
+    "name": "v2_cat200",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "seconds": 59.90966183399999,
+    "training_pairs": 1713057
+  },
+  {
+    "file": "submissions/v2_lgb_rank400.csv",
+    "sha256": "e3486d7a50d6c81f6d28c73e768294b40302a9212d554ea6af9745399517ef71",
+    "rows": 1260,
+    "candidate_count": 6636,
+    "name": "v2_lgb_rank400",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "seconds": 38.83838549999999,
+    "training_pairs": 1713057
+  },
+  {
+    "file": "submissions/v2_lgb_bin200.csv",
+    "sha256": "08788ddba9a09403be2d8294e856659bcefe60f6e5e6ace7f3f8cdaf867d4f50",
+    "rows": 1260,
+    "candidate_count": 6636,
+    "name": "v2_lgb_bin200",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "seconds": 25.476594625000004,
+    "training_pairs": 1713057
+  }
+]

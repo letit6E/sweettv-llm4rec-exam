@@ -1,0 +1,35 @@
+[
+  {
+    "file": "submissions/v5_channel_blend.csv",
+    "sha256": "a55f1e725732e005ef8617c0f006d5d49311eb6c4e21098e61858680876972be",
+    "rows": 1260,
+    "candidate_count": 6636,
+    "config": {
+      "config": {
+        "family": "channel",
+        "days": 28,
+        "duration": true,
+        "mode": "future_freq"
+      },
+      "weight": 0.1,
+      "dev": 0.43908817204301076,
+      "standalone": 0.3665591397849462
+    },
+    "raw_schedule_verified": true
+  },
+  {
+    "file": "submissions/v5_replay_blend.csv",
+    "sha256": "9a45404343814ec722de2292f0bdfeb1b07c26ba8c308cabcf0b8604127944a5",
+    "rows": 1260,
+    "candidate_count": 6636,
+    "config": {
+      "days": 112,
+      "weekly": false,
+      "mode": 3,
+      "weight": 0.25,
+      "dev": 0.44006451612903225,
+      "standalone": 0.41470107526881717
+    },
+    "raw_schedule_verified": true
+  }
+]

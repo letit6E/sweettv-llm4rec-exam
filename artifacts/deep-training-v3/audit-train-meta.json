@@ -1,0 +1,14 @@
+{
+  "windows": [
+    "early1",
+    "early2",
+    "early3",
+    "dev"
+  ],
+  "pairs": 4655802,
+  "queries": 13556,
+  "features": 121,
+  "max_candidates": 513,
+  "normalization_sample": 200000,
+  "labels_end_before": "2020-06-22"
+}

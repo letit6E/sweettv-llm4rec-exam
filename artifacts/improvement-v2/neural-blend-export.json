@@ -1,0 +1,12 @@
+{
+  "file": "submissions/v2_cat_esasrec.csv",
+  "sha256": "0d9e5b8927513891d7324239911aea6a7258a48acc1f1e3a713f21e460e83757",
+  "rows": 1260,
+  "candidate_count": 6636,
+  "weights": {
+    "catboost": 0.9,
+    "esasrec_mean10": 0.1
+  },
+  "rrf_offset": 5,
+  "choice": "Tiny positive MAP differences on both already-open local windows; test as one predefined hybrid, not a claim of significance."
+}

@@ -1,0 +1,23 @@
+{
+  "name": "dev_cat200_s20261032",
+  "training_windows": [
+    "early1",
+    "early2",
+    "early3"
+  ],
+  "pairs": 1100933,
+  "queries": 3244,
+  "parameters": {
+    "iterations": 200,
+    "learning_rate": 0.05,
+    "depth": 6,
+    "l2_leaf_reg": 10,
+    "loss_function": "Logloss",
+    "thread_count": 3,
+    "random_seed": 20261032,
+    "verbose": false,
+    "allow_writing_files": false
+  },
+  "seconds": 40.881735375,
+  "best_validation_map5": 0.4369591397849462
+}

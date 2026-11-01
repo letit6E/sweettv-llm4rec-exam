@@ -1,0 +1,51 @@
+{
+  "completed_at": "2026-11-01T12:05:43.128969+00:00",
+  "standalone_configurations": 92,
+  "families": {
+    "repeat": 32,
+    "channel": 20,
+    "neighbors": 12,
+    "session_replay": 16,
+    "public_formula": 12
+  },
+  "additional_nontrivial_rank_blends": 276,
+  "selection_evaluations": 368,
+  "new_catboost_fit": {
+    "training_pairs": 1164190,
+    "features": 133,
+    "trees": 400,
+    "evaluated_checkpoints": [
+      200,
+      400
+    ],
+    "decision": "Rejected: both checkpoints worse on earlier validation"
+  },
+  "new_kaggle_submissions": 2,
+  "best": {
+    "file": "submissions/v5_channel_blend.csv",
+    "sha256": "a55f1e725732e005ef8617c0f006d5d49311eb6c4e21098e61858680876972be",
+    "private": 0.45164,
+    "public": 0.45786,
+    "source": "Kaggle submissions UI",
+    "status": "Complete (after deadline)",
+    "previous_best_file": "submissions/v2_cat200_horizon.csv",
+    "previous_best_private": 0.45024,
+    "private_gain": 0.0014,
+    "scope": "Best observed private score; selected after repeated leaderboard observations. Not an untouched generalization estimate.",
+    "evidence": "artifacts/approaches-v5/kaggle-channel-result.png"
+  },
+  "tests": "26 passed, 13 dependency deprecation warnings",
+  "validation": "All three temporal windows were already used for adaptive development. The long window overlaps the shorter ones. Bootstrap intervals for both submitted candidates include zero; no statistical significance claimed.",
+  "independent_verification": "Both new signals recomputed from raw historical views and schedule; final CSVs byte-identical, 1260 correct users and 5 distinct official eligible IDs each.",
+  "public_source": "public-source.json",
+  "diagnostics": "selected-error-changes.json",
+  "failed_hypotheses": [
+    "Repeat-unit/threshold/decay sweep did not improve confirmation windows",
+    "Recent neighbors did not beat development baseline",
+    "Learned replay features did not improve development MAP",
+    "Adapted public formula did not improve confirmation windows",
+    "Session replay blend did not improve Kaggle private"
+  ],
+  "remaining_error": "In later validation the channel blend hits only 26 of 1185 targets with no prior program overlap, versus 25 before; main discovery weakness remains.",
+  "report": "Deferred at user request; old PDF is stale"
+}

@@ -15,3 +15,7 @@ where = ["src"]
 [tool.pytest.ini_options]
 pythonpath = ["src"]
 testpaths = ["tests"]
+
+[project.optional-dependencies]
+improvement = ["lightgbm==4.6.0", "catboost==1.2.10", "xgboost==2.1.4", "torch==2.8.0"]
+replay = ["numba==0.60.0"]

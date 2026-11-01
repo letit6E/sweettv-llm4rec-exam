@@ -1,0 +1,7 @@
+{
+  "candidate_airings": 29138,
+  "overlap_events": 104425,
+  "full_context_events": 12443,
+  "seconds": 20.81969175,
+  "policy": "Context only. Each fold uses events and family-to-program mappings ending before cutoff. No ID-zero row is used as a labelled item."
+}

@@ -1,0 +1,101 @@
+[
+  {
+    "iteration": 50,
+    "map5_all": 0.2878214285714286,
+    "map5_nonempty": 0.3825474683544304,
+    "map5_five_targets": 0.41139354838709685,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 100,
+    "map5_all": 0.2981258818342152,
+    "map5_nonempty": 0.396243260665729,
+    "map5_five_targets": 0.42587956989247305,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 200,
+    "map5_all": 0.30375110229276897,
+    "map5_nonempty": 0.40371981950304736,
+    "map5_five_targets": 0.4341720430107527,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 300,
+    "map5_all": 0.30400992063492066,
+    "map5_nonempty": 0.4040638185654008,
+    "map5_five_targets": 0.43458924731182796,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 400,
+    "map5_all": 0.30394135802469135,
+    "map5_nonempty": 0.40397269104547584,
+    "map5_five_targets": 0.4348559139784946,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 500,
+    "map5_all": 0.3047257495590829,
+    "map5_nonempty": 0.4050152367557431,
+    "map5_five_targets": 0.4360344086021505,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 600,
+    "map5_all": 0.3051992945326279,
+    "map5_nonempty": 0.4056446319737459,
+    "map5_five_targets": 0.43592258064516126,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 700,
+    "map5_all": 0.3056135361552028,
+    "map5_nonempty": 0.40619520628223155,
+    "map5_five_targets": 0.435952688172043,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 800,
+    "map5_all": 0.3054900793650794,
+    "map5_nonempty": 0.4060311181434599,
+    "map5_five_targets": 0.4362752688172043,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 900,
+    "map5_all": 0.3054272486772487,
+    "map5_nonempty": 0.40594760900140653,
+    "map5_five_targets": 0.4363612903225806,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 1000,
+    "map5_all": 0.3065683421516755,
+    "map5_nonempty": 0.4074642522269104,
+    "map5_five_targets": 0.43762150537634403,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  }
+]

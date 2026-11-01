@@ -1,0 +1,23 @@
+{
+  "name": "dev_yeti6_s20261031",
+  "config": {
+    "iterations": 1000,
+    "depth": 6,
+    "learning_rate": 0.03,
+    "l2_leaf_reg": 10,
+    "loss_function": "YetiRank:mode=MAP;top=5",
+    "eval_metric": "MAP:top=5",
+    "random_seed": 20261031,
+    "thread_count": 4,
+    "verbose": 100,
+    "allow_writing_files": false
+  },
+  "windows": [
+    "early1",
+    "early2",
+    "early3"
+  ],
+  "queries": 11017,
+  "pairs": 3798323,
+  "selection": "External MAP@5 with full true Top-5 at checkpoints; internal MAP diagnostic only"
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "file": "final_hgb.csv",
+    "private": 0.43957,
+    "public": 0.45015,
+    "sha256": "05839015ca5bb3c9c0dcb0c5d914845c8a3ef5b95074af8e950b07ab06d09cc7",
+    "stage": "initial pre-feedback selection",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_cat200.csv",
+    "private": 0.44906,
+    "public": 0.4571,
+    "sha256": "0b839cf1474c5a56b3641ccfc912e2b551df6700d1edb547c900f2f6ea6a8c5a",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_lgb_rank400.csv",
+    "private": 0.44582,
+    "public": 0.45661,
+    "sha256": "e3486d7a50d6c81f6d28c73e768294b40302a9212d554ea6af9745399517ef71",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_ensemble.csv",
+    "private": 0.44612,
+    "public": 0.46014,
+    "sha256": "379746e1a313452252284873a7332ee37033bca245eb27fd83d63e9dc5b487b3",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_conservative.csv",
+    "private": 0.44799,
+    "public": 0.45861,
+    "sha256": "11513b218e475f06691910e0f067b8d5a788adfa94f7682a3954504401a21382",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_lgb_bin200.csv",
+    "private": 0.44332,
+    "public": 0.45877,
+    "sha256": "08788ddba9a09403be2d8294e856659bcefe60f6e5e6ace7f3f8cdaf867d4f50",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_xgbmap500.csv",
+    "private": 0.44314,
+    "public": 0.45469,
+    "sha256": "4166a786643d664715997bed8075886ca518177c44f5ef5e84b4594a9210e219",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_cat_xgb.csv",
+    "private": 0.44775,
+    "public": 0.45686,
+    "sha256": "b74026c55e81907a158bdd2be3fe3a7b77af68c1e014566a8d164f0f7d274343",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_cat200_horizon.csv",
+    "private": 0.45024,
+    "public": 0.45844,
+    "sha256": "412e7c4aa14a2ce2e73810ff0496d51c7237f5ec628d6121aee945a0f4282971",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_cat_esasrec.csv",
+    "private": 0.44854,
+    "public": 0.45783,
+    "sha256": "0d9e5b8927513891d7324239911aea6a7258a48acc1f1e3a713f21e460e83757",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v3_allusers_cat200.csv",
+    "private": 0.44692,
+    "public": 0.46087,
+    "sha256": "ab603c450a54e9a396b31b6fd4dd5fdc9744a3eb1937eeb72b0c740e876140bd",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v3_allusers_cat500.csv",
+    "private": 0.44807,
+    "public": 0.46102,
+    "sha256": "1a90717f4b9e3d0500ba45ac42dc86c971bf831af2fd5d0e707c9f375c83e2e0",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  {
+    "file": "v2_count_rmse_200.csv",
+    "private": 0.44081,
+    "public": 0.4505,
+    "sha256": "da42a9ea5fbe76b75ada0425bcaf50dba354c4c81cf07312a93923a4b94cc3d9",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  }
+]

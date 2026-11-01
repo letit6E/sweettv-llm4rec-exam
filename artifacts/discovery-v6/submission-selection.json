@@ -1,0 +1,25 @@
+{
+  "time": "2026-11-01T14:49:43.596385+00:00",
+  "config": {
+    "family": "joint",
+    "trees": 600,
+    "mode": "all",
+    "scale": 1,
+    "weight": 0.5
+  },
+  "validation": {
+    "dev": {
+      "old": 0.43908817204301076,
+      "new": 0.44042150537634406
+    },
+    "audit": {
+      "old": 0.3989424860853432,
+      "new": 0.39907854050711195
+    },
+    "long": {
+      "old": 0.4410202898550724,
+      "new": 0.4415942028985507
+    }
+  },
+  "rule": "Early-selected configuration unchanged across two later checks; small improvements, bootstrap includes zero. Exactly one v6 candidate planned."
+}

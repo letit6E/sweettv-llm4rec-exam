@@ -1,0 +1,47 @@
+[
+  {
+    "iteration": 100,
+    "map5_all": 0.3666097883597884,
+    "map5_nonempty": 0.3761631378935939,
+    "map5_five_targets": 0.3966171923314781,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "iteration": 200,
+    "map5_all": 0.3686256613756614,
+    "map5_nonempty": 0.3782315418023887,
+    "map5_five_targets": 0.398865182436611,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "iteration": 400,
+    "map5_all": 0.368788139329806,
+    "map5_nonempty": 0.37839825370973584,
+    "map5_five_targets": 0.39942486085343226,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "iteration": 800,
+    "map5_all": 0.36965432098765433,
+    "map5_nonempty": 0.3792870068765834,
+    "map5_five_targets": 0.4006833642547929,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "iteration": 1200,
+    "map5_all": 0.37001212522045857,
+    "map5_nonempty": 0.37965413499819034,
+    "map5_five_targets": 0.4008194186765615,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  }
+]

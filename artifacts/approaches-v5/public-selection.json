@@ -1,0 +1,397 @@
+{
+  "grid": [
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 0,
+      "weight": 0.1,
+      "dev": 0.43798279569892473,
+      "standalone": 0.38539354838709683
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 0,
+      "weight": 0.25,
+      "dev": 0.43577204301075273,
+      "standalone": 0.38539354838709683
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 0,
+      "weight": 0.5,
+      "dev": 0.4231569892473118,
+      "standalone": 0.38539354838709683
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 0,
+      "weight": 1.0,
+      "dev": 0.38539354838709683,
+      "standalone": 0.38539354838709683
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 1,
+      "weight": 0.1,
+      "dev": 0.43804731182795703,
+      "standalone": 0.3889548387096774
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 1,
+      "weight": 0.25,
+      "dev": 0.4355870967741936,
+      "standalone": 0.3889548387096774
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 1,
+      "weight": 0.5,
+      "dev": 0.4233634408602151,
+      "standalone": 0.3889548387096774
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 1,
+      "weight": 1.0,
+      "dev": 0.3889548387096774,
+      "standalone": 0.3889548387096774
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 2,
+      "weight": 0.1,
+      "dev": 0.4380731182795699,
+      "standalone": 0.3824258064516129
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 2,
+      "weight": 0.25,
+      "dev": 0.43595698924731185,
+      "standalone": 0.3824258064516129
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 2,
+      "weight": 0.5,
+      "dev": 0.4210193548387096,
+      "standalone": 0.3824258064516129
+    },
+    {
+      "single": false,
+      "filtered": false,
+      "bonus": 2,
+      "weight": 1.0,
+      "dev": 0.3824258064516129,
+      "standalone": 0.3824258064516129
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 0,
+      "weight": 0.1,
+      "dev": 0.43806021505376347,
+      "standalone": 0.3881591397849463
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 0,
+      "weight": 0.25,
+      "dev": 0.4365118279569893,
+      "standalone": 0.3881591397849463
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 0,
+      "weight": 0.5,
+      "dev": 0.4248086021505377,
+      "standalone": 0.3881591397849463
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 0,
+      "weight": 1.0,
+      "dev": 0.3881591397849463,
+      "standalone": 0.3881591397849463
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 1,
+      "weight": 0.1,
+      "dev": 0.4380989247311828,
+      "standalone": 0.3895182795698925
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 1,
+      "weight": 0.25,
+      "dev": 0.4358709677419355,
+      "standalone": 0.3895182795698925
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 1,
+      "weight": 0.5,
+      "dev": 0.42379354838709676,
+      "standalone": 0.3895182795698925
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 1,
+      "weight": 1.0,
+      "dev": 0.3895182795698925,
+      "standalone": 0.3895182795698925
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 2,
+      "weight": 0.1,
+      "dev": 0.43794408602150536,
+      "standalone": 0.3826666666666666
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 2,
+      "weight": 0.25,
+      "dev": 0.4367956989247312,
+      "standalone": 0.3826666666666666
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 2,
+      "weight": 0.5,
+      "dev": 0.4212559139784946,
+      "standalone": 0.3826666666666666
+    },
+    {
+      "single": false,
+      "filtered": true,
+      "bonus": 2,
+      "weight": 1.0,
+      "dev": 0.3826666666666666,
+      "standalone": 0.3826666666666666
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 0,
+      "weight": 0.1,
+      "dev": 0.438705376344086,
+      "standalone": 0.3839096774193548
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 0,
+      "weight": 0.25,
+      "dev": 0.43498494623655914,
+      "standalone": 0.3839096774193548
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 0,
+      "weight": 0.5,
+      "dev": 0.42240860215053766,
+      "standalone": 0.3839096774193548
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 0,
+      "weight": 1.0,
+      "dev": 0.3839096774193548,
+      "standalone": 0.3839096774193548
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 1,
+      "weight": 0.1,
+      "dev": 0.4380731182795699,
+      "standalone": 0.3870967741935484
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 1,
+      "weight": 0.25,
+      "dev": 0.43533333333333335,
+      "standalone": 0.3870967741935484
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 1,
+      "weight": 0.5,
+      "dev": 0.42183225806451613,
+      "standalone": 0.3870967741935484
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 1,
+      "weight": 1.0,
+      "dev": 0.3870967741935484,
+      "standalone": 0.3870967741935484
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 2,
+      "weight": 0.1,
+      "dev": 0.43773763440860214,
+      "standalone": 0.3786236559139785
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 2,
+      "weight": 0.25,
+      "dev": 0.43549247311827954,
+      "standalone": 0.3786236559139785
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 2,
+      "weight": 0.5,
+      "dev": 0.4185118279569892,
+      "standalone": 0.3786236559139785
+    },
+    {
+      "single": true,
+      "filtered": false,
+      "bonus": 2,
+      "weight": 1.0,
+      "dev": 0.3786236559139785,
+      "standalone": 0.3786236559139785
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 0,
+      "weight": 0.1,
+      "dev": 0.4386279569892474,
+      "standalone": 0.38676989247311827
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 0,
+      "weight": 0.25,
+      "dev": 0.43617204301075263,
+      "standalone": 0.38676989247311827
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 0,
+      "weight": 0.5,
+      "dev": 0.4234795698924731,
+      "standalone": 0.38676989247311827
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 0,
+      "weight": 1.0,
+      "dev": 0.38676989247311827,
+      "standalone": 0.38676989247311827
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 1,
+      "weight": 0.1,
+      "dev": 0.4382279569892473,
+      "standalone": 0.3876258064516129
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 1,
+      "weight": 0.25,
+      "dev": 0.43649032258064513,
+      "standalone": 0.3876258064516129
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 1,
+      "weight": 0.5,
+      "dev": 0.42250752688172044,
+      "standalone": 0.3876258064516129
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 1,
+      "weight": 1.0,
+      "dev": 0.3876258064516129,
+      "standalone": 0.3876258064516129
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 2,
+      "weight": 0.1,
+      "dev": 0.4378666666666667,
+      "standalone": 0.37899784946236553
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 2,
+      "weight": 0.25,
+      "dev": 0.43711827956989247,
+      "standalone": 0.37899784946236553
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 2,
+      "weight": 0.5,
+      "dev": 0.4191354838709677,
+      "standalone": 0.37899784946236553
+    },
+    {
+      "single": true,
+      "filtered": true,
+      "bonus": 2,
+      "weight": 1.0,
+      "dev": 0.37899784946236553,
+      "standalone": 0.37899784946236553
+    }
+  ],
+  "selected": {
+    "single": true,
+    "filtered": false,
+    "bonus": 0,
+    "weight": 0.1,
+    "dev": 0.438705376344086,
+    "standalone": 0.3839096774193548
+  },
+  "source": "Independent adaptation of Gornyaki's public frequency formula.\n\nReference: https://www.kaggle.com/code/kinahem/gornyaki-final-solution\nMyhaylo Turkin and Alex Tsepa, notebook version 10, Apache-2.0.\nPrivate preprocessing inputs unavailable: uses our documented overlap data,\nnot an exact reproduction. Notebook future_count is joined but UNUSED in score.\n"
+}

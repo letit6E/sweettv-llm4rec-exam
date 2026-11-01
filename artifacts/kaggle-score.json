@@ -1,0 +1,19 @@
+{
+  "competition": "sweettv-tv-program-recommender",
+  "account_display_name": "letit6e",
+  "observed_date": "2026-10-31",
+  "file": "submissions/final_hgb.csv",
+  "csv_sha256": "05839015ca5bb3c9c0dcb0c5d914845c8a3ef5b95074af8e950b07ab06d09cc7",
+  "downloaded_submission_sha256": "05839015ca5bb3c9c0dcb0c5d914845c8a3ef5b95074af8e950b07ab06d09cc7",
+  "download_matches_local": true,
+  "private_score": 0.43957,
+  "public_score": 0.45015,
+  "status": "Complete (after deadline)",
+  "screenshot": "kaggle-private-score-report.png",
+  "full_screenshot": "kaggle-private-score.png",
+  "submissions_remaining_before_upload": 100,
+  "submissions_made_by_agent": 1,
+  "description_name": "Рустам Шангареев / Rustam Shangareev",
+  "url": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/submissions",
+  "model_selection": "frozen before this first Kaggle submission"
+}

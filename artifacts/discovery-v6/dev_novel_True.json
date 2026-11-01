@@ -1,0 +1,265 @@
+{
+  "train_rows": 3310631,
+  "positive_rows": 11796,
+  "seconds": 114.98928812499999,
+  "allusers": true,
+  "train_keys": [
+    "early1",
+    "early2",
+    "early3"
+  ],
+  "grid": [
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 0.5,
+      "fold": "dev",
+      "map5": 0.43852903225806456
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 1,
+      "fold": "dev",
+      "map5": 0.43908817204301076
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 1.5,
+      "fold": "dev",
+      "map5": 0.43935913978494623
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 2,
+      "fold": "dev",
+      "map5": 0.4384344086021505
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 3,
+      "fold": "dev",
+      "map5": 0.43298494623655914
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 5,
+      "fold": "dev",
+      "map5": 0.4212172043010753
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 0.5,
+      "fold": "dev",
+      "map5": 0.4380989247311828
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 1,
+      "fold": "dev",
+      "map5": 0.438352688172043
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 1.5,
+      "fold": "dev",
+      "map5": 0.43913118279569896
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 2,
+      "fold": "dev",
+      "map5": 0.4375440860215054
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 3,
+      "fold": "dev",
+      "map5": 0.43303225806451606
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 5,
+      "fold": "dev",
+      "map5": 0.4163354838709677
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 0.5,
+      "fold": "dev",
+      "map5": 0.43827096774193547
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 1,
+      "fold": "dev",
+      "map5": 0.43828387096774196
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 1.5,
+      "fold": "dev",
+      "map5": 0.4381505376344086
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 2,
+      "fold": "dev",
+      "map5": 0.43634838709677415
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 3,
+      "fold": "dev",
+      "map5": 0.43200430107526877
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 5,
+      "fold": "dev",
+      "map5": 0.4163096774193548
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 0.5,
+      "fold": "long",
+      "map5": 0.44101449275362314
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 1,
+      "fold": "long",
+      "map5": 0.4410202898550724
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 1.5,
+      "fold": "long",
+      "map5": 0.4402463768115942
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 2,
+      "fold": "long",
+      "map5": 0.4373101449275362
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 3,
+      "fold": "long",
+      "map5": 0.42767536231884057
+    },
+    {
+      "method": "calibration",
+      "trees": 0,
+      "scale": 5,
+      "fold": "long",
+      "map5": 0.409840579710145
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 0.5,
+      "fold": "long",
+      "map5": 0.440504347826087
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 1,
+      "fold": "long",
+      "map5": 0.4410492753623188
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 1.5,
+      "fold": "long",
+      "map5": 0.43873043478260865
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 2,
+      "fold": "long",
+      "map5": 0.43650144927536233
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 3,
+      "fold": "long",
+      "map5": 0.4259449275362319
+    },
+    {
+      "method": "specialist",
+      "trees": 200,
+      "scale": 5,
+      "fold": "long",
+      "map5": 0.4011275362318841
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 0.5,
+      "fold": "long",
+      "map5": 0.44050144927536233
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 1,
+      "fold": "long",
+      "map5": 0.4394463768115942
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 1.5,
+      "fold": "long",
+      "map5": 0.43634782608695655
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 2,
+      "fold": "long",
+      "map5": 0.433063768115942
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 3,
+      "fold": "long",
+      "map5": 0.42184927536231887
+    },
+    {
+      "method": "specialist",
+      "trees": 500,
+      "scale": 5,
+      "fold": "long",
+      "map5": 0.39584057971014497
+    }
+  ]
+}

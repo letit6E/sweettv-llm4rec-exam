@@ -1,0 +1,14 @@
+{
+  "baseline": {
+    "unseen_hits_top5_unseen_only": 144,
+    "unseen_targets": 755
+  },
+  "replay": {
+    "unseen_hits_top5_unseen_only": 120,
+    "unseen_targets": 755
+  },
+  "novel200": {
+    "unseen_hits_top5_unseen_only": 149,
+    "unseen_targets": 755
+  }
+}

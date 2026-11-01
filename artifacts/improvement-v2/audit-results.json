@@ -1,0 +1,272 @@
+[
+  {
+    "name": "audit_lgb_bin_15_100",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 100,
+    "seconds": 17.851528457999997,
+    "map5_all": 0.3647795414462081,
+    "map5_nonempty": 0.37428519724936665,
+    "map5_five_targets": 0.3951917130488559,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_bin_15_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 200,
+    "seconds": 18.399673915999998,
+    "map5_all": 0.3647275132275133,
+    "map5_nonempty": 0.37423181324647126,
+    "map5_five_targets": 0.39529066171923316,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_bin_15_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 400,
+    "seconds": 19.401996916,
+    "map5_all": 0.36494466490299826,
+    "map5_nonempty": 0.37445462359753884,
+    "map5_five_targets": 0.39611008039579465,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_bin_31_100",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 100,
+    "seconds": 26.690099708,
+    "map5_all": 0.3644215167548501,
+    "map5_nonempty": 0.3739178429243576,
+    "map5_five_targets": 0.3946598639455782,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_bin_31_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 200,
+    "seconds": 27.397743541,
+    "map5_all": 0.3655182980599648,
+    "map5_nonempty": 0.37504320484980097,
+    "map5_five_targets": 0.39600494743351883,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_bin_31_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 400,
+    "seconds": 28.702333166,
+    "map5_all": 0.3639270282186949,
+    "map5_nonempty": 0.3734104686934492,
+    "map5_five_targets": 0.3943692022263451,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_rank_15_100",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 100,
+    "seconds": 17.486380083000007,
+    "map5_all": 0.36609986772486774,
+    "map5_nonempty": 0.37563992942453855,
+    "map5_five_targets": 0.39617192331478046,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_rank_15_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 200,
+    "seconds": 18.058179083000006,
+    "map5_all": 0.36697420634920636,
+    "map5_nonempty": 0.3765370521172639,
+    "map5_five_targets": 0.39701607915893633,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_rank_15_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 400,
+    "seconds": 19.136827290999996,
+    "map5_all": 0.36644179894179896,
+    "map5_nonempty": 0.37599077090119437,
+    "map5_five_targets": 0.3963976499690786,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_rank_31_100",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 100,
+    "seconds": 47.10877975,
+    "map5_all": 0.36826278659611994,
+    "map5_nonempty": 0.37785921100253356,
+    "map5_five_targets": 0.39896413110698825,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_rank_31_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 200,
+    "seconds": 47.814634125,
+    "map5_all": 0.3668478835978836,
+    "map5_nonempty": 0.37640743756786105,
+    "map5_five_targets": 0.3975139146567718,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_lgb_rank_31_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 400,
+    "seconds": 49.21532725,
+    "map5_all": 0.3632843915343915,
+    "map5_nonempty": 0.3727510857763301,
+    "map5_five_targets": 0.39501855287569576,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_cat6_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 200,
+    "seconds": 97.429086042,
+    "map5_all": 0.36709149029982363,
+    "map5_nonempty": 0.3766573923271806,
+    "map5_five_targets": 0.3985188620902907,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_cat6_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 400,
+    "seconds": 97.631234917,
+    "map5_all": 0.36477314814814815,
+    "map5_nonempty": 0.37427863735070577,
+    "map5_five_targets": 0.39529375386518245,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_cat6_600",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "eval_fold": "audit",
+    "checkpoint": 600,
+    "seconds": 97.83098799999999,
+    "map5_all": 0.3648758818342152,
+    "map5_nonempty": 0.374384048136084,
+    "map5_five_targets": 0.3952257266542981,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  }
+]

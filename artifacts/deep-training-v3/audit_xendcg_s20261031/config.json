@@ -1,0 +1,24 @@
+{
+  "name": "audit_xendcg_s20261031",
+  "config": {
+    "n_estimators": 1200,
+    "objective": "rank_xendcg",
+    "num_leaves": 31,
+    "learning_rate": 0.03,
+    "min_child_samples": 100,
+    "reg_lambda": 10,
+    "colsample_bytree": 0.9,
+    "random_state": 20261031,
+    "n_jobs": 3,
+    "verbosity": -1
+  },
+  "windows": [
+    "early1",
+    "early2",
+    "early3",
+    "dev"
+  ],
+  "queries": 13556,
+  "pairs": 4655802,
+  "selection": "Full five-target MAP at stored checkpoints"
+}

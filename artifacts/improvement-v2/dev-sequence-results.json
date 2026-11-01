@@ -1,0 +1,80 @@
+[
+  {
+    "name": "dev_esasrec_5_last",
+    "epoch": 5,
+    "seconds": 49.732889957999994,
+    "device": "mps",
+    "training_chunks": 19308,
+    "map5_all": 0.19430864197530867,
+    "map5_nonempty": 0.258258321612752,
+    "map5_five_targets": 0.26775053763440865,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_esasrec_5_mean10",
+    "epoch": 5,
+    "seconds": 49.881319915999995,
+    "device": "mps",
+    "training_chunks": 19308,
+    "map5_all": 0.2368611111111111,
+    "map5_nonempty": 0.31481540084388193,
+    "map5_five_targets": 0.33652043010752697,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_esasrec_10_last",
+    "epoch": 10,
+    "seconds": 92.238681291,
+    "device": "mps",
+    "training_chunks": 19308,
+    "map5_all": 0.17277865961199296,
+    "map5_nonempty": 0.22964252226910456,
+    "map5_five_targets": 0.231341935483871,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_esasrec_10_mean10",
+    "epoch": 10,
+    "seconds": 92.415990416,
+    "device": "mps",
+    "training_chunks": 19308,
+    "map5_all": 0.24335141093474427,
+    "map5_nonempty": 0.32344174871073605,
+    "map5_five_targets": 0.34288602150537634,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_esasrec_20_last",
+    "epoch": 20,
+    "seconds": 172.33229500000002,
+    "device": "mps",
+    "training_chunks": 19308,
+    "map5_all": 0.16743055555555553,
+    "map5_nonempty": 0.22253428270042194,
+    "map5_five_targets": 0.22436559139784945,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_esasrec_20_mean10",
+    "epoch": 20,
+    "seconds": 172.5734405,
+    "device": "mps",
+    "training_chunks": 19308,
+    "map5_all": 0.25471186067019397,
+    "map5_nonempty": 0.33854108063759963,
+    "map5_five_targets": 0.3604688172043011,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  }
+]

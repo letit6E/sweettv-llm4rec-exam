@@ -1,0 +1,323 @@
+{
+  "scope": "Independent CSV, ranking, fusion and AP verification from saved artifacts; no final-ranker training or hidden-label evaluation.",
+  "submissions": [
+    {
+      "file": "submissions/v2_cat200_horizon.csv",
+      "rows": 1260,
+      "rows_match_template_and_saved_ranking": true,
+      "five_unique_official_ids": true,
+      "sha256": "412e7c4aa14a2ce2e73810ff0496d51c7237f5ec628d6121aee945a0f4282971",
+      "hash_matches_source": true,
+      "fusion_array_exact": true,
+      "private": 0.45024,
+      "public": 0.45844,
+      "score_source": "artifacts/improvement-v2/kaggle-submissions.json"
+    },
+    {
+      "file": "submissions/v5_channel_blend.csv",
+      "rows": 1260,
+      "rows_match_template_and_saved_ranking": true,
+      "five_unique_official_ids": true,
+      "sha256": "a55f1e725732e005ef8617c0f006d5d49311eb6c4e21098e61858680876972be",
+      "hash_matches_source": true,
+      "fusion_array_exact": true,
+      "private": 0.45164,
+      "public": 0.45786,
+      "score_source": "artifacts/approaches-v5/kaggle-results.json"
+    },
+    {
+      "file": "submissions/v6_discovery_blend.csv",
+      "rows": 1260,
+      "rows_match_template_and_saved_ranking": true,
+      "five_unique_official_ids": true,
+      "sha256": "9a295e20a024ef074e3c388b00b64e2a7ecc83b62f2cc65278ce8b7d03061f89",
+      "hash_matches_source": true,
+      "fusion_array_exact": true,
+      "private": 0.4517,
+      "public": 0.45571,
+      "score_source": "artifacts/discovery-v6/kaggle-result.json"
+    }
+  ],
+  "local_metrics": {
+    "dev": {
+      "candidates": 4279,
+      "cold_users": 18,
+      "v2": {
+        "map5_all": 0.30553924162257495,
+        "map5_nonempty": 0.40609646038443503,
+        "map5_five_targets": 0.43835698924731187,
+        "five_target_users": 775
+      },
+      "v5": {
+        "map5_all": 0.30609479717813054,
+        "map5_nonempty": 0.40683485700890765,
+        "map5_five_targets": 0.43908817204301076,
+        "five_target_users": 775
+      },
+      "v6": {
+        "map5_all": 0.30762257495590833,
+        "map5_nonempty": 0.4088654477262072,
+        "map5_five_targets": 0.44042150537634406,
+        "five_target_users": 775
+      },
+      "matches_sources": true,
+      "source": "artifacts/discovery-v6/context-selection.json"
+    },
+    "audit": {
+      "candidates": 4566,
+      "cold_users": 14,
+      "v2": {
+        "map5_all": 0.36709149029982363,
+        "map5_nonempty": 0.3766573923271806,
+        "map5_five_targets": 0.3985188620902907,
+        "five_target_users": 1078
+      },
+      "v5": {
+        "map5_all": 0.3674969135802469,
+        "map5_nonempty": 0.37707338038364097,
+        "map5_five_targets": 0.3989424860853432,
+        "five_target_users": 1078
+      },
+      "v6": {
+        "map5_all": 0.36776102292768964,
+        "map5_nonempty": 0.3773443720593558,
+        "map5_five_targets": 0.39907854050711195,
+        "five_target_users": 1078
+      },
+      "matches_sources": true,
+      "source": "artifacts/discovery-v6/context-audit-confirmation.json"
+    },
+    "long": {
+      "candidates": 6376,
+      "cold_users": 18,
+      "v2": {
+        "map5_all": 0.4165857583774251,
+        "map5_nonempty": 0.4239887363130498,
+        "map5_five_targets": 0.440968115942029,
+        "five_target_users": 1150
+      },
+      "v5": {
+        "map5_all": 0.4167524250440917,
+        "map5_nonempty": 0.4241583647460061,
+        "map5_five_targets": 0.4410202898550724,
+        "five_target_users": 1150
+      },
+      "v6": {
+        "map5_all": 0.41737874779541445,
+        "map5_nonempty": 0.424795817626997,
+        "map5_five_targets": 0.4415942028985507,
+        "five_target_users": 1150
+      },
+      "matches_sources": true,
+      "source": "artifacts/discovery-v6/context-long-confirmation.json"
+    }
+  },
+  "course_methods": {
+    "popularity": {
+      "dev_recomputed": 0.26842150537634407,
+      "audit_reported": 0.27777983920841065,
+      "dev_matches_source": true
+    },
+    "repeat": {
+      "dev_recomputed": 0.4007741935483871,
+      "audit_reported": 0.36841372912801484,
+      "dev_matches_source": true
+    },
+    "content": {
+      "dev_recomputed": 0.2882924731182796,
+      "audit_reported": 0.2634539270253556,
+      "dev_matches_source": true
+    },
+    "als": {
+      "dev_recomputed": 0.19692043010752688,
+      "audit_reported": 0.19480519480519481,
+      "dev_matches_source": true
+    },
+    "ppr": {
+      "dev_recomputed": 0.3945548387096774,
+      "audit_reported": 0.36410327767470624,
+      "dev_matches_source": true
+    },
+    "association": {
+      "dev_recomputed": 0.26901505376344087,
+      "audit_reported": 0.2688497217068646,
+      "dev_matches_source": true
+    },
+    "ease": {
+      "dev_recomputed": 0.3865935483870968,
+      "audit_reported": 0.35689857761286337,
+      "dev_matches_source": true
+    },
+    "channel": {
+      "dev_recomputed": 0.4075870967741935,
+      "audit_reported": 0.3659894867037724,
+      "dev_matches_source": true
+    }
+  },
+  "limitations": [
+    "Processed events reused; raw interval matching not rebuilt.",
+    "Kaggle scores checked against saved observations only; hidden labels unavailable."
+  ],
+  "all_submission_bytes_preserved": {
+    "files": 25,
+    "passed": true
+  },
+  "runs": [
+    {
+      "command": [
+        ".venv/bin/pytest",
+        "-q"
+      ],
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 4.284,
+      "log": "output/session/pytest.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_improvement_reproduction.py"
+      ],
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 17.183,
+      "log": "output/session/check_improvement_reproduction.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_approaches.py"
+      ],
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 4.614,
+      "log": "output/session/check_approaches.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/check_discovery.py"
+      ],
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 4.56,
+      "log": "output/session/check_discovery.log"
+    },
+    {
+      "command": [
+        ".venv/bin/python",
+        "scripts/finalize_discovery.py"
+      ],
+      "status": "passed",
+      "returncode": 0,
+      "seconds": 4.326,
+      "log": "output/session/finalize_discovery.log"
+    }
+  ],
+  "training_qualification": "Saved CatBoost rankers reloaded/scored; check_improvement_reproduction additionally refits ALS via generate -> Fold.model.",
+  "findings": [
+    {
+      "issue": "Historical README scope",
+      "evidence": "README.md:54,77 versus improve_final.py and discovery_ranker.py",
+      "detail": "Audit-never-fit and no-Kaggle-selection statements describe initial HGB only. Final v2/v6 use completed dev/audit labels; all later windows and Kaggle feedback are adaptively reused."
+    },
+    {
+      "issue": "Missing audit reproduction entrypoint",
+      "evidence": "scripts/discovery_select.py:65 versus scripts/finalize_discovery.py:26",
+      "detail": "CLI writes dev and long confirmation only; required context-audit-confirmation.json exists but has no checked-in writer."
+    },
+    {
+      "issue": "Check scope overstatement",
+      "evidence": "README.md final paragraph versus scripts/check_discovery.py",
+      "detail": "check_discovery recomputes 11 signals and checks shared 121 columns, not all 167 features or raw official candidate IDs. finalize_discovery supplies raw-ID and saved-model checks."
+    },
+    {
+      "issue": "Stale historical test counts",
+      "evidence": "README.md:110",
+      "detail": "Ten tests refers to initial study; actual current suite has 29."
+    },
+    {
+      "issue": "Training qualification",
+      "detail": "Saved CatBoost rankers reloaded/scored; check_improvement_reproduction additionally refits ALS via generate -> Fold.model."
+    }
+  ],
+  "fresh_training": {
+    "source": "output/session/training_reproduction.json",
+    "status": "completed",
+    "models": {
+      "v2": {
+        "shape": [
+          1713057,
+          121
+        ],
+        "fit_seconds": 38.318066916,
+        "probability_comparison": {
+          "shape": [
+            415412
+          ],
+          "exact_equal": true,
+          "different_values": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        }
+      },
+      "v6": {
+        "shape": [
+          2584719,
+          167
+        ],
+        "fit_seconds": 169.23588087500002,
+        "probability_comparison": {
+          "shape": [
+            700502
+          ],
+          "exact_equal": true,
+          "different_values": 0,
+          "max_abs_difference": 0.0,
+          "mean_abs_difference": 0.0
+        }
+      }
+    },
+    "csv_comparisons": {
+      "v2_cat200_horizon": {
+        "file": "output/session/v2_cat200_horizon_fresh.csv",
+        "sha256": "412e7c4aa14a2ce2e73810ff0496d51c7237f5ec628d6121aee945a0f4282971",
+        "submitted_sha256": "412e7c4aa14a2ce2e73810ff0496d51c7237f5ec628d6121aee945a0f4282971",
+        "byte_identical": true,
+        "user_order_exact": true,
+        "changed_rows": 0,
+        "changed_positions": 0,
+        "changed_item_sets": 0,
+        "changed_row_indices": []
+      },
+      "v5_channel_blend": {
+        "file": "output/session/v5_channel_blend_fresh.csv",
+        "sha256": "a55f1e725732e005ef8617c0f006d5d49311eb6c4e21098e61858680876972be",
+        "submitted_sha256": "a55f1e725732e005ef8617c0f006d5d49311eb6c4e21098e61858680876972be",
+        "byte_identical": true,
+        "user_order_exact": true,
+        "changed_rows": 0,
+        "changed_positions": 0,
+        "changed_item_sets": 0,
+        "changed_row_indices": []
+      },
+      "v6_discovery_blend": {
+        "file": "output/session/v6_discovery_blend_fresh.csv",
+        "sha256": "9a295e20a024ef074e3c388b00b64e2a7ecc83b62f2cc65278ce8b7d03061f89",
+        "submitted_sha256": "9a295e20a024ef074e3c388b00b64e2a7ecc83b62f2cc65278ce8b7d03061f89",
+        "byte_identical": true,
+        "user_order_exact": true,
+        "changed_rows": 0,
+        "changed_positions": 0,
+        "changed_item_sets": 0,
+        "changed_row_indices": []
+      }
+    }
+  },
+  "seconds": 9.88,
+  "passed": true,
+  "prepared_data_builder": {
+    "script": "output/session/build_selected_from_processed.py",
+    "validation": "CLI help and syntax checked; full uncached run not executed within review budget"
+  }
+}

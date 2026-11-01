@@ -18,3 +18,7 @@ tomli==2.5.0
 tqdm==4.70.1
 typing_extensions==4.16.0
 tzdata==2026.6
+
+# Clock-session replay experiments
+llvmlite==0.43.0
+numba==0.60.0

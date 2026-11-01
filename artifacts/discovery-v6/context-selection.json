@@ -1,0 +1,907 @@
+{
+  "baseline": 0.43908817204301076,
+  "selected": {
+    "config": {
+      "family": "joint",
+      "trees": 600,
+      "mode": "all",
+      "scale": 1,
+      "weight": 0.5
+    },
+    "fold": "dev",
+    "map5": 0.44042150537634406
+  },
+  "grid": [
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "all",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43809462365591395
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "all",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4383956989247312
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "all",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4372946236559139
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43948387096774194
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43933333333333335
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43873978494623656
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43920860215053764
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4393376344086022
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4396731182795699
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43920860215053764
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43932043010752686
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4377505376344086
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4399311827956989
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43654193548387094
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4283397849462366
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "all",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.438141935483871
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "all",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4397806451612903
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "all",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43874408602150544
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4393290322580645
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43910967741935475
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4384258064516129
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43925591397849456
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43929892473118287
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43925591397849456
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43915268817204306
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43914838709677423
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4379268817204301
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43935913978494623
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.436847311827957
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4291311827956989
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "all",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43853333333333333
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "all",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.44042150537634406
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "all",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43780645161290316
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4393290322580645
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43906666666666666
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4384989247311828
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43921720430107525
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43921720430107525
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43917849462365594
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4388430107526882
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4383741935483871
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43670967741935485
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43915698924731184
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43665376344086027
+    },
+    {
+      "config": {
+        "family": "joint",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4293763440860215
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4394064516129032
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4392344086021505
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.438752688172043
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4395956989247311
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4397505376344085
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4393806451612903
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43959569892473116
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4378580645161291
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4354408602150538
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4391956989247312
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43511827956989246
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 200,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.41704946236559143
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4395225806451613
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4393376344086022
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43870967741935485
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43936774193548384
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43947526881720433
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43849032258064513
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4392860215053763
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43726881720430105
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4340903225806451
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4386666666666667
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43481290322580646
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 400,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4160989247311828
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43939354838709677
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4390795698924731
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 0.5,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4383956989247312
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4393462365591398
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43933333333333335
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 1,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.43771182795698926
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.4393849462365591
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.4375784946236559
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 2,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4332430107526882
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.25
+      },
+      "fold": "dev",
+      "map5": 0.43865376344086027
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 0.5
+      },
+      "fold": "dev",
+      "map5": 0.43439139784946235
+    },
+    {
+      "config": {
+        "family": "novel",
+        "trees": 600,
+        "mode": "unseen",
+        "scale": 4,
+        "weight": 1
+      },
+      "fold": "dev",
+      "map5": 0.4140989247311828
+    }
+  ]
+}

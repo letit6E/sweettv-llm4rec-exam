@@ -1,0 +1,27 @@
+[
+  {
+    "name": "final_identity_item_400",
+    "trees": 400,
+    "eval": "final",
+    "train_windows": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "rows": 1260,
+    "seconds": 159.79887929199998,
+    "map5_all": 0.0,
+    "map5_nonempty": null,
+    "map5_five_targets": null,
+    "users": 1260,
+    "nonempty_users": 0,
+    "five_target_users": 0,
+    "file": "submissions/v4_identity_item_400.csv",
+    "sha256": "1dfa197179f80a43dafdc25166750f17cb230e1d6ca968b76d87da9ac3020bee",
+    "candidate_count": 6636,
+    "training_pairs": 1713057,
+    "no_local_test_labels": true
+  }
+]

@@ -1,0 +1,8 @@
+{
+  "url": "https://www.kaggle.com/competitions/sweettv-tv-program-recommender/submissions",
+  "observed_at": "2026-11-01T12:04:39.965Z",
+  "rows": [
+    "check_circleschedulev5_replay_blend.csvComplete (after deadline) · 32s ago · Рустам Шангареев / Rustam Shangareev — 25% clock-session replay + 75% incumbent, reciprocal ranks. Past 112-day sessions projected onto future channel/time schedule; continuous overlap fraction. Frozen before Kaggle: local MAP@5 0.44006 / 0.39883 / 0.44058. Long window slightly below baseline; no significance claim. No future user views. Independently recomputed CSV.0.449670.45822",
+    "check_circleschedulev5_channel_blend.csvComplete (after deadline) · 5m ago · Рустам Шангареев / Rustam Shangareev — simple channel hypothesis: past 28-day channel viewing minutes projected onto future program frequency. 10% reciprocal-rank signal + 90% incumbent. Frozen local MAP@5 0.43909 / 0.39894 / 0.44102 (early/later/10-week), all above baseline. Same candidates and cold fallback; no future viewing data.0.451640.45786"
+  ]
+}

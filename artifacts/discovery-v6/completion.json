@@ -1,0 +1,66 @@
+{
+  "completed_at": "2026-11-01T14:56:37.916570+00:00",
+  "study": "Investigate and repair new-to-user recommendation failures",
+  "gradient_boosting_fits": 6,
+  "new_feature_count": 167,
+  "final_training_rows": 2584719,
+  "novel_specialist_training_rows": 3310631,
+  "evaluation_records": 190,
+  "new_kaggle_submissions": 1,
+  "tests": "29 passed, 13 dependency deprecation warnings",
+  "kaggle": {
+    "file": "submissions/v6_discovery_blend.csv",
+    "sha256": "9a295e20a024ef074e3c388b00b64e2a7ecc83b62f2cc65278ce8b7d03061f89",
+    "private": 0.4517,
+    "public": 0.45571,
+    "status": "Complete (after deadline)",
+    "source": "Kaggle submissions UI",
+    "evidence": "artifacts/discovery-v6/kaggle-result.png"
+  },
+  "best": {
+    "file": "submissions/v6_discovery_blend.csv",
+    "sha256": "9a295e20a024ef074e3c388b00b64e2a7ecc83b62f2cc65278ce8b7d03061f89",
+    "private": 0.4517,
+    "public": 0.45571,
+    "status": "Complete (after deadline)",
+    "source": "Kaggle submissions UI",
+    "evidence": "artifacts/discovery-v6/kaggle-result.png",
+    "previous_best_file": "submissions/v5_channel_blend.csv",
+    "previous_best_private": 0.45164,
+    "private_gain": 6e-05,
+    "interpretation": "Negligible observed change; no meaningful generalization gain established. Repeated leaderboard selection."
+  },
+  "validation": {
+    "dev": {
+      "old": 0.43908817204301076,
+      "new": 0.44042150537634406
+    },
+    "audit": {
+      "old": 0.3989424860853432,
+      "new": 0.39907854050711195
+    },
+    "long": {
+      "old": 0.4410202898550724,
+      "new": 0.4415942028985507
+    }
+  },
+  "diagnostic": "baseline-diagnosis.json",
+  "changes": "selected-error-changes.json",
+  "rejected_hypotheses": [
+    "Simply boosting unseen candidates",
+    "Separate classifier using original features",
+    "Separate classifier using expanded semantic features",
+    "Soft training targets for unresolved Top5 frequency ties",
+    "Directed historical transitions to new-to-user programs"
+  ],
+  "limitations": [
+    "All temporal windows were reused for adaptive development; long overlaps short windows",
+    "All paired bootstrap intervals include zero",
+    "ID-zero title-family context did not reveal missing unseen target history on these validation cohorts",
+    "New-item discrimination remains weak; six trained fits did not produce the hoped-for score jump",
+    "No future titles, genres or viewing behavior were used as features",
+    "Study does not establish an upper bound or prove 0.50 is impossible"
+  ],
+  "verification": "Both fitted models reloaded, 11 signals recomputed, 415412 shared feature pairs cross-checked, 1260 prediction rows verified with official candidate IDs",
+  "report": "Still deferred; earlier PDF is stale"
+}

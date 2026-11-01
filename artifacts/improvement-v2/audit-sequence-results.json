@@ -1,0 +1,80 @@
+[
+  {
+    "name": "audit_esasrec_5_last",
+    "epoch": 5,
+    "seconds": 38.581718375,
+    "device": "mps",
+    "training_chunks": 24751,
+    "map5_all": 0.27951278659611994,
+    "map5_nonempty": 0.2867965074194716,
+    "map5_five_targets": 0.300834879406308,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_esasrec_5_mean10",
+    "epoch": 5,
+    "seconds": 38.751460166,
+    "device": "mps",
+    "training_chunks": 24751,
+    "map5_all": 0.2933809523809524,
+    "map5_nonempty": 0.3010260586319218,
+    "map5_five_targets": 0.31590290661719234,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_esasrec_10_last",
+    "epoch": 10,
+    "seconds": 72.745738041,
+    "device": "mps",
+    "training_chunks": 24751,
+    "map5_all": 0.28399294532627867,
+    "map5_nonempty": 0.29139341295693094,
+    "map5_five_targets": 0.3034662956091527,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_esasrec_10_mean10",
+    "epoch": 10,
+    "seconds": 72.94356725,
+    "device": "mps",
+    "training_chunks": 24751,
+    "map5_all": 0.31872464726631394,
+    "map5_nonempty": 0.32703017553384006,
+    "map5_five_targets": 0.343243661100804,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_esasrec_20_last",
+    "epoch": 20,
+    "seconds": 124.844113333,
+    "device": "mps",
+    "training_chunks": 24751,
+    "map5_all": 0.2505579805996473,
+    "map5_nonempty": 0.25708717879116905,
+    "map5_five_targets": 0.2707421150278293,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_esasrec_20_mean10",
+    "epoch": 20,
+    "seconds": 125.033436541,
+    "device": "mps",
+    "training_chunks": 24751,
+    "map5_all": 0.32200837742504407,
+    "map5_nonempty": 0.33039947520810714,
+    "map5_five_targets": 0.34683055040197897,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  }
+]

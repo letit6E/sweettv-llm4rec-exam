@@ -1,0 +1,106 @@
+[
+  {
+    "name": "dev_allusers_cat200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "training_pairs": 3798323,
+    "training_queries": 11017,
+    "seconds": 187.541562709,
+    "map5_all": 0.3045548941798942,
+    "map5_nonempty": 0.40478815049226435,
+    "map5_five_targets": 0.43457204301075264,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_allusers_cat500",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "training_pairs": 3798323,
+    "training_queries": 11017,
+    "seconds": 187.72746575,
+    "map5_all": 0.3057958553791887,
+    "map5_nonempty": 0.4064375293014534,
+    "map5_five_targets": 0.4361290322580646,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "audit_allusers_cat200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "training_pairs": 4655802,
+    "training_queries": 13556,
+    "seconds": 225.480594875,
+    "map5_all": 0.36807473544973546,
+    "map5_nonempty": 0.3776662595005429,
+    "map5_five_targets": 0.39938466295609154,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "audit_allusers_cat500",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev"
+    ],
+    "training_pairs": 4655802,
+    "training_queries": 13556,
+    "seconds": 225.695474417,
+    "map5_all": 0.36519731040564374,
+    "map5_nonempty": 0.37471385269634455,
+    "map5_five_targets": 0.3963512677798392,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "name": "final_allusers_cat200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "training_pairs": 5881656,
+    "training_queries": 17188,
+    "seconds": 351.018819708,
+    "file": "submissions/v3_allusers_cat200.csv",
+    "sha256": "ab603c450a54e9a396b31b6fd4dd5fdc9744a3eb1937eeb72b0c740e876140bd",
+    "rows": 1260,
+    "candidate_count": 6636
+  },
+  {
+    "name": "final_allusers_cat500",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3",
+      "dev",
+      "audit"
+    ],
+    "training_pairs": 5881656,
+    "training_queries": 17188,
+    "seconds": 351.285804667,
+    "file": "submissions/v3_allusers_cat500.csv",
+    "sha256": "1a90717f4b9e3d0500ba45ac42dc86c971bf831af2fd5d0e707c9f375c83e2e0",
+    "rows": 1260,
+    "candidate_count": 6636
+  }
+]

@@ -1,0 +1,11 @@
+{
+  "url": "https://www.kaggle.com/code/kinahem/gornyaki-final-solution",
+  "authors": [
+    "Myhaylo Turkin",
+    "Alex Tsepa"
+  ],
+  "version": 10,
+  "license": "Apache-2.0",
+  "sha256": "ce61a84cfbcf5c0f98d97405e80fde647e07733dc31c344bcca5cc207810c3dd",
+  "note": "Read public notebook; did not execute. Its private prejoined datasets are unavailable. Reimplemented statistical formula against own documented union/single overlap pipeline. Did not read or reuse its prediction outputs as model inputs. Notebook custom map_k is positional and not standard MAP; only our tested standard AP@5 is used."
+}

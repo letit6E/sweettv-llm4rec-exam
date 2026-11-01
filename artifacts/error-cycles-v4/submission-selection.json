@@ -1,0 +1,68 @@
+{
+  "time": "2026-11-01T11:07:44.896033+00:00",
+  "candidates": [
+    {
+      "weight": 0.75,
+      "selection": "max earlier validation",
+      "dev": {
+        "baseline": 0.43835698924731187,
+        "candidate": 0.43900645161290325,
+        "delta": 0.0006494623655913979,
+        "paired_bootstrap95": [
+          -0.0030752688172043002,
+          0.0044345161290322566
+        ]
+      },
+      "audit": {
+        "baseline": 0.3985188620902907,
+        "candidate": 0.3995547309833024,
+        "delta": 0.0010358688930117489,
+        "paired_bootstrap95": [
+          -0.0023815708101422393,
+          0.0043786332714904124
+        ]
+      },
+      "long": {
+        "baseline": 0.440968115942029,
+        "candidate": 0.4408637681159421,
+        "delta": -0.00010434782608695681,
+        "paired_bootstrap95": [
+          -0.003339275362318841,
+          0.0030115942028985498
+        ]
+      }
+    },
+    {
+      "weight": 0.25,
+      "selection": "conservative alternative with gains on all three windows",
+      "dev": {
+        "baseline": 0.43835698924731187,
+        "candidate": 0.43842150537634406,
+        "delta": 6.45161290322584e-05,
+        "paired_bootstrap95": [
+          -0.0019915053763440863,
+          0.0021464516129032253
+        ]
+      },
+      "audit": {
+        "baseline": 0.3985188620902907,
+        "candidate": 0.4001453308596165,
+        "delta": 0.0016264687693259116,
+        "paired_bootstrap95": [
+          -0.0002443568336425476,
+          0.0035590599876314153
+        ]
+      },
+      "long": {
+        "baseline": 0.440968115942029,
+        "candidate": 0.44179130434782604,
+        "delta": 0.0008231884057971017,
+        "paired_bootstrap95": [
+          -0.0011743478260869563,
+          0.0026030434782608695
+        ]
+      }
+    }
+  ],
+  "caveat": "All local windows have been reused for selection; long overlaps two shorter windows. Bootstrap does not include selection uncertainty. Both weights frozen before new Kaggle scores."
+}

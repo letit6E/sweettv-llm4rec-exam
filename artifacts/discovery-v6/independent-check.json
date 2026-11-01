@@ -1,0 +1,19 @@
+{
+  "new_signals_recomputed": [
+    "zero_28_full",
+    "zero_28_fraction",
+    "zero_28_seconds",
+    "zero_112_full",
+    "zero_112_fraction",
+    "zero_112_seconds",
+    "genre",
+    "actors",
+    "title_family",
+    "raw_channel_28",
+    "raw_channel_112"
+  ],
+  "shared_feature_pairs_checked": 415412,
+  "prediction_rows_checked": 1260,
+  "sha256": "9a295e20a024ef074e3c388b00b64e2a7ecc83b62f2cc65278ce8b7d03061f89",
+  "passed": true
+}

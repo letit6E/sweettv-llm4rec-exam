@@ -1,0 +1,47 @@
+[
+  {
+    "iteration": 100,
+    "map5_all": 0.3031252204585538,
+    "map5_nonempty": 0.40288795124238164,
+    "map5_five_targets": 0.4343569892473118,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 200,
+    "map5_all": 0.30517482363315696,
+    "map5_nonempty": 0.4056121073605251,
+    "map5_five_targets": 0.43694193548387095,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 400,
+    "map5_all": 0.30524801587301587,
+    "map5_nonempty": 0.40570938818565394,
+    "map5_five_targets": 0.43709677419354837,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 800,
+    "map5_all": 0.30674338624338626,
+    "map5_nonempty": 0.407696905766526,
+    "map5_five_targets": 0.43780215053763444,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "iteration": 1200,
+    "map5_all": 0.306336860670194,
+    "map5_nonempty": 0.40715658696671353,
+    "map5_five_targets": 0.4372774193548387,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  }
+]

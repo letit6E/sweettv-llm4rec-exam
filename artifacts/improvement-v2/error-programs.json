@@ -1,0 +1,217 @@
+{
+  "scope": "Previously opened audit, now diagnostic validation. Missing means outside reconstructed frequency-based Top5, not necessarily disliked.",
+  "most_missed": [
+    {
+      "id": 400468,
+      "title": "Аферисты в сетях, 5 сезон, 4 эп.",
+      "category": "Познавательное",
+      "users": 77,
+      "train_popularity": 146
+    },
+    {
+      "id": 2400467,
+      "title": "'Викна-Новости'.",
+      "category": "Инфо",
+      "users": 71,
+      "train_popularity": 2712
+    },
+    {
+      "id": 500281,
+      "title": "Ток-шоу 'Говорит Украина'.",
+      "category": "Развлечения",
+      "users": 70,
+      "train_popularity": 1069
+    },
+    {
+      "id": 10002514,
+      "title": "Т/с 'Кухня'.",
+      "category": "Сериалы",
+      "users": 68,
+      "train_popularity": 1320
+    },
+    {
+      "id": 1100411,
+      "title": "'Вещдок'.",
+      "category": "Познавательное",
+      "users": 67,
+      "train_popularity": 1026
+    },
+    {
+      "id": 20088,
+      "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+      "category": "Развлечения",
+      "users": 64,
+      "train_popularity": 2117
+    },
+    {
+      "id": 10001261,
+      "title": "Т/с 'Мыслить как преступник'.",
+      "category": "Сериалы",
+      "users": 60,
+      "train_popularity": 431
+    },
+    {
+      "id": 6700482,
+      "title": "Секретные материалы.",
+      "category": "Другое",
+      "users": 58,
+      "train_popularity": 1845
+    },
+    {
+      "id": 2400508,
+      "title": "Сегодня. Итоги с Олегом Панютой.",
+      "category": "Инфо",
+      "users": 53,
+      "train_popularity": 2492
+    },
+    {
+      "id": 12001682,
+      "title": "М/с 'Губка Боб Квадратные штаны'.",
+      "category": "Детям",
+      "users": 53,
+      "train_popularity": 1756
+    },
+    {
+      "id": 200432,
+      "title": "Дизель-шоу. Дайджест.",
+      "category": "Развлечения",
+      "users": 51,
+      "train_popularity": 936
+    },
+    {
+      "id": 12001734,
+      "title": "М/с 'Волшебные покровители', 113 с. 'Золоченый Крокер'.",
+      "category": "Детям",
+      "users": 45,
+      "train_popularity": 941
+    },
+    {
+      "id": 200352,
+      "title": "'Вечерний квартал'.",
+      "category": "Развлечения",
+      "users": 45,
+      "train_popularity": 827
+    },
+    {
+      "id": 240081,
+      "title": "Факты. День.",
+      "category": "Инфо",
+      "users": 43,
+      "train_popularity": 3598
+    },
+    {
+      "id": 12002856,
+      "title": "М/с 'Элвин и бурундуки'.",
+      "category": "Детям",
+      "users": 42,
+      "train_popularity": 1125
+    }
+  ],
+  "most_false_positive": [
+    {
+      "id": 2400480,
+      "title": "ТСН. Неделя.",
+      "category": "Инфо",
+      "users": 363,
+      "train_popularity": 3825
+    },
+    {
+      "id": 240081,
+      "title": "Факты. День.",
+      "category": "Инфо",
+      "users": 321,
+      "train_popularity": 3598
+    },
+    {
+      "id": 2400467,
+      "title": "'Викна-Новости'.",
+      "category": "Инфо",
+      "users": 306,
+      "train_popularity": 2712
+    },
+    {
+      "id": 2400508,
+      "title": "Сегодня. Итоги с Олегом Панютой.",
+      "category": "Инфо",
+      "users": 265,
+      "train_popularity": 2492
+    },
+    {
+      "id": 20088,
+      "title": "'Завтрак с 1+1'. Информационно-развлекательная программа.",
+      "category": "Развлечения",
+      "users": 219,
+      "train_popularity": 2117
+    },
+    {
+      "id": 12001682,
+      "title": "М/с 'Губка Боб Квадратные штаны'.",
+      "category": "Детям",
+      "users": 196,
+      "train_popularity": 1756
+    },
+    {
+      "id": 12002856,
+      "title": "М/с 'Элвин и бурундуки'.",
+      "category": "Детям",
+      "users": 102,
+      "train_popularity": 1125
+    },
+    {
+      "id": 6700482,
+      "title": "Секретные материалы.",
+      "category": "Другое",
+      "users": 78,
+      "train_popularity": 1845
+    },
+    {
+      "id": 10001261,
+      "title": "Т/с 'Мыслить как преступник'.",
+      "category": "Сериалы",
+      "users": 59,
+      "train_popularity": 431
+    },
+    {
+      "id": 12001734,
+      "title": "М/с 'Волшебные покровители', 113 с. 'Золоченый Крокер'.",
+      "category": "Детям",
+      "users": 52,
+      "train_popularity": 941
+    },
+    {
+      "id": 12002805,
+      "title": "М/с 'Моланг', 2 сезон, 21 с.",
+      "category": "Детям",
+      "users": 45,
+      "train_popularity": 598
+    },
+    {
+      "id": 12002955,
+      "title": "М/с 'Свинка Пеппа', 93 с.",
+      "category": "Детям",
+      "users": 42,
+      "train_popularity": 692
+    },
+    {
+      "id": 10002253,
+      "title": "Т/с 'Форс-мажоры', 4 сезон, 10 с. 'Это Рим'.",
+      "category": "Сериалы",
+      "users": 41,
+      "train_popularity": 261
+    },
+    {
+      "id": 10002514,
+      "title": "Т/с 'Кухня'.",
+      "category": "Сериалы",
+      "users": 41,
+      "train_popularity": 1320
+    },
+    {
+      "id": 200337,
+      "title": "Утро с Интером.",
+      "category": "Развлечения",
+      "users": 39,
+      "train_popularity": 1123
+    }
+  ]
+}

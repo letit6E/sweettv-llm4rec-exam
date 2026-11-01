@@ -1,0 +1,257 @@
+[
+  {
+    "name": "dev_lgb_bin_15_100",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 100,
+    "seconds": 6.246633207999999,
+    "map5_all": 0.30313955026455025,
+    "map5_nonempty": 0.40290699718706047,
+    "map5_five_targets": 0.43121720430107535,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_bin_15_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 200,
+    "seconds": 6.647216499999999,
+    "map5_all": 0.30320260141093475,
+    "map5_nonempty": 0.40299079934364745,
+    "map5_five_targets": 0.43002580645161287,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_bin_15_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 400,
+    "seconds": 7.375248417000002,
+    "map5_all": 0.3034171075837742,
+    "map5_nonempty": 0.40327590248476325,
+    "map5_five_targets": 0.4302150537634408,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_bin_31_100",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 100,
+    "seconds": 7.873143959000004,
+    "map5_all": 0.3039832451499118,
+    "map5_nonempty": 0.40402836380684476,
+    "map5_five_targets": 0.43229677419354834,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_bin_31_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 200,
+    "seconds": 8.411366166999997,
+    "map5_all": 0.30446450617283954,
+    "map5_nonempty": 0.40466801453352086,
+    "map5_five_targets": 0.43250752688172045,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_bin_31_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 400,
+    "seconds": 9.431432416999996,
+    "map5_all": 0.30451234567901236,
+    "map5_nonempty": 0.40473159868729486,
+    "map5_five_targets": 0.4315225806451613,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_rank_15_100",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 100,
+    "seconds": 8.237554625000001,
+    "map5_all": 0.3009845679012346,
+    "map5_nonempty": 0.40004278012189404,
+    "map5_five_targets": 0.42969032258064516,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_rank_15_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 200,
+    "seconds": 8.540280667000005,
+    "map5_all": 0.3027791005291005,
+    "map5_nonempty": 0.4024279184247538,
+    "map5_five_targets": 0.4321419354838709,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_rank_15_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 400,
+    "seconds": 9.165110958,
+    "map5_all": 0.30423280423280424,
+    "map5_nonempty": 0.40436005625879046,
+    "map5_five_targets": 0.43367741935483867,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_rank_31_100",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 100,
+    "seconds": 9.814119250000005,
+    "map5_all": 0.30274603174603176,
+    "map5_nonempty": 0.4023839662447258,
+    "map5_five_targets": 0.43158279569892477,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_rank_31_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 200,
+    "seconds": 10.220941124999996,
+    "map5_all": 0.3042308201058201,
+    "map5_nonempty": 0.4043574191279887,
+    "map5_five_targets": 0.43306666666666666,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_lgb_rank_31_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 400,
+    "seconds": 11.194940333000005,
+    "map5_all": 0.30251763668430337,
+    "map5_nonempty": 0.4020804031879981,
+    "map5_five_targets": 0.4298924731182795,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_cat6_200",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 200,
+    "seconds": 62.357331083000005,
+    "map5_all": 0.30553924162257495,
+    "map5_nonempty": 0.40609646038443503,
+    "map5_five_targets": 0.43835698924731187,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_cat6_400",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 400,
+    "seconds": 62.573066583,
+    "map5_all": 0.30513447971781305,
+    "map5_nonempty": 0.40555848570089076,
+    "map5_five_targets": 0.4371827956989247,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_cat6_600",
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "eval_fold": "dev",
+    "checkpoint": 600,
+    "seconds": 62.812620292000005,
+    "map5_all": 0.3035083774250441,
+    "map5_nonempty": 0.4033972105016409,
+    "map5_five_targets": 0.43532043010752686,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  }
+]

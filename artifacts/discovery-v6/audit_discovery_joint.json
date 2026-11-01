@@ -1,0 +1,44 @@
+[
+  {
+    "fold": "audit",
+    "mode": "joint",
+    "trees": 200,
+    "train_rows": 1996254,
+    "positive_rows": 19350,
+    "seconds": 150.901134375,
+    "map5_all": 0.36845877425044093,
+    "map5_nonempty": 0.3780603058269996,
+    "map5_five_targets": 0.4002380952380953,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "fold": "audit",
+    "mode": "joint",
+    "trees": 400,
+    "train_rows": 1996254,
+    "positive_rows": 19350,
+    "seconds": 151.15034799999998,
+    "map5_all": 0.36352402998236333,
+    "map5_nonempty": 0.37299696887441186,
+    "map5_five_targets": 0.3948051948051948,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  },
+  {
+    "fold": "audit",
+    "mode": "joint",
+    "trees": 600,
+    "train_rows": 1996254,
+    "positive_rows": 19350,
+    "seconds": 151.41331291699998,
+    "map5_all": 0.36046384479717813,
+    "map5_nonempty": 0.36985703944987336,
+    "map5_five_targets": 0.3913636363636364,
+    "users": 1260,
+    "nonempty_users": 1228,
+    "five_target_users": 1078
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "name": "dev_xgbmap_d3_100",
+    "seconds": 36.453271208000004,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "map5_all": 0.29851278659611996,
+    "map5_nonempty": 0.3967575011720581,
+    "map5_five_targets": 0.4252774193548387,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_xgbmap_d3_250",
+    "seconds": 36.721829417,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "map5_all": 0.30010449735449735,
+    "map5_nonempty": 0.39887306610407874,
+    "map5_five_targets": 0.4290193548387097,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_xgbmap_d3_500",
+    "seconds": 37.097521542,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "map5_all": 0.30419686948853614,
+    "map5_nonempty": 0.40431229488982656,
+    "map5_five_targets": 0.4333806451612903,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_xgbmap_d5_100",
+    "seconds": 50.128349082999996,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "map5_all": 0.30004100529100525,
+    "map5_nonempty": 0.39878867791842476,
+    "map5_five_targets": 0.42818494623655917,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_xgbmap_d5_250",
+    "seconds": 50.660764957999994,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "map5_all": 0.302859126984127,
+    "map5_nonempty": 0.4025342827004219,
+    "map5_five_targets": 0.431363440860215,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  },
+  {
+    "name": "dev_xgbmap_d5_500",
+    "seconds": 51.588689166,
+    "train_folds": [
+      "early1",
+      "early2",
+      "early3"
+    ],
+    "map5_all": 0.3047914462081129,
+    "map5_nonempty": 0.4051025550867323,
+    "map5_five_targets": 0.4334064516129032,
+    "users": 1260,
+    "nonempty_users": 948,
+    "five_target_users": 775
+  }
+]

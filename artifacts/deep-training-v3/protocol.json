@@ -1,0 +1,145 @@
+{
+  "objective": "Substantial local model training aligned with future multi-week Top-5; no submission search.",
+  "outer_development": [
+    "2020-05-18",
+    "2020-06-22"
+  ],
+  "outer_later_validation": [
+    "2020-06-22",
+    "2020-07-27"
+  ],
+  "caveat": "Both windows have already been inspected in earlier experiments; neither is an untouched test.",
+  "neural_ranker": {
+    "features": 121,
+    "training_pairs": 3798323,
+    "queries": 11017,
+    "grid": [
+      "list128",
+      "list256",
+      "drop128",
+      "bce128"
+    ],
+    "max_epochs": 80,
+    "patience_epochs": 16,
+    "selection": "MAP@5 over users with five true target programs",
+    "notes": "Equal weight per user-window query; full retrieved candidate list, padding masked; all other users included."
+  },
+  "sequence_model": {
+    "grid": [
+      "seq128",
+      "seq128prior",
+      "seq256prior"
+    ],
+    "queries_dev": 14632,
+    "history_length": 100,
+    "target": "Five most frequently fully viewed programs in next 35 days",
+    "loss": "Full vocabulary softmax, equal probability mass on five targets, candidates masked by historical future schedule",
+    "max_epochs": 100,
+    "patience_epochs": 20,
+    "notes": "LiGR architecture adaptation attributed in sequence.py; not a claim of reproducing eSASRec benchmark."
+  },
+  "catboost_ranking": {
+    "objective": "YetiRank:mode=MAP;top=5",
+    "iterations": 1000,
+    "depth": 6,
+    "selection": "External MAP@5 using complete ground truth, not internal retrieved-positive denominator"
+  },
+  "seeds": "Select promising configuration on development; repeat on seeds 20261032 and 20261033; transfer fixed configuration/epoch to later temporal window.",
+  "final_training": "Only after local comparison; all label windows end by 2020-07-27. No test viewing behavior available.",
+  "kaggle_policy": "No submissions during architecture search. Submit only locally supported candidate(s). Preserve previous best.",
+  "previous_best": {
+    "file": "submissions/v2_cat200_horizon.csv",
+    "private": 0.45024,
+    "public": 0.45844
+  },
+  "references": [
+    {
+      "url": "https://arxiv.org/abs/2205.04507",
+      "read": "Abstract plus all_action/dense_all_action implementations in previously cloned transformer_benchmark",
+      "use": "Motivation for future-window rather than next-event supervision. This implementation is not a PinnerFormer reproduction."
+    },
+    {
+      "url": "https://github.com/blondered/transformer_benchmark",
+      "commit": "2b039927ceb4c7654131d7ac7c43ea124b49d240",
+      "read": [
+        "src/models/transformers/objective/dense_all_action.py",
+        "src/models/transformers/objective/all_action.py"
+      ],
+      "use": "Objective design reference; reuse our existing attributed LiGR block, new multi-target full-softmax trainer."
+    },
+    {
+      "url": "https://catboost.ai/docs/en/concepts/loss-functions-ranking",
+      "use": "YetiRank mode=MAP supported from CatBoost1.2.1; installed1.2.10 verified by actual fit."
+    },
+    {
+      "url": "https://arxiv.org/abs/1911.09798",
+      "title": "An Alternative Cross Entropy Loss for Learning-to-Rank",
+      "author": "Sebastian Bruch",
+      "use": "Motivation for rank_xendcg; installed LightGBM implementation, not a reimplementation of the paper."
+    },
+    {
+      "url": "https://github.com/lightgbm-org/LightGBM/blob/main/docs/Parameters.rst",
+      "use": "Confirmed rank_xendcg objective and documented XE_NDCG_MART naming."
+    }
+  ],
+  "metric_sanity_check": {
+    "retrieved_labels": [
+      1,
+      1,
+      0,
+      0,
+      0
+    ],
+    "internal_catboost_MAP": 1.0,
+    "full_ground_truth_five_target_AP": 0.4,
+    "verified_by": "catboost.utils.eval_metric and sweettv.metrics.apk"
+  },
+  "training_retrieved_target_counts": {
+    "zero": 10,
+    "one": 45,
+    "two": 158,
+    "three": 418,
+    "four": 1255,
+    "five": 9131
+  },
+  "adaptive_extension": {
+    "observed": "seq128 training loss decreases from 3.81 (epoch2) to 2.78 (epoch14), while dev MAP drops from 0.37862 to 0.33148.",
+    "response": "Add smaller seq64prior and same-size seq128reg with dropout0.5 to distinguish capacity/regularization from simply adding epochs.",
+    "selection_scope": "development window only"
+  },
+  "additional_map_objective": {
+    "config": "map128",
+    "reason": "Test whether pairwise gradients weighted by actual AP@5 swap gain outperform listwise and balanced classification objectives.",
+    "implementation": "Exact detached delta-AP@5, five-target denominator, all retrieved positives versus top20 negatives; brute-force swap validation passed on20 random lists.",
+    "scope": "Development architecture search; included in subsequent seed confirmation.",
+    "runtime_note": "This GPU run overlaps seq256prior; wall times are not a hardware speed benchmark."
+  },
+  "catboost_seed_replication": {
+    "config": "Fixed incumbent 200 trees, depth6,lr0.05,L2=10,template-user training windows",
+    "seeds": [
+      20261031,
+      20261032,
+      20261033
+    ],
+    "selection": "Equal probability average; compare development, later validation, and overlapping10-week diagnostic. No hyperparameter search."
+  },
+  "rank_xendcg": {
+    "reason": "Alternative ranking cross-entropy loss on the same3.8M training pairs; improve optimization and compare with LambdaRank/MAP losses",
+    "config": {
+      "trees": 1200,
+      "leaves": 31,
+      "lr": 0.03,
+      "L2": 10,
+      "min_child": 100
+    },
+    "first_seed_dev_map5": 0.4407096774193548,
+    "confirmation": "Repeat dev seeds20261032/20261033, then fixed1200 trees on later window; no later-window checkpoint selection for confirmation."
+  },
+  "reviewed_not_trained": [
+    {
+      "url": "https://github.com/yandex-research/tabm",
+      "note": "Reviewed official README/search excerpt. Not installed or trained in this series; prioritized replication of the positive XE_NDCG result."
+    }
+  ],
+  "terminology_correction": "Earlier error tables called zero qualifying training viewers new_to_catalog. This is interaction cold-start, not necessarily a newly scheduled item. New error tables separate known schedule items without qualifying views from genuinely new schedule IDs. Model scores and overall MAP are unaffected."
+}

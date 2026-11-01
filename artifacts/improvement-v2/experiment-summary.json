@@ -1,0 +1,1266 @@
+{
+  "best_observed_submission": {
+    "file": "v2_cat200_horizon.csv",
+    "private": 0.45024,
+    "public": 0.45844,
+    "sha256": "412e7c4aa14a2ce2e73810ff0496d51c7237f5ec628d6121aee945a0f4282971",
+    "stage": "adaptive improvement",
+    "source": "Observed Kaggle submissions UI; private then public columns"
+  },
+  "improvement_absolute": 0.010669999999999957,
+  "improvement_relative": 0.024273722046545432,
+  "kaggle_submissions_total": 13,
+  "local_model_checkpoint_evaluations": 72,
+  "additional_ablation_evaluations": 4,
+  "additional_fusion_evaluations": 48,
+  "selection_caveat": "Both former validation/audit windows and returned Kaggle feedback were used for adaptive development. No unseen holdout claim. The overlapping 10-week diagnostic is not a new independent dataset.",
+  "runtime": {
+    "python": "3.9.6",
+    "numpy": "2.0.2",
+    "scipy": "1.13.1",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1",
+    "lightgbm": "4.6.0",
+    "catboost": "1.2.10",
+    "xgboost": "2.1.4",
+    "torch": "2.8.0"
+  },
+  "models": [
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_bin_15_100",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 100,
+      "seconds": 6.246633207999999,
+      "map5_all": 0.30313955026455025,
+      "map5_nonempty": 0.40290699718706047,
+      "map5_five_targets": 0.43121720430107535,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_bin_15_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 200,
+      "seconds": 6.647216499999999,
+      "map5_all": 0.30320260141093475,
+      "map5_nonempty": 0.40299079934364745,
+      "map5_five_targets": 0.43002580645161287,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_bin_15_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 400,
+      "seconds": 7.375248417000002,
+      "map5_all": 0.3034171075837742,
+      "map5_nonempty": 0.40327590248476325,
+      "map5_five_targets": 0.4302150537634408,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_bin_31_100",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 100,
+      "seconds": 7.873143959000004,
+      "map5_all": 0.3039832451499118,
+      "map5_nonempty": 0.40402836380684476,
+      "map5_five_targets": 0.43229677419354834,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_bin_31_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 200,
+      "seconds": 8.411366166999997,
+      "map5_all": 0.30446450617283954,
+      "map5_nonempty": 0.40466801453352086,
+      "map5_five_targets": 0.43250752688172045,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_bin_31_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 400,
+      "seconds": 9.431432416999996,
+      "map5_all": 0.30451234567901236,
+      "map5_nonempty": 0.40473159868729486,
+      "map5_five_targets": 0.4315225806451613,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_rank_15_100",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 100,
+      "seconds": 8.237554625000001,
+      "map5_all": 0.3009845679012346,
+      "map5_nonempty": 0.40004278012189404,
+      "map5_five_targets": 0.42969032258064516,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_rank_15_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 200,
+      "seconds": 8.540280667000005,
+      "map5_all": 0.3027791005291005,
+      "map5_nonempty": 0.4024279184247538,
+      "map5_five_targets": 0.4321419354838709,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_rank_15_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 400,
+      "seconds": 9.165110958,
+      "map5_all": 0.30423280423280424,
+      "map5_nonempty": 0.40436005625879046,
+      "map5_five_targets": 0.43367741935483867,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_rank_31_100",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 100,
+      "seconds": 9.814119250000005,
+      "map5_all": 0.30274603174603176,
+      "map5_nonempty": 0.4023839662447258,
+      "map5_five_targets": 0.43158279569892477,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_rank_31_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 200,
+      "seconds": 10.220941124999996,
+      "map5_all": 0.3042308201058201,
+      "map5_nonempty": 0.4043574191279887,
+      "map5_five_targets": 0.43306666666666666,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_lgb_rank_31_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 400,
+      "seconds": 11.194940333000005,
+      "map5_all": 0.30251763668430337,
+      "map5_nonempty": 0.4020804031879981,
+      "map5_five_targets": 0.4298924731182795,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_cat6_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 200,
+      "seconds": 62.357331083000005,
+      "map5_all": 0.30553924162257495,
+      "map5_nonempty": 0.40609646038443503,
+      "map5_five_targets": 0.43835698924731187,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_cat6_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 400,
+      "seconds": 62.573066583,
+      "map5_all": 0.30513447971781305,
+      "map5_nonempty": 0.40555848570089076,
+      "map5_five_targets": 0.4371827956989247,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-results.json",
+      "name": "dev_cat6_600",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "eval_fold": "dev",
+      "checkpoint": 600,
+      "seconds": 62.812620292000005,
+      "map5_all": 0.3035083774250441,
+      "map5_nonempty": 0.4033972105016409,
+      "map5_five_targets": 0.43532043010752686,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_bin_15_100",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 100,
+      "seconds": 17.851528457999997,
+      "map5_all": 0.3647795414462081,
+      "map5_nonempty": 0.37428519724936665,
+      "map5_five_targets": 0.3951917130488559,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_bin_15_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 200,
+      "seconds": 18.399673915999998,
+      "map5_all": 0.3647275132275133,
+      "map5_nonempty": 0.37423181324647126,
+      "map5_five_targets": 0.39529066171923316,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_bin_15_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 400,
+      "seconds": 19.401996916,
+      "map5_all": 0.36494466490299826,
+      "map5_nonempty": 0.37445462359753884,
+      "map5_five_targets": 0.39611008039579465,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_bin_31_100",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 100,
+      "seconds": 26.690099708,
+      "map5_all": 0.3644215167548501,
+      "map5_nonempty": 0.3739178429243576,
+      "map5_five_targets": 0.3946598639455782,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_bin_31_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 200,
+      "seconds": 27.397743541,
+      "map5_all": 0.3655182980599648,
+      "map5_nonempty": 0.37504320484980097,
+      "map5_five_targets": 0.39600494743351883,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_bin_31_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 400,
+      "seconds": 28.702333166,
+      "map5_all": 0.3639270282186949,
+      "map5_nonempty": 0.3734104686934492,
+      "map5_five_targets": 0.3943692022263451,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_rank_15_100",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 100,
+      "seconds": 17.486380083000007,
+      "map5_all": 0.36609986772486774,
+      "map5_nonempty": 0.37563992942453855,
+      "map5_five_targets": 0.39617192331478046,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_rank_15_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 200,
+      "seconds": 18.058179083000006,
+      "map5_all": 0.36697420634920636,
+      "map5_nonempty": 0.3765370521172639,
+      "map5_five_targets": 0.39701607915893633,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_rank_15_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 400,
+      "seconds": 19.136827290999996,
+      "map5_all": 0.36644179894179896,
+      "map5_nonempty": 0.37599077090119437,
+      "map5_five_targets": 0.3963976499690786,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_rank_31_100",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 100,
+      "seconds": 47.10877975,
+      "map5_all": 0.36826278659611994,
+      "map5_nonempty": 0.37785921100253356,
+      "map5_five_targets": 0.39896413110698825,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_rank_31_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 200,
+      "seconds": 47.814634125,
+      "map5_all": 0.3668478835978836,
+      "map5_nonempty": 0.37640743756786105,
+      "map5_five_targets": 0.3975139146567718,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_lgb_rank_31_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 400,
+      "seconds": 49.21532725,
+      "map5_all": 0.3632843915343915,
+      "map5_nonempty": 0.3727510857763301,
+      "map5_five_targets": 0.39501855287569576,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_cat6_200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 200,
+      "seconds": 97.429086042,
+      "map5_all": 0.36709149029982363,
+      "map5_nonempty": 0.3766573923271806,
+      "map5_five_targets": 0.3985188620902907,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_cat6_400",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 400,
+      "seconds": 97.631234917,
+      "map5_all": 0.36477314814814815,
+      "map5_nonempty": 0.37427863735070577,
+      "map5_five_targets": 0.39529375386518245,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-results.json",
+      "name": "audit_cat6_600",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "eval_fold": "audit",
+      "checkpoint": 600,
+      "seconds": 97.83098799999999,
+      "map5_all": 0.3648758818342152,
+      "map5_nonempty": 0.374384048136084,
+      "map5_five_targets": 0.3952257266542981,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "dev-xgb-results.json",
+      "name": "dev_xgbmap_d3_100",
+      "seconds": 36.453271208000004,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "map5_all": 0.29851278659611996,
+      "map5_nonempty": 0.3967575011720581,
+      "map5_five_targets": 0.4252774193548387,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-xgb-results.json",
+      "name": "dev_xgbmap_d3_250",
+      "seconds": 36.721829417,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "map5_all": 0.30010449735449735,
+      "map5_nonempty": 0.39887306610407874,
+      "map5_five_targets": 0.4290193548387097,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-xgb-results.json",
+      "name": "dev_xgbmap_d3_500",
+      "seconds": 37.097521542,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "map5_all": 0.30419686948853614,
+      "map5_nonempty": 0.40431229488982656,
+      "map5_five_targets": 0.4333806451612903,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-xgb-results.json",
+      "name": "dev_xgbmap_d5_100",
+      "seconds": 50.128349082999996,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "map5_all": 0.30004100529100525,
+      "map5_nonempty": 0.39878867791842476,
+      "map5_five_targets": 0.42818494623655917,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-xgb-results.json",
+      "name": "dev_xgbmap_d5_250",
+      "seconds": 50.660764957999994,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "map5_all": 0.302859126984127,
+      "map5_nonempty": 0.4025342827004219,
+      "map5_five_targets": 0.431363440860215,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-xgb-results.json",
+      "name": "dev_xgbmap_d5_500",
+      "seconds": 51.588689166,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "map5_all": 0.3047914462081129,
+      "map5_nonempty": 0.4051025550867323,
+      "map5_five_targets": 0.4334064516129032,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "audit-xgb-results.json",
+      "name": "audit_xgbmap_d3_100",
+      "seconds": 51.889313625,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "map5_all": 0.36273655202821875,
+      "map5_nonempty": 0.3721889703221136,
+      "map5_five_targets": 0.39266852195423624,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-xgb-results.json",
+      "name": "audit_xgbmap_d3_250",
+      "seconds": 52.128228082999996,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "map5_all": 0.3645518077601411,
+      "map5_nonempty": 0.37405152913499823,
+      "map5_five_targets": 0.3944526901669759,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-xgb-results.json",
+      "name": "audit_xgbmap_d3_500",
+      "seconds": 52.464595625,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "map5_all": 0.36579585537918874,
+      "map5_nonempty": 0.3753279949330438,
+      "map5_five_targets": 0.39633580705009275,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-xgb-results.json",
+      "name": "audit_xgbmap_d5_100",
+      "seconds": 39.771041208,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "map5_all": 0.36550440917107585,
+      "map5_nonempty": 0.3750289540354687,
+      "map5_five_targets": 0.39529684601113174,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-xgb-results.json",
+      "name": "audit_xgbmap_d5_250",
+      "seconds": 40.104992208,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "map5_all": 0.3679149029982363,
+      "map5_nonempty": 0.377502262034021,
+      "map5_five_targets": 0.3976685219542362,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-xgb-results.json",
+      "name": "audit_xgbmap_d5_500",
+      "seconds": 40.646688792000006,
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "map5_all": 0.36586926807760145,
+      "map5_nonempty": 0.37540332066594284,
+      "map5_five_targets": 0.3965491651205937,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "dev-sequence-results.json",
+      "name": "dev_esasrec_5_last",
+      "epoch": 5,
+      "seconds": 49.732889957999994,
+      "device": "mps",
+      "training_chunks": 19308,
+      "map5_all": 0.19430864197530867,
+      "map5_nonempty": 0.258258321612752,
+      "map5_five_targets": 0.26775053763440865,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-sequence-results.json",
+      "name": "dev_esasrec_5_mean10",
+      "epoch": 5,
+      "seconds": 49.881319915999995,
+      "device": "mps",
+      "training_chunks": 19308,
+      "map5_all": 0.2368611111111111,
+      "map5_nonempty": 0.31481540084388193,
+      "map5_five_targets": 0.33652043010752697,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-sequence-results.json",
+      "name": "dev_esasrec_10_last",
+      "epoch": 10,
+      "seconds": 92.238681291,
+      "device": "mps",
+      "training_chunks": 19308,
+      "map5_all": 0.17277865961199296,
+      "map5_nonempty": 0.22964252226910456,
+      "map5_five_targets": 0.231341935483871,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-sequence-results.json",
+      "name": "dev_esasrec_10_mean10",
+      "epoch": 10,
+      "seconds": 92.415990416,
+      "device": "mps",
+      "training_chunks": 19308,
+      "map5_all": 0.24335141093474427,
+      "map5_nonempty": 0.32344174871073605,
+      "map5_five_targets": 0.34288602150537634,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-sequence-results.json",
+      "name": "dev_esasrec_20_last",
+      "epoch": 20,
+      "seconds": 172.33229500000002,
+      "device": "mps",
+      "training_chunks": 19308,
+      "map5_all": 0.16743055555555553,
+      "map5_nonempty": 0.22253428270042194,
+      "map5_five_targets": 0.22436559139784945,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "dev-sequence-results.json",
+      "name": "dev_esasrec_20_mean10",
+      "epoch": 20,
+      "seconds": 172.5734405,
+      "device": "mps",
+      "training_chunks": 19308,
+      "map5_all": 0.25471186067019397,
+      "map5_nonempty": 0.33854108063759963,
+      "map5_five_targets": 0.3604688172043011,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "audit-sequence-results.json",
+      "name": "audit_esasrec_5_last",
+      "epoch": 5,
+      "seconds": 38.581718375,
+      "device": "mps",
+      "training_chunks": 24751,
+      "map5_all": 0.27951278659611994,
+      "map5_nonempty": 0.2867965074194716,
+      "map5_five_targets": 0.300834879406308,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-sequence-results.json",
+      "name": "audit_esasrec_5_mean10",
+      "epoch": 5,
+      "seconds": 38.751460166,
+      "device": "mps",
+      "training_chunks": 24751,
+      "map5_all": 0.2933809523809524,
+      "map5_nonempty": 0.3010260586319218,
+      "map5_five_targets": 0.31590290661719234,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-sequence-results.json",
+      "name": "audit_esasrec_10_last",
+      "epoch": 10,
+      "seconds": 72.745738041,
+      "device": "mps",
+      "training_chunks": 24751,
+      "map5_all": 0.28399294532627867,
+      "map5_nonempty": 0.29139341295693094,
+      "map5_five_targets": 0.3034662956091527,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-sequence-results.json",
+      "name": "audit_esasrec_10_mean10",
+      "epoch": 10,
+      "seconds": 72.94356725,
+      "device": "mps",
+      "training_chunks": 24751,
+      "map5_all": 0.31872464726631394,
+      "map5_nonempty": 0.32703017553384006,
+      "map5_five_targets": 0.343243661100804,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-sequence-results.json",
+      "name": "audit_esasrec_20_last",
+      "epoch": 20,
+      "seconds": 124.844113333,
+      "device": "mps",
+      "training_chunks": 24751,
+      "map5_all": 0.2505579805996473,
+      "map5_nonempty": 0.25708717879116905,
+      "map5_five_targets": 0.2707421150278293,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "audit-sequence-results.json",
+      "name": "audit_esasrec_20_mean10",
+      "epoch": 20,
+      "seconds": 125.033436541,
+      "device": "mps",
+      "training_chunks": 24751,
+      "map5_all": 0.32200837742504407,
+      "map5_nonempty": 0.33039947520810714,
+      "map5_five_targets": 0.34683055040197897,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "allusers-results.json",
+      "name": "dev_allusers_cat200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "training_pairs": 3798323,
+      "training_queries": 11017,
+      "seconds": 187.541562709,
+      "map5_all": 0.3045548941798942,
+      "map5_nonempty": 0.40478815049226435,
+      "map5_five_targets": 0.43457204301075264,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "allusers-results.json",
+      "name": "dev_allusers_cat500",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "training_pairs": 3798323,
+      "training_queries": 11017,
+      "seconds": 187.72746575,
+      "map5_all": 0.3057958553791887,
+      "map5_nonempty": 0.4064375293014534,
+      "map5_five_targets": 0.4361290322580646,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "allusers-results.json",
+      "name": "audit_allusers_cat200",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "training_pairs": 4655802,
+      "training_queries": 13556,
+      "seconds": 225.480594875,
+      "map5_all": 0.36807473544973546,
+      "map5_nonempty": 0.3776662595005429,
+      "map5_five_targets": 0.39938466295609154,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "allusers-results.json",
+      "name": "audit_allusers_cat500",
+      "train_folds": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "training_pairs": 4655802,
+      "training_queries": 13556,
+      "seconds": 225.695474417,
+      "map5_all": 0.36519731040564374,
+      "map5_nonempty": 0.37471385269634455,
+      "map5_five_targets": 0.3963512677798392,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "count-results.json",
+      "name": "dev_count_poisson_200",
+      "loss": "Poisson",
+      "train_windows": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "seconds": 65.782283083,
+      "training_pairs": 1100933,
+      "map5_all": 0.29211926807760136,
+      "map5_nonempty": 0.38825978668541955,
+      "map5_five_targets": 0.41625376344086024,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "count-results.json",
+      "name": "dev_count_poisson_400",
+      "loss": "Poisson",
+      "train_windows": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "seconds": 65.977520041,
+      "training_pairs": 1100933,
+      "map5_all": 0.29299470899470903,
+      "map5_nonempty": 0.389423347398031,
+      "map5_five_targets": 0.41740645161290324,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "count-results.json",
+      "name": "dev_count_rmse_200",
+      "loss": "RMSE",
+      "train_windows": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "seconds": 60.293162917000004,
+      "training_pairs": 1100933,
+      "map5_all": 0.30404475308641976,
+      "map5_nonempty": 0.4041101148616971,
+      "map5_five_targets": 0.4340258064516129,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "count-results.json",
+      "name": "dev_count_rmse_400",
+      "loss": "RMSE",
+      "train_windows": [
+        "early1",
+        "early2",
+        "early3"
+      ],
+      "seconds": 60.505930459,
+      "training_pairs": 1100933,
+      "map5_all": 0.3047308201058201,
+      "map5_nonempty": 0.40502197609001406,
+      "map5_five_targets": 0.4339655913978495,
+      "users": 1260,
+      "nonempty_users": 948,
+      "five_target_users": 775
+    },
+    {
+      "source": "count-results.json",
+      "name": "audit_count_poisson_200",
+      "loss": "Poisson",
+      "train_windows": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "seconds": 78.58811479200003,
+      "training_pairs": 1357681,
+      "map5_all": 0.3506371252204586,
+      "map5_nonempty": 0.35977424900470506,
+      "map5_five_targets": 0.3788188002473717,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "count-results.json",
+      "name": "audit_count_poisson_400",
+      "loss": "Poisson",
+      "train_windows": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "seconds": 78.80407537500002,
+      "training_pairs": 1357681,
+      "map5_all": 0.3423555996472663,
+      "map5_nonempty": 0.3512769182048498,
+      "map5_five_targets": 0.3698515769944341,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "count-results.json",
+      "name": "audit_count_rmse_200",
+      "loss": "RMSE",
+      "train_windows": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "seconds": 109.14089866699999,
+      "training_pairs": 1357681,
+      "map5_all": 0.35984259259259255,
+      "map5_nonempty": 0.3692195982627579,
+      "map5_five_targets": 0.3907019171304886,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "count-results.json",
+      "name": "audit_count_rmse_400",
+      "loss": "RMSE",
+      "train_windows": [
+        "early1",
+        "early2",
+        "early3",
+        "dev"
+      ],
+      "seconds": 109.75408425,
+      "training_pairs": 1357681,
+      "map5_all": 0.35359082892416227,
+      "map5_nonempty": 0.3628049221860297,
+      "map5_five_targets": 0.3835930735930736,
+      "users": 1260,
+      "nonempty_users": 1228,
+      "five_target_users": 1078
+    },
+    {
+      "source": "horizon-results.json",
+      "fold": "long",
+      "five_week_normalization": false,
+      "weeks": 10.0,
+      "model_training_labels_end": "2020-05-18",
+      "map5_all": 0.41536419753086423,
+      "map5_nonempty": 0.42274546760007187,
+      "map5_five_targets": 0.43953913043478265,
+      "users": 1260,
+      "nonempty_users": 1238,
+      "five_target_users": 1150
+    },
+    {
+      "source": "horizon-results.json",
+      "fold": "long",
+      "five_week_normalization": true,
+      "weeks": 10.0,
+      "model_training_labels_end": "2020-05-18",
+      "map5_all": 0.4165857583774251,
+      "map5_nonempty": 0.4239887363130498,
+      "map5_five_targets": 0.440968115942029,
+      "users": 1260,
+      "nonempty_users": 1238,
+      "five_target_users": 1150
+    },
+    {
+      "source": "allusers-horizon-results.json",
+      "fold": "long",
+      "trees": 200,
+      "horizon_normalized": false,
+      "map5_all": 0.41749007936507937,
+      "map5_nonempty": 0.42490912762520194,
+      "map5_five_targets": 0.44213043478260866,
+      "users": 1260,
+      "nonempty_users": 1238,
+      "five_target_users": 1150
+    },
+    {
+      "source": "allusers-horizon-results.json",
+      "fold": "long",
+      "trees": 200,
+      "horizon_normalized": true,
+      "map5_all": 0.4172502204585538,
+      "map5_nonempty": 0.42466500628253456,
+      "map5_five_targets": 0.44151014492753626,
+      "users": 1260,
+      "nonempty_users": 1238,
+      "five_target_users": 1150
+    },
+    {
+      "source": "allusers-horizon-results.json",
+      "fold": "long",
+      "trees": 500,
+      "horizon_normalized": false,
+      "map5_all": 0.4187444885361552,
+      "map5_nonempty": 0.42618582839705615,
+      "map5_five_targets": 0.44376811594202903,
+      "users": 1260,
+      "nonempty_users": 1238,
+      "five_target_users": 1150
+    },
+    {
+      "source": "allusers-horizon-results.json",
+      "fold": "long",
+      "trees": 500,
+      "horizon_normalized": true,
+      "map5_all": 0.4172469135802469,
+      "map5_nonempty": 0.42466164063902356,
+      "map5_five_targets": 0.44174202898550724,
+      "users": 1260,
+      "nonempty_users": 1238,
+      "five_target_users": 1150
+    }
+  ],
+  "code_sha256": {
+    "src/sweettv/__init__.py": "4f90e2f452f7df901c1b50cc8cf276ccc05991a8a31ddc1d5455379520cf855b",
+    "src/sweettv/allusers.py": "6db07cfe38550e4aedd58493c103d3f6dd10e245ec11becde4d4ba8875ce2b4d",
+    "src/sweettv/audit_data.py": "0093019a0a3a92b0244dca9a3f869356bc8284cc36b34a36153683dc5bb850c0",
+    "src/sweettv/blend.py": "c4c02c66e2178295965b633fa8c65c4f6484e0e3b17108a284ee15b01677f1a3",
+    "src/sweettv/countmodel.py": "704ee7eec882177fbfd448291586acd52fb19c86604812dde9403bc943338f25",
+    "src/sweettv/experiment.py": "8a4c3b928894f0b95cebd17480b8fde2a05c05eacd55cbba177a552efa99e070",
+    "src/sweettv/finalize.py": "e92042390e00e93e678914433d5924e76d9e1bc0a51d03c39df62baa86fdaa08",
+    "src/sweettv/horizon.py": "0e7e3be058e495ce3cde2694df2a01696db5c153141f6b0fe1ab386e57993a3b",
+    "src/sweettv/improve.py": "fa86eb87811506a3fe3f07c6dc1210aa4ea38a6df29bce92358d7bc150b98e0b",
+    "src/sweettv/improve_final.py": "d3a24053e914768619aa8d2a59c5fd651b0188acc49a5742cfe6eddfd333342c",
+    "src/sweettv/intervals.py": "b064ae33f89ee9ee4c3e3852b6025cd97c12da7f9de9b37d8265e1830f6eafa7",
+    "src/sweettv/metrics.py": "216eb100624acf44a5e973d1ceb2e000a4688f5eae466ab67f04390113bdb380",
+    "src/sweettv/prepare.py": "da4d986f35083e515cf0fa327502e8a91a088a432c3e50ad116d989590b517a7",
+    "src/sweettv/rankmap.py": "658aea8f36b2ced611a2e237591d4b835cc641ad9d825d66bb250c19fd566e09",
+    "src/sweettv/rerank.py": "b9335fd44246a3453000468c52159788799c2863457a143782cfebd2f813211f",
+    "src/sweettv/select.py": "d80af6493a0347e126ec90451a0c97c4ef05cd3dec57788d6f16da39120a8641",
+    "src/sweettv/sequence.py": "b6c597dabc26061d6f86e3ddc1210832691468b524fa283d16a5c1244b1e6eb0"
+  }
+}
