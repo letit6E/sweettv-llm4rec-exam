@@ -1,5 +1,7 @@
 {
   "repository_url": "https://github.com/letit6E/sweettv-llm4rec-exam",
-  "status": "created; push pending",
-  "public_contents": "Implementation, tests, experiment artifacts and designated prediction CSV; no raw data or chat"
+  "status": "published",
+  "public_contents": "Implementation, tests, experiment artifacts and designated prediction CSV; no raw data or chat",
+  "verified_remote_commit": "9c83a5ffbbd1d3fb2119f250fa55a703bb4fb42f",
+  "verification": "git push over HTTPS followed by git ls-remote; source tree and designated CSV published"
 }
